@@ -27,9 +27,8 @@ author1:
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
     twitter:         <username>
-    github:          <username>
-    download:        https://github.com/qwtel/hydejack-starter-kit/archive/master.zip
-    # email:           mailto:<mail@domain.tld>
+    github:          ramnauth
+    email:           mailto:rebecca.ramnauth@my.liu.edu
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>

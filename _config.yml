@@ -58,7 +58,7 @@ permalink:             pretty
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              5
-paginate_path:         /page-:num/
+paginate_path:         /blog/page-:num/
 
 
 # Customizaton
@@ -83,7 +83,7 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
+disqus:                <disqus_shortname>
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
