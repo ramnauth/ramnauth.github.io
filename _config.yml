@@ -40,7 +40,7 @@ tagline:               >
 keywords:              []
 
 # Used by jekyll-seo-tag.
-logo:                  /assets/img/icon.png
+logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 # Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
@@ -65,7 +65,7 @@ paginate_path:         /blog/page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/accent.jpg
+accent_image:          '#12273A'
 accent_color:          '#12273A'
 
 # The string encoding which fonts to fetch from Google Fonts.
