@@ -1,12 +1,12 @@
----
+﻿---
 # Featured categories need to have the `list` layout.
 layout: list
 
 # The title of the category's page.
-title: Summer Institute 2018
+title: Summer
 
 # The name of the category, used in a post's front matter (e.g. category: <slug>).
-slug: Summer Institute 2018
+slug: Summer
 
 # (Optional) Write a short (~150 characters) description of this featured category.
 description: >
