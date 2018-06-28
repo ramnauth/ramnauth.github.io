@@ -3,10 +3,10 @@
 layout: list
 
 # The title of the category's page.
-title: Summer
+title: Hydejack
 
 # The name of the category, used in a post's front matter (e.g. category: <slug>).
-slug: Summer
+slug: hydejack
 
 # (Optional) Write a short (~150 characters) description of this featured category.
 description: >
