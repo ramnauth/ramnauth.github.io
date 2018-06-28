@@ -6,7 +6,7 @@ layout: list
 title: Summer Institute
 
 # The name of the category, used in a post's front matter (e.g. category: <slug>).
-slug: Summer Institute
+slug: summer_institute
 
 # (Optional) Write a short (~150 characters) description of this featured category.
 description: >
