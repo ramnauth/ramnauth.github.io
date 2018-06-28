@@ -3,7 +3,7 @@
 layout: list
 
 # The title of the category's page.
-title: summer-institute
+title: Summer Institute
 
 # The name of the category, used in a post's front matter (e.g. category: <slug>).
 slug: Summer Institute
