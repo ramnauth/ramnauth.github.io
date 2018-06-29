@@ -212,10 +212,10 @@ remote_theme: qwtel/hydejack@gem-7.5.1
 
 # Used on index and about sites
 # social:
-#   name:                <firstname> <lastname>
-#   links:
+   name:                Rebecca Ramnauth
+   links:
 #     - https://twitter.com/<username>
-#     - https://github.com/<username>
+     - https://github.com/rramnauth2220
 
 
 # Other Plugins
