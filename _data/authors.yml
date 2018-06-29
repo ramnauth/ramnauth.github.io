@@ -21,10 +21,10 @@ author1:
 
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
-  #social:
+  social:
   #  twitter:         rramnauth2220
-  #  github:          rramnauth2220
-  #  email:           mailto:rebecca.ramnauth@my.liu.edu
+    github:          rramnauth2220
+    email:           mailto:rebecca.ramnauth@my.liu.edu
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
