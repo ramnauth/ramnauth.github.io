@@ -78,10 +78,16 @@ This graphical interface allows users of any age or experience to easily control
 ![Experimenting with Ideas](https://media.giphy.com/media/3o6fJ8bXjuS5nEIlxK/giphy.gif) 
 ![Experimenting with Ideas](https://blog.advids.co/wp-content/uploads//2017/11/how-it-works.gif width="700" height="700") 
 
-##Course Resources & References:
+## Course Resources & References: <a href="/resources/summer_institute/resources.pdf" target="_blank">Download PDF</a>
 
 <object data="/resources/summer_institute/resources.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="/resources/summer_institute/resources.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/resources/summer_institute/resources.pdf" target="_blank">Download PDF</a>.</p>
     </embed>
+</object>
+
+<object data="/resources/summer_institute/resources.pdf" type="application/pdf" width="100%" height="100%">
+	<iframe src="/resources/summer_institute/resources.pdf" width="100%" height="100%" style="border: none;">
+		This browser does not support PDFs. Please download the PDF to view it: <a href="/resources/summer_institute/resources.pdf" target="_blank">Download PDF</a>
+	</iframe>
 </object>
