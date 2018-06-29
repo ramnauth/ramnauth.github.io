@@ -8,7 +8,7 @@ title: Introduction to Scratch
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  A page showing how regular markdown content is styled in Hydejack.
+  A page introducing MIT Media Lab's Scratch and its purpose for beginning programmers.
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
@@ -23,215 +23,70 @@ image: /assets/img/default.jpg
 # The difference is that categories will be part of the URL, while tags will not.
 # E.g. the URL of this post is <site.baseurl>/hydejack/2017/11/23/example-content/
 categories: [Summer Institute]
-tags: [introduction, content]
+tags: [introduction, Scratch]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
+To the beginning programmer, most programming languages look like gibberish. 
+Consider, for example, the following program, written in a programming language called Java.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-There should be whitespace between paragraphs.
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](404.html).
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+```java
+class SayHello {
+	public static void main (String[] args) {
+		System.out.println(“Hello world!”);
+	}
 }
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+As you may have guessed (from ignoring all but two words of the code), 
+all this program does, when executed, is display “Hello world!” But what’s the 
+purpose of the curly braces (```{``` and ```}```)? What does ```System.out``` do? What does 
+```class``` or ```public static void main (String[] args)``` mean?
 
-#### Header 4
+![confused]( https://media.giphy.com/media/SAAMcPRfQpgyI/giphy.gif)
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+Learning how to program does not mean trudging up such a steep learning curve as with a language like Java. Like speaking a foreign language, you must first learn to read and write in the new language even if the task at hand is relatively simple (such as saying “Hello world!”). 
 
-##### Header 5
+Learning to program is ultimately about learning to think and approach problems logically. The building blocks for any and all computer programs are relatively simple. Common building blocks are, for example, “variables” (whereby a program remembers certain values), “loops” (whereby a program does something multiple times), and “conditions” (whereby a program does something under specific circumstances).
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+For many students, the cryptic syntax of languages like Java gets in the ways of solving simple problems. Thus, before we tackle a language like Java with its seemingly complex curly braces and semicolon, let’s turn our attention to Scratch, a “new programming language that lets you create your own animations, games, and interactive art.” Scratch opens up an exciting world of computer programming where budding computer scientists can focus on problems and master programmatic constructs rather than syntax. 
 
-###### Header 6
 
-| head1        | head two          | three |
+To use [Scratch](http://scratch.mit.edu/), you’ll need: 
+*   A computer with a recent Web browser (Chrome 7 or later, Firefox 4 or later, or Internet Explorer 7 or later) with Adobe Flash Player version 10.2 or later installed
+*   A screen display that’s 1024 × 768 or larger
+*   A reliable Internet connection
+*   _Optional_: a microphone and speakers (or headphones) to record and listen to music
+
+## What is Scratch?
+
+Scratch is a graphical programming language. This means that by simply dragging and dropping blocks of code, you can create programs. You can also share your creations with the online Scratch community. Scratch is designed for play, self-directed learning, and design. 
+
+![Scratch GUI](https://blog.penjee.com/wp-content/uploads/2016/04/scratch-in-ez-steps-animated-gif.gif) 
+
+## Where did the name “Scratch” come from?
+
+The technique of “scratching” describes the way hip-hop DJs creatively combine music. In the same way, Scratch programmers join different media (photos, sound effects, and music) to create something completely new. 
+
+## Why is it so easy to use Scratch?
+
+Scratch was designed to prevent common beginner pitfalls in traditional programming languages (as previously mentioned). Instead of typing code, programming in Scratch is made simple by dragging and dropping blocks of code. 
+
+This graphical interface allows users of any age or experience to easily control the way different commands react with each other. The jigsaw edges allow each block to fit with another only if it make computational sense. Colorized categories help students group different commands by related function. Also, since programs in Scratch run in real time, they can be edited and tested at any moment. All in all, Scratch allows students to easily experiment with new ideas. 
+
+![Experimenting with Ideas](https://media.giphy.com/media/3o6fJ8bXjuS5nEIlxK/giphy.gif) 
+
+##Course Resources & References
+
+| Type         | Description        | Link  |
 |:-------------|:------------------|:------|
 | ok           | good swedish fish | nice  |
 | out of stock | good and plenty   | nice  |
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists
-
-Name
-: Godzilla
-
-Born
-: 1952
-
-Birthplace
-: Japan
-
-Color
-: Green
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this. Or is it?
-```
-
-```
-The final element.
-```
-
-## Hydejack Exclusives
-Hydejack offers a few additional features to markup your markdown.
-Don't worry, these are merely CSS classes added with kramdown's `{:.my-class}` syntax,
-so that your posts remain compatible with other Jekyll themes.
-
-### Message Boxes
-You can add a message box by adding the `message` class to a paragraph.
-{:.message}
-
-### Faded text
-You can add gray text by adding the `faded` class.
-{:.faded}
-
-### Lead Paragraphs
-You can add large text by adding the `lead` class to a paragraph.
-{:.lead}
-
-### Lead Quotes
-> You can make a quote "pop out" by adding the `lead` class to a quote.
-{:.lead}
-
-### Lead Images
-You can make an image span the full width by adding the `lead` class:
-
-![Full-width image](https://placehold.it/800x100){:.lead}
-
-## Tables
-Large (data) tables:
-
-| Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            |
-| Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                |
-| 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                |
-| Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                |
-
-Prevent line breaks within cells by adding the `scroll-table` class to a table:
-
-| Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            |
-| Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                |
-| 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                |
-| Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                |
-{:.scroll-table}
-
-Flip the table by adding the `flip-table` class to a table:
-
-| Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            |
-| 4th line        |quux        | baz             | bar            | 4th line        |quux        | baz             | bar            | 4th line        |quux        | baz             | bar            | 4th line        |quux        | baz             | bar            |
-| 5th line        |quux        | baz             | bar            | 5th line        |quux        | baz             | bar            | 5th line        |quux        | baz             | bar            | 5th line        |quux        | baz             | bar            |
-| 6th line        |quux        | baz             | bar            | 6th line        |quux        | baz             | bar            | 6th line        |quux        | baz             | bar            | 6th line        |quux        | baz             | bar            |
-| 7th line        |quux        | baz             | bar            | 7th line        |quux        | baz             | bar            | 7th line        |quux        | baz             | bar            | 7th line        |quux        | baz             | bar            |
-| 8th line        |quux        | baz             | bar            | 8th line        |quux        | baz             | bar            | 8th line        |quux        | baz             | bar            | 8th line        |quux        | baz             | bar            |
-| 9th line        |quux        | baz             | bar            | 9th line        |quux        | baz             | bar            | 9th line        |quux        | baz             | bar            | 9th line        |quux        | baz             | bar            |
-| 10th line       |quux        | baz             | bar            | 10th line       |quux        | baz             | bar            | 10th line       |quux        | baz             | bar            | 10th line       |quux        | baz             | bar            |
-{:.flip-table}
-
-### Math
-Inline math $$ f(x) = x^2 $$ and math blocks:
-
-$$
-\begin{aligned}
-  \phi(x,y) &= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  & \cdots & \phi(e_1, e_n) \\
-                 \vdots          & \ddots & \vdots         \\
-                 \phi(e_n, e_1)  & \cdots & \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}
-$$
+<object data="http://xenon.stanford.edu/~geksiong/music/Concerto%20in%20D%20major%20RV93.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="http://xenon.stanford.edu/~geksiong/music/Concerto%20in%20D%20major%20RV93.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://xenon.stanford.edu/~geksiong/music/Concerto%20in%20D%20major%20RV93.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
