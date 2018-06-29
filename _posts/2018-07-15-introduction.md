@@ -43,7 +43,8 @@ all this program does, when executed, is display “Hello world!” But what’s
 purpose of the curly braces (```{``` and ```}```)? What does ```System.out``` do? What does 
 ```class``` or ```public static void main (String[] args)``` mean?
 
-![confused]( https://media.giphy.com/media/SAAMcPRfQpgyI/giphy.gif)
+![confused](https://media1.giphy.com/media/3o7btPCcdNniyf0ArS/source.gif width="700" height="700")
+![confused](https://www.reactiongifs.us/wp-content/uploads/2018/06/Programming.gif width="700" height="700")
 
 Learning how to program does not mean trudging up such a steep learning curve as with a language like Java. Like speaking a foreign language, you must first learn to read and write in the new language even if the task at hand is relatively simple (such as saying “Hello world!”). 
 
@@ -75,18 +76,12 @@ Scratch was designed to prevent common beginner pitfalls in traditional programm
 This graphical interface allows users of any age or experience to easily control the way different commands react with each other. The jigsaw edges allow each block to fit with another only if it make computational sense. Colorized categories help students group different commands by related function. Also, since programs in Scratch run in real time, they can be edited and tested at any moment. All in all, Scratch allows students to easily experiment with new ideas. 
 
 ![Experimenting with Ideas](https://media.giphy.com/media/3o6fJ8bXjuS5nEIlxK/giphy.gif) 
+![Experimenting with Ideas](https://blog.advids.co/wp-content/uploads//2017/11/how-it-works.gif width="700" height="700") 
 
-##Course Resources & References
+##Course Resources & References:
 
-| Type         | Description        | Link  |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-<object data="http://xenon.stanford.edu/~geksiong/music/Concerto%20in%20D%20major%20RV93.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="http://xenon.stanford.edu/~geksiong/music/Concerto%20in%20D%20major%20RV93.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://xenon.stanford.edu/~geksiong/music/Concerto%20in%20D%20major%20RV93.pdf">Download PDF</a>.</p>
+<object data="/resources/summer_institute/resources.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="/resources/summer_institute/resources.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/resources/summer_institute/resources.pdf" target="_blank">Download PDF</a>.</p>
     </embed>
 </object>
