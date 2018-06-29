@@ -8,7 +8,7 @@ title: Introduction to Scratch
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  A page introducing MIT Media Lab's Scratch and its purpose for beginning programmers.
+   A general introduction to MIT Media Lab's Scratch for beginning programmers.
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
@@ -43,15 +43,13 @@ all this program does, when executed, is display “Hello world!” But what’s
 purpose of the curly braces (```{``` and ```}```)? What does ```System.out``` do? What does 
 ```class``` or ```public static void main (String[] args)``` mean?
 
-![confused](https://media1.giphy.com/media/3o7btPCcdNniyf0ArS/source.gif width="700" height="700")
-![confused](https://www.reactiongifs.us/wp-content/uploads/2018/06/Programming.gif width="700" height="700")
+![confused](https://www.reactiongifs.us/wp-content/uploads/2018/06/Programming.gif)
 
 Learning how to program does not mean trudging up such a steep learning curve as with a language like Java. Like speaking a foreign language, you must first learn to read and write in the new language even if the task at hand is relatively simple (such as saying “Hello world!”). 
 
 Learning to program is ultimately about learning to think and approach problems logically. The building blocks for any and all computer programs are relatively simple. Common building blocks are, for example, “variables” (whereby a program remembers certain values), “loops” (whereby a program does something multiple times), and “conditions” (whereby a program does something under specific circumstances).
 
 For many students, the cryptic syntax of languages like Java gets in the ways of solving simple problems. Thus, before we tackle a language like Java with its seemingly complex curly braces and semicolon, let’s turn our attention to Scratch, a “new programming language that lets you create your own animations, games, and interactive art.” Scratch opens up an exciting world of computer programming where budding computer scientists can focus on problems and master programmatic constructs rather than syntax. 
-
 
 To use [Scratch](http://scratch.mit.edu/), you’ll need: 
 *   A computer with a recent Web browser (Chrome 7 or later, Firefox 4 or later, or Internet Explorer 7 or later) with Adobe Flash Player version 10.2 or later installed
@@ -75,19 +73,8 @@ Scratch was designed to prevent common beginner pitfalls in traditional programm
 
 This graphical interface allows users of any age or experience to easily control the way different commands react with each other. The jigsaw edges allow each block to fit with another only if it make computational sense. Colorized categories help students group different commands by related function. Also, since programs in Scratch run in real time, they can be edited and tested at any moment. All in all, Scratch allows students to easily experiment with new ideas. 
 
-![Experimenting with Ideas](https://media.giphy.com/media/3o6fJ8bXjuS5nEIlxK/giphy.gif) 
-![Experimenting with Ideas](https://blog.advids.co/wp-content/uploads//2017/11/how-it-works.gif width="700" height="700") 
+![Experimenting with Ideas](https://blog.advids.co/wp-content/uploads//2017/11/how-it-works.gif) 
 
 ## Course Resources & References: <a href="/resources/summer_institute/resources.pdf" target="_blank">Download PDF</a>
 
-<object data="/resources/summer_institute/resources.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="/resources/summer_institute/resources.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/resources/summer_institute/resources.pdf" target="_blank">Download PDF</a>.</p>
-    </embed>
-</object>
-
-<object data="/resources/summer_institute/resources.pdf" type="application/pdf" width="100%" height="100%">
-	<iframe src="/resources/summer_institute/resources.pdf" width="100%" height="100%" style="border: none;">
-		This browser does not support PDFs. Please download the PDF to view it: <a href="/resources/summer_institute/resources.pdf" target="_blank">Download PDF</a>
-	</iframe>
-</object>
+<iframe src="https://drive.google.com/file/d/1FMOuQKaVpvjSheBLRFzge8_NF02Mn2Uv/preview" width="680" height="480"></iframe>
