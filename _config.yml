@@ -27,14 +27,13 @@ title:                 Ramnauth
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  A Jekyll theme with JavaScript powers. "Best Theme by a Mile".
-  Combines the best of static sites and modern web apps.
-  Open `_config.yml` to edit this text.
+  Department of Computer Science @ ![LIU Logo](http://www.liu.edu/~/media/RedesignImages/LIU-Brooklyn/Logo/BKLN-Black-Logo/liubrooklyn-white.ashx?H=110)'s 
+  School of Business, Public Administration & Information Sciences
 
 # A shorter description for the sidebar.
 tagline:               >
-  A Jekyll theme with JavaScript powers.
-  Open `_config.yml` to edit this text.
+  Department of Computer Science @ ![LIU Logo](http://www.liu.edu/~/media/RedesignImages/LIU-Brooklyn/Logo/BKLN-Black-Logo/liubrooklyn-white.ashx?H=110)'s 
+  School of Business, Public Administration & Information Sciences
 
 # A list of keywords for your blog.
 keywords:              []
