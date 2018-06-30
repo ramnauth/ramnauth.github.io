@@ -31,7 +31,7 @@ tags: [Scratch, Programming Basics]
 
 ## Statements
 
-<span> In programming, a **statement** is a command that tells the computer to do something. In Scratch, any block that reads like a command is a statement. For example, the <img src="https://cs.harvard.edu/malan/scratch/say.gif"> block instructs a sprite to say something. <img src="https://cs.harvard.edu/malan/scratch/goto.gif"> block commands the sprite to go to the mouse's _x_ and _y_ location. </span>
+<span> In programming, a **statement** is a command that tells the computer to do something. In Scratch, any block that reads like a command is a statement. For example, the <img display="inline" src="https://cs.harvard.edu/malan/scratch/say.gif"> block instructs a sprite to say something. <img src="https://cs.harvard.edu/malan/scratch/goto.gif"> block commands the sprite to go to the mouse's _x_ and _y_ location. </span>
 
 <span> You may want a statement to be executed only under specific conditions. Such conditions are defined in terms of boolean expressions. </span>
 
