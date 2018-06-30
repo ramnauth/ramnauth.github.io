@@ -28,19 +28,13 @@ tags: [Scratch]
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
 
-## <a target="_blank" href="https://drive.google.com/file/d/1xj6PqtKcB2C8OOSx_HP6WCR2-hsflJ64/"> Create an account </a>
+## Create an account
 
 <iframe src="https://drive.google.com/file/d/1xj6PqtKcB2C8OOSx_HP6WCR2-hsflJ64/preview" width="650" height="480"></iframe>
 
 ## Exploring Scratch
 
 <iframe src="https://drive.google.com/file/d/1f3WvUy3yI4fSGmxCA_KFzTJkfswevL_p/preview" width="650" height="480"></iframe>
-
-Example projects:
-
-<iframe allowtransparency="true" width="700" height="500" src="//scratch.mit.edu/projects/embed/234925539/?autostart=false" frameborder="0" allowfullscreen></iframe>
-
-<iframe allowtransparency="true" width="700" height="500" src="//scratch.mit.edu/projects/embed/234928189/?autostart=false" frameborder="0" allowfullscreen></iframe>
 
 ## Join the studio: <a target="_blank" href="https://scratch.mit.edu/studios/5215850/projects/">Link</a>
 
@@ -51,6 +45,7 @@ Example projects:
 <iframe src="https://drive.google.com/file/d/1ZF1-6KY8ATGomw9BuFt8LcJqoV3NSZ7d/preview" width="650" height="480"></iframe>
 
 Example project:
+
 
 <iframe allowtransparency="true" width="700" height="500" src="//scratch.mit.edu/projects/embed/234888496/?autostart=false" frameborder="0" allowfullscreen></iframe>
 
