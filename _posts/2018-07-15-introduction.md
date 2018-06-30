@@ -78,4 +78,4 @@ This graphical interface allows users of any age or experience to easily control
 
 ## Course Resources & References: <a href="/resources/summer_institute/resources.pdf" target="_blank">Download PDF</a>
 
-<iframe src="https://drive.google.com/file/d/1FMOuQKaVpvjSheBLRFzge8_NF02Mn2Uv/preview" width="100%"></iframe>
+<iframe src="https://drive.google.com/file/d/1FMOuQKaVpvjSheBLRFzge8_NF02Mn2Uv/preview" width="700" height="480"></iframe>
