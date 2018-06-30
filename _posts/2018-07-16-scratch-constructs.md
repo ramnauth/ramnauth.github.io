@@ -105,3 +105,5 @@ In Scratch, events also allow different sprites to communicate with each other. 
 ## Review
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdoanTIBwy7SnRL9G8qyXm5xPnoRwu6b3Q0exfy2TJWaq5HyA/viewform?embedded=true" width="650" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+###### Scratch block images from [David Malan](https://cs.harvard.edu/malan/)
