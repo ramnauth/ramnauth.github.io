@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: Building Blocks in Scratch
+title: Building Blocks of Scratch
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
@@ -27,6 +27,7 @@ tags: [Scratch, Programming Basics]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
+# Building Blocks of Scratch
 
 ## Statements
 
