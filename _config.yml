@@ -27,13 +27,12 @@ title:                 Ramnauth
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Department of Computer Science @ ![LIU Logo](http://www.liu.edu/~/media/RedesignImages/LIU-Brooklyn/Logo/BKLN-Black-Logo/liubrooklyn-white.ashx?H=110)'s 
+  Department of Computer Science @ LIU's
   School of Business, Public Administration & Information Sciences
 
 # A shorter description for the sidebar.
 tagline:               >
-  Department of Computer Science @ ![LIU Logo](http://www.liu.edu/~/media/RedesignImages/LIU-Brooklyn/Logo/BKLN-Black-Logo/liubrooklyn-white.ashx?H=110)'s 
-  School of Business, Public Administration & Information Sciences
+  Dept. of Computer Science @ <img src="http://www.liu.edu/~/media/RedesignImages/LIU-Brooklyn/Logo/BKLN-Black-Logo/liubrooklyn-white.ashx?H=110" alt="LIU" width="50px"/> School of Business, Public Administration & Information Sciences
 
 # A list of keywords for your blog.
 keywords:              []
