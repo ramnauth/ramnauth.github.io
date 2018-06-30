@@ -27,6 +27,7 @@ tags: [Scratch]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
+# Getting Started
 
 ## Create an account
 
