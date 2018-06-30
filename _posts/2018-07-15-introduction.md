@@ -67,15 +67,16 @@ Scratch is a graphical programming language. This means that by simply dragging 
 
 The technique of “scratching” describes the way hip-hop DJs creatively combine music. In the same way, Scratch programmers join different media (photos, sound effects, and music) to create something completely new. 
 
-![Experimenting with Ideas](https://icdn.kiwicrate.com/blog/a1c3a58d650f.gif) 
-
 ## Why is it so easy to use Scratch?
 
 Scratch was designed to prevent common beginner pitfalls in traditional programming languages (as previously mentioned). Instead of typing code, programming in Scratch is made simple by dragging and dropping blocks of code. 
 
 This graphical interface allows users of any age or experience to easily control the way different commands react with each other. The jigsaw edges allow each block to fit with another only if it make computational sense. Colorized categories help students group different commands by related function. Also, since programs in Scratch run in real time, they can be edited and tested at any moment. All in all, Scratch allows students to easily experiment with new ideas. 
 
+## Why learn to code?
 
-## Course Resources & References: <a href="/resources/summer_institute/resources.pdf" target="_blank">Download PDF</a>
+<iframe width="650" height="315" src="https://www.youtube.com/embed/vOsdfRbrNdk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<iframe src="https://drive.google.com/file/d/1FMOuQKaVpvjSheBLRFzge8_NF02Mn2Uv/preview" width="700" height="480"></iframe>
+## Course Resources & References:
+
+<iframe src="https://drive.google.com/file/d/1FMOuQKaVpvjSheBLRFzge8_NF02Mn2Uv/preview" width="650" height="480"></iframe>

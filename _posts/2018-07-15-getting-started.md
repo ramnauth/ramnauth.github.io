@@ -27,55 +27,42 @@ tags: [Scratch]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
-To the beginning programmer, most programming languages look like gibberish. 
-Consider, for example, the following program, written in a programming language called Java.
+## Create an account
 
-```java
-class SayHello {
-	public static void main (String[] args) {
-		System.out.println(“Hello world!”);
-	}
-}
-```
+<iframe src="https://drive.google.com/file/d/1xj6PqtKcB2C8OOSx_HP6WCR2-hsflJ64/preview" width="650" height="480"></iframe>
 
-As you may have guessed (from ignoring all but two words of the code), 
-all this program does, when executed, is display “Hello world!” But what’s the 
-purpose of the curly braces (```{``` and ```}```)? What does ```System.out``` do? What does 
-```class``` or ```public static void main (String[] args)``` mean?
+## Exploring Scratch
 
-![confused](https://media.giphy.com/media/pxwVj2Sk5JlMA/giphy.gif)
+<iframe src="https://drive.google.com/file/d/1f3WvUy3yI4fSGmxCA_KFzTJkfswevL_p/preview" width="650" height="480"></iframe>
 
-Learning how to program does not mean trudging up such a steep learning curve as with a language like Java. Like speaking a foreign language, you must first learn to read and write in the new language even if the task at hand is relatively simple (such as saying “Hello world!”). 
+Example projects:
 
-Learning to program is ultimately about learning to think and approach problems logically. The building blocks for any and all computer programs are relatively simple. Common building blocks are, for example, “variables” (whereby a program remembers certain values), “loops” (whereby a program does something multiple times), and “conditions” (whereby a program does something under specific circumstances).
+<iframe allowtransparency="true" width="650" height="480" src="//scratch.mit.edu/projects/embed/234925539/?autostart=false" frameborder="0" allowfullscreen></iframe>
 
-For many students, the cryptic syntax of languages like Java gets in the ways of solving simple problems. Thus, before we tackle a language like Java with its seemingly complex curly braces and semicolon, let’s turn our attention to Scratch, a “new programming language that lets you create your own animations, games, and interactive art.” Scratch opens up an exciting world of computer programming where budding computer scientists can focus on problems and master programmatic constructs rather than syntax. 
+<iframe allowtransparency="true" width="650" height="480" src="//scratch.mit.edu/projects/embed/234928189/?autostart=false" frameborder="0" allowfullscreen></iframe>
 
-To use [Scratch](http://scratch.mit.edu/), you’ll need: 
-*   A computer with a recent Web browser (Chrome 7 or later, Firefox 4 or later, or Internet Explorer 7 or later) with Adobe Flash Player version 10.2 or later installed
-*   A screen display that’s 1024 × 768 or larger
-*   A reliable Internet connection
-*   _Optional_: a microphone and speakers (or headphones) to record and listen to music
+## Join the studio: <a target="_blank" href="https://scratch.mit.edu/studios/5215850/projects/">Link</a>
 
-## What is Scratch?
+<iframe src="https://drive.google.com/file/d/1RlvHWkiP79-7chA8XykWPj5JaUERodLW/preview" width="650" height="480"></iframe>
 
-Scratch is a graphical programming language. This means that by simply dragging and dropping blocks of code, you can create programs. You can also share your creations with the online Scratch community. Scratch is designed for play, self-directed learning, and design. 
+## Step-By-Step exercise
 
-![Scratch GUI](https://blog.penjee.com/wp-content/uploads/2016/04/scratch-in-ez-steps-animated-gif.gif) 
+<iframe src="https://drive.google.com/file/d/1ZF1-6KY8ATGomw9BuFt8LcJqoV3NSZ7d/preview" width="650" height="480"></iframe>
 
-## Where did the name “Scratch” come from?
+Example project:
 
-The technique of “scratching” describes the way hip-hop DJs creatively combine music. In the same way, Scratch programmers join different media (photos, sound effects, and music) to create something completely new. 
+<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/234888496/?autostart=false" frameborder="0" allowfullscreen></iframe>
 
-![Experimenting with Ideas](https://icdn.kiwicrate.com/blog/a1c3a58d650f.gif) 
+## 10 Blocks exercise
 
-## Why is it so easy to use Scratch?
+<iframe src="https://drive.google.com/file/d/1B39qziz2SLTftJzXKDEsA2GGiMYP15XD/preview" width="650" height="480"></iframe>
 
-Scratch was designed to prevent common beginner pitfalls in traditional programming languages (as previously mentioned). Instead of typing code, programming in Scratch is made simple by dragging and dropping blocks of code. 
+## Debugging exercises
 
-This graphical interface allows users of any age or experience to easily control the way different commands react with each other. The jigsaw edges allow each block to fit with another only if it make computational sense. Colorized categories help students group different commands by related function. Also, since programs in Scratch run in real time, they can be edited and tested at any moment. All in all, Scratch allows students to easily experiment with new ideas. 
+<iframe src="https://drive.google.com/file/d/1cwMDFqffFkxXZujRkGinJxI16ktRlXyw/preview" width="650" height="480"></iframe>
 
+## Reflection
 
-## Course Resources & References: <a href="/resources/summer_institute/resources.pdf" target="_blank">Download PDF</a>
+First, add your exercise projects to <a target="_blank" href="https://scratch.mit.edu/studios/5215850/projects/">our class studio</a>. Then, get to know your group members, explore existing Scratch studios, and brainstorm final project ideas. Finally, complete the following reflection.
 
-<iframe src="https://drive.google.com/file/d/1FMOuQKaVpvjSheBLRFzge8_NF02Mn2Uv/preview" width="700" height="480"></iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdYyU1d5286sXFtVXUdXQ5i7FNYOizsTCMPQwAfwFm5SDkrrg/viewform?embedded=true" width="650" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
