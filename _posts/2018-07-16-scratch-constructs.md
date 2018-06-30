@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: Building Blocks of Programming
+title: Building Blocks in Scratch
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
@@ -32,7 +32,7 @@ tags: [Scratch, Programming Basics]
 
 In programming, a **statement** is a command that tells the computer to do something. In Scratch, any block that reads like a command is a statement.
 
-For example, the ![say "Hello"](https://cs.harvard.edu/malan/scratch/say.gif) block instructs a sprite to say something. ![go-to](https://cs.harvard.edu/malan/scratch/goto.gif) block commands the sprite to go to the mouse's _x_ and _y_ location. 
+For example, the <img src="https://cs.harvard.edu/malan/scratch/say.gif"/> block instructs a sprite to say something. <img src="https://cs.harvard.edu/malan/scratch/goto.gif"/> block commands the sprite to go to the mouse's _x_ and _y_ location. 
 
 You may want a statement to be executed only under specific conditions. Such conditions are defined in terms of boolean expressions.
 
