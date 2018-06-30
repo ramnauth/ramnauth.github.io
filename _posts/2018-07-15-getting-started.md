@@ -27,7 +27,8 @@ tags: [Scratch]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
-## Create an account
+
+## <a target="_blank" href="https://drive.google.com/file/d/1xj6PqtKcB2C8OOSx_HP6WCR2-hsflJ64/"> Create an account </a>
 
 <iframe src="https://drive.google.com/file/d/1xj6PqtKcB2C8OOSx_HP6WCR2-hsflJ64/preview" width="650" height="480"></iframe>
 
@@ -37,9 +38,9 @@ tags: [Scratch]
 
 Example projects:
 
-<iframe allowtransparency="true" width="650" height="480" src="//scratch.mit.edu/projects/embed/234925539/?autostart=false" frameborder="0" allowfullscreen></iframe>
+<iframe allowtransparency="true" width="700" height="500" src="//scratch.mit.edu/projects/embed/234925539/?autostart=false" frameborder="0" allowfullscreen></iframe>
 
-<iframe allowtransparency="true" width="650" height="480" src="//scratch.mit.edu/projects/embed/234928189/?autostart=false" frameborder="0" allowfullscreen></iframe>
+<iframe allowtransparency="true" width="700" height="500" src="//scratch.mit.edu/projects/embed/234928189/?autostart=false" frameborder="0" allowfullscreen></iframe>
 
 ## Join the studio: <a target="_blank" href="https://scratch.mit.edu/studios/5215850/projects/">Link</a>
 
@@ -51,7 +52,7 @@ Example projects:
 
 Example project:
 
-<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/234888496/?autostart=false" frameborder="0" allowfullscreen></iframe>
+<iframe allowtransparency="true" width="700" height="500" src="//scratch.mit.edu/projects/embed/234888496/?autostart=false" frameborder="0" allowfullscreen></iframe>
 
 ## 10 Blocks exercise
 
@@ -64,5 +65,6 @@ Example project:
 ## Reflection
 
 First, add your exercise projects to <a target="_blank" href="https://scratch.mit.edu/studios/5215850/projects/">our class studio</a>. Then, get to know your group members, explore existing Scratch studios, and brainstorm final project ideas. Finally, complete the following reflection.
+
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdYyU1d5286sXFtVXUdXQ5i7FNYOizsTCMPQwAfwFm5SDkrrg/viewform?embedded=true" width="650" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
