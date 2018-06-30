@@ -43,7 +43,7 @@ all this program does, when executed, is display “Hello world!” But what’s
 purpose of the curly braces (```{``` and ```}```)? What does ```System.out``` do? What does 
 ```class``` or ```public static void main (String[] args)``` mean?
 
-![confused](https://cdn.dribbble.com/users/4960/screenshots/3038026/stage_3_1.gif)
+![confused](https://media.giphy.com/media/pxwVj2Sk5JlMA/giphy.gif)
 
 Learning how to program does not mean trudging up such a steep learning curve as with a language like Java. Like speaking a foreign language, you must first learn to read and write in the new language even if the task at hand is relatively simple (such as saying “Hello world!”). 
 
@@ -78,4 +78,4 @@ This graphical interface allows users of any age or experience to easily control
 
 ## Course Resources & References: <a href="/resources/summer_institute/resources.pdf" target="_blank">Download PDF</a>
 
-<iframe src="https://drive.google.com/file/d/1FMOuQKaVpvjSheBLRFzge8_NF02Mn2Uv/preview" width="800" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1FMOuQKaVpvjSheBLRFzge8_NF02Mn2Uv/preview"></iframe>
