@@ -3,12 +3,12 @@
 layout: post
 
 # The title of your post
-title: Coding Challenge 1: Characters
+title: Coding Challenge 8: Scrolling
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-   In this challenge, create Scratch blocks to define behaviors for characters.
+   Create a game that includes interactions between sprites, score, and levels. The game is similar Flappy Bird, where the goal is to keep an object from falling to the ground or touching certain objects.
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
@@ -31,8 +31,8 @@ Submitted 1 July 2018 by Rebecca Ramnauth.
 
 ## Specifications
 
-<iframe src="https://drive.google.com/file/d/1zmsEc61UdAIdCdv95jYx2vK_ixtz_9dv/preview" width="650" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1w6P3CXRCX9JPMCPuX-woACUWa8mcVRiK/preview" width="650" height="480"></iframe>
 
 ## Example Solution
 
-<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/235040438/?autostart=false" frameborder="0" allowfullscreen></iframe>
+<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/235161859/?autostart=false" frameborder="0" allowfullscreen></iframe>

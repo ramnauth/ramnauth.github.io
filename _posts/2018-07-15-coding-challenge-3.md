@@ -3,12 +3,12 @@
 layout: post
 
 # The title of your post
-title: Coding Challenge 1: Characters
+title: Coding Challenge 3: Scenes
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-   In this challenge, create Scratch blocks to define behaviors for characters.
+   Experiment with Scratch backdrops to create a story with multiple scenes.
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
@@ -31,8 +31,8 @@ Submitted 1 July 2018 by Rebecca Ramnauth.
 
 ## Specifications
 
-<iframe src="https://drive.google.com/file/d/1zmsEc61UdAIdCdv95jYx2vK_ixtz_9dv/preview" width="650" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1Jv3_N39GESb9ChVKqrkzngdPF-x7vh3g/preview" width="650" height="480"></iframe>
 
 ## Example Solution
 
-<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/235040438/?autostart=false" frameborder="0" allowfullscreen></iframe>
+<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/235057478/?autostart=false" frameborder="0" allowfullscreen></iframe>

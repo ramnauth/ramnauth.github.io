@@ -3,12 +3,12 @@
 layout: post
 
 # The title of your post
-title: Coding Challenge 1: Characters
+title: Coding Challenge 2: Conversations
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-   In this challenge, create Scratch blocks to define behaviors for characters.
+   Explore different ways to program sprites to have conversations. 
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
@@ -29,10 +29,10 @@ tags: [Scratch, Coding Challenges]
 ---
 Submitted 1 July 2018 by Rebecca Ramnauth.
 
-## Specifications
+## Conversations
 
-<iframe src="https://drive.google.com/file/d/1zmsEc61UdAIdCdv95jYx2vK_ixtz_9dv/preview" width="650" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1XeucNKAjEqU3PoSwH4VIF50eGWtqxSFd/preview" width="650" height="480"></iframe>
 
 ## Example Solution
 
-<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/235040438/?autostart=false" frameborder="0" allowfullscreen></iframe>
+<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/235049382/?autostart=false" frameborder="0" allowfullscreen></iframe>

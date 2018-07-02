@@ -27,7 +27,7 @@ tags: [introduction, Scratch]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
-Computer programming is building and designing executable computer solutions (programs) to specific computing tasks. The job of a computer programmer usually involves coding, debugging, documentation, and testing, all of which are emphasized in this course. However, to successful complete these tasks, an aspiring programmer must first understand the fundamental building blocks.
+Computer programming is about building and designing executable computer solutions (programs) to specific computing tasks. The job of a computer programmer usually involves coding, debugging, documentation, and testing (all of which are emphasized in this course). However, to successful complete these tasks, an aspiring programmer must first understand the fundamental building blocks.
 
 ## Statements
 
