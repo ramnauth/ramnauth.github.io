@@ -8,7 +8,7 @@ title: Building Blocks of Scratch
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 # description: >
-   
+   General overview of programmatic constructs such as statements, boolean expressions, conditions, loops, variables, threads, and events. 
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.

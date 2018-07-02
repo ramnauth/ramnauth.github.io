@@ -8,7 +8,7 @@ title: Getting Started
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-   Getting started with a Scratch account and programming journal.
+   Getting started with a Scratch account.
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
