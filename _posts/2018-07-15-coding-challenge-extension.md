@@ -3,12 +3,12 @@
 layout: post
 
 # The title of your post
-title: Coding Challenge 1 - Characters
+title: Coding Challenge Suggestions - Scratch
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-   In this challenge, create Scratch blocks to define behaviors for characters.
+   Implementation a game extension in your project or suggest a coding challenge.
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
@@ -27,12 +27,12 @@ tags: [Scratch]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
-      
-	  
-## Specifications
+Submitted 2 July 2018 by Rebecca Ramnauth.
 
-<iframe src="https://drive.google.com/file/d/1zmsEc61UdAIdCdv95jYx2vK_ixtz_9dv/preview" width="650" height="480"></iframe>
+## Game Extension Ideas:
 
-## Example Solution
+<iframe src="https://drive.google.com/file/d/10Y4Pa5GKJiwM1Y6npVHLi6DCuh7KFUoe/preview" width="640" height="480"></iframe>
 
-<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/235040438/?autostart=false" frameborder="0" allowfullscreen></iframe>
+## Coding Challenge Suggestions
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_Ro2HeEPaI52LeYHxxTJ_G13S76rnfYGnK6HnNMfpMNhvhg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
