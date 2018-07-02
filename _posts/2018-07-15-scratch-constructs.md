@@ -27,8 +27,6 @@ tags: [Scratch, Programming Basics]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
-# Building Blocks of Scratch
-
 ## Statements
 
 In programming, a **statement** is a command that tells the computer to do something. In Scratch, any block that reads like a command is a statement. For example, the following block instructs a sprite to say something. ![say hello](https://cs.harvard.edu/malan/scratch/say.gif) Another block commands the sprite to go to the mouse's _x_ and _y_ location: ![goto](https://cs.harvard.edu/malan/scratch/goto.gif)

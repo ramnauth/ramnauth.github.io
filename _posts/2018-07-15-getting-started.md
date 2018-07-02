@@ -27,8 +27,6 @@ tags: [Scratch]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
-# Getting Started
-
 ## Create an account
 
 <iframe src="https://drive.google.com/file/d/1xj6PqtKcB2C8OOSx_HP6WCR2-hsflJ64/preview" width="650" height="480"></iframe>
