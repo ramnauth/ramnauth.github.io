@@ -31,8 +31,3 @@ Submitted 1 July 2018 by Rebecca Ramnauth.
 
 ## Specifications
 
-<iframe src="https://drive.google.com/file/d/1zmsEc61UdAIdCdv95jYx2vK_ixtz_9dv/preview" width="650" height="480"></iframe>
-
-## Example Solution
-
-<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/235040438/?autostart=false" frameborder="0" allowfullscreen></iframe>
