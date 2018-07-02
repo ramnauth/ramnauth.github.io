@@ -23,7 +23,7 @@ image: /assets/img/default.jpg
 # The difference is that categories will be part of the URL, while tags will not.
 # E.g. the URL of this post is <site.baseurl>/hydejack/2017/11/23/example-content/
 categories: [Summer Institute]
-tags: [introduction, Scratch]
+tags: [Introduction, Scratch]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
