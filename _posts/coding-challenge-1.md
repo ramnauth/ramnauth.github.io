@@ -22,12 +22,11 @@ image: /assets/img/default.jpg
 # (Optional) Each post can have zero or more categories, and zero or more tags.
 # The difference is that categories will be part of the URL, while tags will not.
 # E.g. the URL of this post is <site.baseurl>/hydejack/2017/11/23/example-content/
-categories: [Summer Institute]
-tags: [Scratch, Coding Challenges]
+categories: [Summer Institute, Coding Challenges]
+tags: [Scratch]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
 Submitted 1 July 2018 by Rebecca Ramnauth.
 
 ## Specifications
-
