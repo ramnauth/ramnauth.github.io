@@ -27,56 +27,79 @@ tags: [introduction, Scratch]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
-To the beginning programmer, most programming languages look like gibberish. 
-Consider, for example, the following program, written in a programming language called Java.
+In programming, a **statement** is a command that tells the computer to do something. In Scratch, any block that reads like a command is a statement. For example, the following block instructs a sprite to say something. ![say hello](https://cs.harvard.edu/malan/scratch/say.gif) Another block commands the sprite to go to the mouse's _x_ and _y_ location: ![goto](https://cs.harvard.edu/malan/scratch/goto.gif)
 
-```java
-class SayHello {
-	public static void main (String[] args) {
-		System.out.println(“Hello world!”);
-	}
-}
-```
+You may want a statement to be executed only under specific conditions. Such conditions are defined in terms of boolean expressions.
 
-As you may have guessed (from ignoring all but two words of the code), 
-all this program does, when executed, is display “Hello world!” But what’s the 
-purpose of the curly braces (```{``` and ```}```)? What does ```System.out``` do? What does 
-```class``` or ```public static void main (String[] args)``` mean?
+## Boolean
 
-![confused](https://media.giphy.com/media/pxwVj2Sk5JlMA/giphy.gif)
+A **boolean** expression is an expression that is either true or false. In Scratch, any diamond-shaped block is a boolean expression. For example, the following block evaluates to true if the mouse button is down or false if not. ![mouse-down](https://cs.harvard.edu/malan/scratch/mousedown.gif) Another example is the comparator block ![less-than](https://cs.harvard.edu/malan/scratch/lessthan.gif) which will evaluate to true is some number is less than another and false if not.
 
-Learning how to program does not mean trudging up such a steep learning curve as with a language like Java. Like speaking a foreign language, you must first learn to read and write in the new language even if the task at hand is relatively simple (such as saying “Hello world!”). 
+With boolean expressions we can make conditions.
 
-Learning to program is ultimately about learning to think and approach problems logically. The building blocks for any and all computer programs are relatively simple. Common building blocks are, for example, “variables” (whereby a program remembers certain values), “loops” (whereby a program does something multiple times), and “conditions” (whereby a program does something under specific circumstances).
+## Conditions
 
-For many students, the cryptic syntax of languages like Java gets in the ways of solving simple problems. Thus, before we tackle a language like Java with its seemingly complex curly braces and semicolon, let’s turn our attention to Scratch, a “new programming language that lets you create your own animations, games, and interactive art.” Scratch opens up an exciting world of computer programming where budding computer scientists can focus on problems and master programmatic constructs rather than syntax. 
+A **condition** must be true in order for something to happen. In Scratch, any block whose label include the words “if,” “when,” or “until” is a conditional construct. For example:
+![if-construct](https://cs.harvard.edu/malan/scratch/if.gif) 
 
-To use [Scratch](http://scratch.mit.edu/), you’ll need: 
-*   A computer with a recent Web browser (Chrome 7 or later, Firefox 4 or later, or Internet Explorer 7 or later) with Adobe Flash Player version 10.2 or later installed
-*   A screen display that’s 1024 × 768 or larger
-*   A reliable Internet connection
-*   _Optional_: a microphone and speakers (or headphones) to record and listen to music
+This **if construct** can instruct a sprite to say hello **if** the user has clicked the mouse:
+![if-example](https://cs.harvard.edu/malan/scratch/ifmousedown.gif)
 
-## What is Scratch?
+The **if-else construct** is different in that we can instruct a sprite to, **if** the mouse is clicked, say hello. **Else** (the mouse is not clicked), say goodbye.
+![if-else-construct](https://cs.harvard.edu/malan/scratch/ifmousedownelse.gif)
 
-Scratch is a graphical programming language. This means that by simply dragging and dropping blocks of code, you can create programs. You can also share your creations with the online Scratch community. Scratch is designed for play, self-directed learning, and design. 
+Furthermore, these constructs can be **nested** to allow for multiple different conditions:
 
-![Scratch GUI](https://blog.penjee.com/wp-content/uploads/2016/04/scratch-in-ez-steps-animated-gif.gif) 
+![nested-condition](https://cs.harvard.edu/malan/scratch/ifelseifelse.gif)
 
-## Where did the name “Scratch” come from?
+Other conditional blocks include: ![keypressed](https://cs.harvard.edu/malan/scratch/when.gif) ![wait-until](https://cs.harvard.edu/malan/scratch/until.gif)
 
-The technique of “scratching” describes the way hip-hop DJs creatively combine music. In the same way, Scratch programmers join different media (photos, sound effects, and music) to create something completely new. 
+Sometimes, you may want statements to be executed many times in a row. Loops make this behavior possible. 
 
-## Why is it so easy to use Scratch?
+## Loops
 
-Scratch was designed to prevent common beginner pitfalls in traditional programming languages (as previously mentioned). Instead of typing code, programming in Scratch is made simple by dragging and dropping blocks of code. 
+A **loop** can make one or more statements execute multiple times. In Scratch, any block whose label begins with “forever” or “repeat” is a looping construct. 
 
-This graphical interface allows users of any age or experience to easily control the way different commands react with each other. The jigsaw edges allow each block to fit with another only if it make computational sense. Colorized categories help students group different commands by related function. Also, since programs in Scratch run in real time, they can be edited and tested at any moment. All in all, Scratch allows students to easily experiment with new ideas. 
+An instance of a loop construct is the forever block which allows us to, for example, instruct a sprite to meow every other second:
+![forever-example](https://cs.harvard.edu/malan/scratch/forevermeow.gif)
 
-## Why learn to code?
+The repeat block below allows you to loop a specified number of times. ![repeat](https://cs.harvard.edu/malan/scratch/repeat.gif) 
 
-<iframe width="650" height="315" src="https://www.youtube.com/embed/vOsdfRbrNdk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+The repeat until block allows you to loop until some boolean expression is true.
+![repeat-until](https://cs.harvard.edu/malan/scratch/repeatuntil.gif)
 
-## Course Resources & References:
+## Variables
 
-<iframe src="https://drive.google.com/file/d/1FMOuQKaVpvjSheBLRFzge8_NF02Mn2Uv/preview" width="650" height="480"></iframe>
+In programming, variables allow a program to “remember” a value. In algebra, _x_ and _y_ are popular variables for storing the numerical value of coordinates such as (3, 4). In Scratch, variables are the oval blocks that must be uniquely labelled (no two variables can have the same name). 
+
+Variables can be **local** or **global**. In Scratch, a local variable is used by only one sprite. A global variable can be used by all of your sprites. 
+
+Variables allow, for example, a sprite to count up from 1:
+![count-variable-example](https://cs.harvard.edu/malan/scratch/forevercount.gif)
+
+Statements, boolean expressions, conditions, loops, and variables are the building blocks in programming. Now, we explore higher-level programming constructs such as threads and events.
+
+## Threads
+
+In general, a **thread** is mini-program running within a larger program. A program can have multiple threads and, therefore, can do multiple things at the same time. In Scratch any block with a wavy top and whose label begins with “when” demarks the start of a thread. For example, the "when flag clicked" block and the blocks that fit unto it form a thread that executes when the user clicks the green flag. ![flagclick](https://cs.harvard.edu/malan/scratch/whenclicked.gif)
+
+It is helpful to separate different tasks into different threads. For example, you might want to keep track of whether the user presses a key to turn off and on (toggle) the sound. 
+
+![multithreading](https://cs.harvard.edu/malan/scratch/muted.gif)
+
+In the above example, the left-hand thread is responsible for meowing and the right-hand thread is constantly checking and remembering whether the user has muted or unmuted sound by pressing the space bar. 
+
+## Events 
+
+Multiple threads can communicate with each other by signaling and then handling events. An event is like a message between threads. In Scratch, broadcast blocks signal events to blocks that begin with “when” (threads). ![broadcast](https://cs.harvard.edu/malan/scratch/broadcast.gif) 
+
+Clicking the Scratch green flag, for example, signals an event that is handled by ![flagclick](https://cs.harvard.edu/malan/scratch/whenclicked.gif)
+
+In Scratch, events also allow different sprites to communicate with each other. For instance, two sprites playing Marco Polo require a message to be sent. Therefore, an event is broadcasted. 
+![marcopolo](https://cs.harvard.edu/malan/scratch/marco.gif)
+
+## Review
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdoanTIBwy7SnRL9G8qyXm5xPnoRwu6b3Q0exfy2TJWaq5HyA/viewform?embedded=true" width="650" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+###### Scratch block images from [David Malan](https://cs.harvard.edu/malan/)
