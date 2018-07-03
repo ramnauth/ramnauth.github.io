@@ -10,8 +10,7 @@ slug: Programming Basics
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  This is a featured tag, which have their own page.
-  Check out `_featured_tags/example.md` to learn how to create your own.
+  For beginners learning how to program drawings, animations, and games. 
 
 # Setting `menu` will generate an entry in the sidebar for this tag.
 # menu: true
