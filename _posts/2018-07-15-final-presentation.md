@@ -33,7 +33,7 @@ You will have to give a short 5-6 minute presentation of your Scratch project. T
 
 The following is a template. [Occam's Razor](https://en.wikipedia.org/wiki/Occam%27s_razor). Keep it simple—no audience ever complained about a presentation being short. 
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vScZ7jipt-TwCY4YYeLDO0QiU7zMfpULOnMut8DBjswfiZpmiQihhzM3jvV4XHg12_lduL-oE2X7mjw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="410" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vScZ7jipt-TwCY4YYeLDO0QiU7zMfpULOnMut8DBjswfiZpmiQihhzM3jvV4XHg12_lduL-oE2X7mjw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Content Resources
 
@@ -51,7 +51,7 @@ For any content, not text, these are some sources for standardizing the look of 
 
 ## Example Scratch Presentation
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQqX3wwviwqteOtiP3ReY6pUvZXWrz6_gz8J-gk7jHcUVjFR2Kqvredt7Zdqmcs1TrEWU-uDJiZSqcR/embed?start=false&loop=false&delayms=5000" frameborder="0" width="700" height="410" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQqX3wwviwqteOtiP3ReY6pUvZXWrz6_gz8J-gk7jHcUVjFR2Kqvredt7Zdqmcs1TrEWU-uDJiZSqcR/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Tips to Presenting
 
@@ -67,4 +67,4 @@ For giving (**indirect**) constructive criticism on Scratch projects, refer to t
 
 For giving (**direct**) feedback on presentations, the same questions and topics apply, but we'd instead have Q&A sessions.
 
-## [Next Steps](https://ramnauth.github.io/2018/07/15/feedback)
+## [Next Steps](https://ramnauth.github.io/summer%20institute/2018/07/15/feedback/)
