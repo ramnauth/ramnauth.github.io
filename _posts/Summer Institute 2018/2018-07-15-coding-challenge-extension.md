@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: Coding Challenge Suggestions - Scratch
+title: SI.12 Coding Challenge Suggestions - Scratch
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.

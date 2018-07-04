@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: Coding Challenge 5 - Maze
+title: SI.8 Coding Challenge 5 - Maze
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.

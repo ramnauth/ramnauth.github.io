@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: Coding Challenge 7 - Pong
+title: SI.10 Coding Challenge 7 - Pong
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
