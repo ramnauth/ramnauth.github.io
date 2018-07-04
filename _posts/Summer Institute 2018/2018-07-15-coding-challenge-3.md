@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: SI.6 Coding Challenge 3 - Scenes
+title: Coding Challenge 3 - Scenes
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.

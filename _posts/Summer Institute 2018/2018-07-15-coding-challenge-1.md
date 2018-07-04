@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: SI.4 Coding Challenge 1 - Characters
+title: Coding Challenge 1 - Characters
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.

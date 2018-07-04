@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: SI.1 Introduction to Scratch
+title: Introduction to Scratch
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.

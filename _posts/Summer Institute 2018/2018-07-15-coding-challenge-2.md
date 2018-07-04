@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: SI.5 Coding Challenge 2 - Conversations
+title: Coding Challenge 2 - Conversations
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
