@@ -4,6 +4,9 @@
   email:
     name: Email
     icon: icon-mail
+  calendly:
+    name: Calendar
+    icon: icon-calendar
   amazon:
     name: Amazon
     icon: icon-amazon
