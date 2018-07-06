@@ -6,7 +6,7 @@
     icon: icon-mail
   calendly:
     name: Calendar
-    icon: icon-telegram
+    icon: icon-calendar
   amazon:
     name: Amazon
     icon: icon-amazon
