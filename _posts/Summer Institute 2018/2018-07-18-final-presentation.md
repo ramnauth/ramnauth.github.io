@@ -31,7 +31,8 @@ You will have to give a short 5-6 minute presentation of your Scratch project. T
 
 ## Presentation Slides Template
 
-The following is a template. [Occam's Razor](https://en.wikipedia.org/wiki/Occam%27s_razor). Keep it simple—no audience ever complained about a presentation being short. 
+The following is a template. [Occam's Razor](https://en.wikipedia.org/wiki/Occam%27s_razor). Keep it simple—no audience ever complained about a presentation being short.
+ 
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vScZ7jipt-TwCY4YYeLDO0QiU7zMfpULOnMut8DBjswfiZpmiQihhzM3jvV4XHg12_lduL-oE2X7mjw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
