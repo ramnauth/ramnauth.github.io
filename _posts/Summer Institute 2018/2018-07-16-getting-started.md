@@ -53,10 +53,6 @@ Example project:
 
 <iframe src="https://drive.google.com/file/d/1B39qziz2SLTftJzXKDEsA2GGiMYP15XD/preview" width="650" height="480"></iframe>
 
-## Debugging exercises
-
-<iframe src="https://drive.google.com/file/d/1cwMDFqffFkxXZujRkGinJxI16ktRlXyw/preview" width="650" height="480"></iframe>
-
 ## Reflection
 
 First, add your exercise projects to <a target="_blank" href="https://scratch.mit.edu/studios/5215850/projects/">our class studio</a>. Then, get to know your group members, explore existing Scratch studios, and brainstorm final project ideas. Finally, complete the following reflection.

@@ -102,6 +102,10 @@ Clicking the Scratch green flag, for example, signals an event that is handled b
 In Scratch, events also allow different sprites to communicate with each other. For instance, two sprites playing Marco Polo require a message to be sent. Therefore, an event is broadcasted. 
 ![marcopolo](https://cs.harvard.edu/malan/scratch/marco.gif)
 
+## Debugging exercises
+
+<iframe src="https://drive.google.com/file/d/1cwMDFqffFkxXZujRkGinJxI16ktRlXyw/preview" width="650" height="480"></iframe>
+
 ## Review
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdoanTIBwy7SnRL9G8qyXm5xPnoRwu6b3Q0exfy2TJWaq5HyA/viewform?embedded=true" width="650" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
