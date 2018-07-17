@@ -64,8 +64,6 @@ For any content, not text, these are some sources for standardizing the look of 
 
 For giving (**indirect**) constructive criticism on Scratch projects, refer to the following handout/form.
 
-<iframe src="https://drive.google.com/file/d/1Xqgt1tG5TVSP-bpmijfWsjw4erUSUzh8/preview" width="650" height="480"></iframe>
-
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScw4LXmGmRSlawhh1mUDc16andOcPI_v2wvNRHb1lZQrlW8cA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 For giving (**direct**) feedback on presentations, the same questions and topics apply, but we'd instead have Q&A sessions.
