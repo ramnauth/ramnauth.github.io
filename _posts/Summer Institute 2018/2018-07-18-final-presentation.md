@@ -27,11 +27,12 @@ tags: [Scratch]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
-You will have to give a short 5-6 minute presentation of your Scratch project. The following resources include a template presentation, an example Scratch presentation, and the critique outline.
+You will have to give an 10-15 minute presentation of your Scratch project. The following resources include a template presentation, an example Scratch presentation, and the critique outline.
 
 ## Presentation Slides Template
 
 The following is a template. [Occam's Razor](https://en.wikipedia.org/wiki/Occam%27s_razor). Keep it simple—no audience ever complained about a presentation being short.
+
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vScZ7jipt-TwCY4YYeLDO0QiU7zMfpULOnMut8DBjswfiZpmiQihhzM3jvV4XHg12_lduL-oE2X7mjw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -61,9 +62,11 @@ For any content, not text, these are some sources for standardizing the look of 
 
 ## Giving Feedback
 
-For giving (**indirect**) constructive criticism on Scratch projects, refer to the following handout.
+For giving (**indirect**) constructive criticism on Scratch projects, refer to the following handout/form.
 
 <iframe src="https://drive.google.com/file/d/1Xqgt1tG5TVSP-bpmijfWsjw4erUSUzh8/preview" width="650" height="480"></iframe>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScw4LXmGmRSlawhh1mUDc16andOcPI_v2wvNRHb1lZQrlW8cA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 For giving (**direct**) feedback on presentations, the same questions and topics apply, but we'd instead have Q&A sessions.
 
