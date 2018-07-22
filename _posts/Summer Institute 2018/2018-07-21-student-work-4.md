@@ -58,5 +58,6 @@ void setup() {
   //fullScreen();
   start = loadImage("start.jpg");
   plants = new Plants();
+  
 ... //see all source code on GitHub
 ```
