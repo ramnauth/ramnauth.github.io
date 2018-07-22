@@ -3,12 +3,13 @@
 layout: post
 
 # The title of your post
-title: Student Work - Space Junky
+title: Student Work - Deforestation
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-   As an introduction to programming, this group from the 2018 Summer Honors Institute @ LIU developed a video game to raise awareness to the growing space pollution problem. 
+   As an introduction to programming, this group from the 2018 Summer Honors Institute @ LIU developed a game to raise awareness about the animal agriculture industry’s impact on deforestation in the Amazon rainforest.
+
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
@@ -28,10 +29,10 @@ tags: [Scratch]
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR2R7fm5zHPUwdzTP8LfKRL8Xml7ma1CVr3tpGtWcDkWN9GNvE1ShZCYXOoHjX0jKxObT06apB8TvvB/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ7f6YTkynVXlQ5vkwhGvvhFvyoFkCGRZjoLHsztQYGpPcITlb3Q4joVYIKwFCPYmRUcvDAb4GiPPnx/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/236650765/?autostart=false" frameborder="0" allowfullscreen></iframe>
+<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/236637093/?autostart=false" frameborder="0" allowfullscreen></iframe>
 
 ## Love what you see?
 
-Check out their code on [Scratch](https://scratch.mit.edu/projects/236650765/)
+Check out their code on [Scratch](https://scratch.mit.edu/projects/236637093/)
