@@ -5,109 +5,86 @@ layout: page
 <html>
     <head>
         <style>
-            /*basic reset */
-            *{
-                margin: 0;
-                padding: 0;
-            }
-            
-            /* Page settings */
-            html {
-                width: 100%;
-                height: 100%;
-                background: radial-gradient(circle, #fff 0%, #aaa 100%) no-repeat;
-                overflow-x: hidden;
-                overflow-y: hidden;
-            }
             body {
-                text-align: center;
-                display: table;
-                background: black;
-                width: 100%;
-                height: 100%;
-                overflow-x: hidden;
-                overflow-y: hidden;
-            }
-
-            canvas {display:block;}
-			
-            @keyframes cursor {
-                0% {
-                    opacity: 0;
-                }
-                40% {
-                    opacity: 0;
-                }
-                50% {
-                    opacity: 1;
-                }
-                90% {
-                    opacity: 1;
-                }
-                100% {
-                    opacity: 0;
-                }
-            }
+			  background: #000;
+			  margin: 0;
+			}
+			header{opacity:0;}
         
         </style>
     </head>
-    <body>
-    
-        <canvas id="c"></canvas>
-        
+    <body>        
         <script>
-        // geting canvas by id c
-        var c = document.getElementById("c");
-        var ctx = c.getContext("2d");
+        var canvas = document.body.appendChild( document.createElement( 'canvas' ) ),
+		context = canvas.getContext( '2d' );
+		context.globalCompositeOperation = 'lighter';
+		canvas.width = 1280;
+		canvas.height = 800;
+		draw();
 
-        //making the canvas full screen
-        c.height = window.innerHeight;
-        c.width = window.innerWidth;
+		var textStrip = ['<', '/', 'X', '1', '0', '^', '*', '>', '!', '}', '{', '=', ']', '(', ')', '=', '+'];
 
-        //chinese characters - taken from the unicode charset
-        var matrix = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%";
-        //converting the string into an array of single characters
-        matrix = matrix.split("");
+		var stripCount = 60, stripX = new Array(), stripY = new Array(), dY = new Array(), stripFontSize = new Array();
 
-        var font_size = 10;
-        var columns = c.width / font_size; //number of columns for the rain
-        //an array of drops - one per column
-        var drops = [];
-        //x below is the x coordinate
-        //1 = y co-ordinate of the drop(same for every drop initially)
-        for(var x = 0; x < columns; x++)
-            drops[x] = 1; 
+		for (var i = 0; i < stripCount; i++) {
+			stripX[i] = Math.floor(Math.random()*1265);
+			stripY[i] = -100;
+			dY[i] = Math.floor(Math.random()*7)+3;
+			stripFontSize[i] = Math.floor(Math.random()*16)+8;
+		}
 
-        //drawing the characters
-        function draw()
-        {
-            //Black BG for the canvas
-            //translucent BG to show trail
-            ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
-            ctx.fillRect(0, 0, c.width, c.height);
+		var theColors = ['#cefbe4', '#81ec72', '#5cd646', '#54d13c', '#4ccc32', '#43c728'];
 
-            ctx.fillStyle = "#0F0"; //green text
-            ctx.font = font_size + "px arial";
-            //looping over drops
-            for( var i = 0; i < drops.length; i++ )
-            {
-                //a random chinese character to print
-                var text = matrix[ Math.floor( Math.random() * matrix.length ) ];
-                //x = i*font_size, y = value of drops[i]*font_size
-                ctx.fillText(text, i * font_size, drops[i] * font_size);
+		var elem, context, timer;
 
-                //sending the drop back to the top randomly after it has crossed the screen
-                //adding a randomness to the reset to make the drops scattered on the Y axis
-                if( drops[i] * font_size > c.height && Math.random() > 0.975 )
-                    drops[i] = 0;
+		function drawStrip(x, y) {
+			for (var k = 0; k <= 20; k++) {
+				var randChar = textStrip[Math.floor(Math.random()*textStrip.length)];
+				if (context.fillText) {
+					switch (k) {
+					case 0:
+						context.fillStyle = theColors[0]; break;
+					case 1:
+						context.fillStyle = theColors[1]; break;
+					case 3:
+						context.fillStyle = theColors[2]; break;
+					case 7:
+						context.fillStyle = theColors[3]; break;
+					case 13:
+						context.fillStyle = theColors[4]; break;
+					case 17:
+						context.fillStyle = theColors[5]; break;
+					}
+					context.fillText(randChar, x, y);
+				}
+				y -= stripFontSize[k];
+			}
+		}
 
-                //incrementing Y coordinate
-                drops[i]++;
-            }
-        }
-
-        setInterval( draw, 35 );
-
+		function draw() {
+			// clear the canvas and set the properties
+			context.clearRect(0, 0, canvas.width, canvas.height);
+			context.shadowOffsetX = context.shadowOffsetY = 0;
+			context.shadowBlur = 8;
+			context.shadowColor = '#94f475';
+			
+			for (var j = 0; j < stripCount; j++) {
+				context.font = stripFontSize[j]+'px MatrixCode';
+				context.textBaseline = 'top';
+				context.textAlign = 'center';
+				
+				if (stripY[j] > 1358) {
+					stripX[j] = Math.floor(Math.random()*canvas.width);
+					stripY[j] = -100;
+					dY[j] = Math.floor(Math.random()*7)+3;
+					stripFontSize[j] = Math.floor(Math.random()*16)+8;
+					drawStrip(stripX[j], stripY[j]);
+				} else drawStrip(stripX[j], stripY[j]);
+				
+				stripY[j] += dY[j];
+			}
+		  setTimeout(draw, 70);
+		}
         </script>
     </body>
 </html>
