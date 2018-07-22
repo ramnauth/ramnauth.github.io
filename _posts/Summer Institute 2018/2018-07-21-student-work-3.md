@@ -38,26 +38,26 @@ tags: [Scratch, Processing, Java]
 Check out their code on [Scratch](https://scratch.mit.edu/projects/236643230/) and [Github](https://github.com/DanielGelfand/HealthCatch).
 
 ```java
-	PImage basket;
-	PImage vegetable;
-	PImage cheesePuff;
-	int score= 0;
+PImage basket;
+PImage vegetable;
+PImage cheesePuff;
+int score= 0;
 
-	//Instantiate objects
-	Bowl catcher = new Bowl();
-	Healthy kale = new Healthy();
-	Bad puff = new Bad();
+//Instantiate objects
+Bowl catcher = new Bowl();
+Healthy kale = new Healthy();
+Bad puff = new Bad();
 
 
-	//Initial setup
-	void setup(){
-	  size(600,600);
-	  basket = loadImage("basket.png");
-	  vegetable = loadImage("Kale.png");
-	  cheesePuff = loadImage("cheesePuff.png");
-	}
+//Initial setup
+void setup(){
+  size(600,600);
+  basket = loadImage("basket.png");
+  vegetable = loadImage("Kale.png");
+  cheesePuff = loadImage("cheesePuff.png");
+}
 
-	//Displays and runs the game
-	void draw(){
-	... //see all source code on GitHub
+//Displays and runs the game
+void draw(){
+... //see all source code on GitHub
 ```
