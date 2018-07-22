@@ -3,74 +3,113 @@ layout: page
 ---
 Until I can figure out what to put here, 
 <html>
-<style>
-body{
- background-color:#d2d2d2;
-}
-#canvas{
- background-color:#000;
- display:block;
- margin:auto;
-}
-</style>
-<script> 
-	var canvas = document.getElementById(‘canvas’);
-	var ctx = canvas.getContext(‘2d’);
-	var t = text();
-	var logo = document.getElementById(‘logo’);
-	var lines = [];
-	window.setInterval(draw, 100);
-	function draw() {
-	 if (Math.floor(Math.random() * 2) === 0 && lines.length < 100) {
-	  lines.push(new textLine());
-	 }
-	 ctx.clearRect(0, 0, canvas.width, canvas.height);
-	 lines.forEach(function(tl) {
-	  ctx.drawImage(tl.text, tl.posX, tl.animate(), 20, 1000);
-	 });
-	 ctx.drawImage(logo, 100, 155, 400, 70);
-	}
-	function textLine() {
-	 this.text = t;
-	 this.posX = (function() {
-	  return Math.floor(Math.random() * canvas.width);
-	 })();
-	 this.offsetY = -1000;
-	 this.animate = function() {
-	  if (this.offsetY >= 0) {
-	   this.offsetY = -1000;
-	  }
-	  this.offsetY += 10;
-	  return this.offsetY;
-	 };
-	}
-	function text() {
-	 var offscreenCanvas = document.createElement(‘canvas’);
-	 offscreenCanvas.width = “30”;
-	 offscreenCanvas.height = “1000”;
-	 offscreenCanvas.style.display = “none”;
-	 document.body.appendChild(offscreenCanvas);
-	 var octx = offscreenCanvas.getContext(‘2d’);
-	 octx.textAlign = “center”;
-	 octx.shadowColor = “lightgreen”;
-	 octx.shadowOffsetX = 2;
-	 octx.shadowOffsetY = -5;
-	 octx.shadowBlur = 1;
-	 octx.fillStyle = ‘darkgreen’;
-	 octx.textAlign = “left”;
-	 var step = 10;
-	 for (i = 0; i < 100; i++) {
-	  var charCode = 0;
-	  while (charCode < 60) {
-	   charCode = Math.floor(Math.random() * 100);
-	  }
-	  octx.fillText(String.fromCharCode(charCode), 0, step);
-	  step += 10;
-	 }
-	 return offscreenCanvas;
-	}
-</script>
+    <head>
+        <style>
+            /*basic reset */
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            
+            /* Page settings */
+            html {
+                width: 100%;
+                height: 100%;
+                background: radial-gradient(circle, #fff 0%, #aaa 100%) no-repeat;
+                overflow-x: hidden;
+                overflow-y: hidden;
+            }
+            body {
+                text-align: center;
+                display: table;
+                background: black;
+                width: 100%;
+                height: 100%;
+                overflow-x: hidden;
+                overflow-y: hidden;
+            }
 
-<body> <canvas id=”canvas” width=”600px” height=”400px”></canvas> </body>
+            canvas {display:block;}
+			
+            @keyframes cursor {
+                0% {
+                    opacity: 0;
+                }
+                40% {
+                    opacity: 0;
+                }
+                50% {
+                    opacity: 1;
+                }
+                90% {
+                    opacity: 1;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
+        
+        </style>
+    </head>
+    <body>
+    
+        <canvas id="c"></canvas>
+        
+        <script>
+        // geting canvas by id c
+        var c = document.getElementById("c");
+        var ctx = c.getContext("2d");
+
+        //making the canvas full screen
+        c.height = window.innerHeight;
+        c.width = window.innerWidth;
+
+        //chinese characters - taken from the unicode charset
+        var matrix = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%";
+        //converting the string into an array of single characters
+        matrix = matrix.split("");
+
+        var font_size = 10;
+        var columns = c.width / font_size; //number of columns for the rain
+        //an array of drops - one per column
+        var drops = [];
+        //x below is the x coordinate
+        //1 = y co-ordinate of the drop(same for every drop initially)
+        for(var x = 0; x < columns; x++)
+            drops[x] = 1; 
+
+        //drawing the characters
+        function draw()
+        {
+            //Black BG for the canvas
+            //translucent BG to show trail
+            ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
+            ctx.fillRect(0, 0, c.width, c.height);
+
+            ctx.fillStyle = "#0F0"; //green text
+            ctx.font = font_size + "px arial";
+            //looping over drops
+            for( var i = 0; i < drops.length; i++ )
+            {
+                //a random chinese character to print
+                var text = matrix[ Math.floor( Math.random() * matrix.length ) ];
+                //x = i*font_size, y = value of drops[i]*font_size
+                ctx.fillText(text, i * font_size, drops[i] * font_size);
+
+                //sending the drop back to the top randomly after it has crossed the screen
+                //adding a randomness to the reset to make the drops scattered on the Y axis
+                if( drops[i] * font_size > c.height && Math.random() > 0.975 )
+                    drops[i] = 0;
+
+                //incrementing Y coordinate
+                drops[i]++;
+            }
+        }
+
+        setInterval( draw, 35 );
+
+        </script>
+    </body>
 </html>
+
 <img src="https://apply.liu.edu/quickapp2/images/UNIVERSITYSEAL.png" width="80%">
