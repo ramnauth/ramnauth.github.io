@@ -59,5 +59,4 @@ Check out their code on [Scratch](https://scratch.mit.edu/projects/236744337/) a
 	  start = loadImage("start.jpg");
 	  plants = new Plants();
 	... //see all source code on GitHub
-	}
 ```
