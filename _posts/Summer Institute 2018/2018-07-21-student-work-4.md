@@ -36,3 +36,28 @@ tags: [Scratch, Processing, Java]
 ## Love what you see?
 
 Check out their code on [Scratch](https://scratch.mit.edu/projects/236744337/) and [GitHub](https://github.com/angelatom/Oppenheimer_Disciples).
+
+```java
+	// 0: Init State
+	// 1: Game State
+	// 2: Game-over State
+
+	int gameState = 0; // start at init state
+	PImage start; // storage of the start image
+	int round = 1; // Game should start at round 1
+	// Plant images vars
+	Plants plants; 
+	PImage one, two, three;
+	int posOne, posTwo, posThree;
+	// Win boolean
+	boolean win = false;
+
+	// During setup, some of the variables are initialized
+	void setup() {
+	  size(1024, 768);
+	  //fullScreen();
+	  start = loadImage("start.jpg");
+	  plants = new Plants();
+	... //see all source code on GitHub
+	}
+```
