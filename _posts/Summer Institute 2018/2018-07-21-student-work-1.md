@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: Space Junky
+title: Student Work - Space Junky
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
@@ -23,7 +23,7 @@ image: /assets/img/default.jpg
 # The difference is that categories will be part of the URL, while tags will not.
 # E.g. the URL of this post is <site.baseurl>/hydejack/2017/11/23/example-content/
 categories: [Summer Institute, Student Work]
-tags: []
+tags: [Scratch]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
