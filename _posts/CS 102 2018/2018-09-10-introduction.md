@@ -81,17 +81,19 @@ Instead of Microsoft's Visual Studio Code and MinGW (for which the "W" stands fo
 
 In the menu, open **File**, hover over **New**, and select **Project**.
 
-![XCode New Project](https://qph.fs.quoracdn.net/main-qimg-494e5c7729829296bc6c5f874ea1e844.webp)
+<iframe src="https://drive.google.com/file/d/1z2qWY7UE1gT13ChQf3_r8133yPPmrFpa/preview" width="640" height="480"></iframe>
 
 Choose the Command Line Tool template
 
-![Command Line Tool template](https://qph.fs.quoracdn.net/main-qimg-e469e865e8be6bdacba120578e2ed516.webp)
+<iframe src="https://drive.google.com/file/d/1lQeNKCgW5m539di2pfFGhn32YT_dyUs6/preview" width="640" height="480"></iframe>
 
 Choose project type as C++
 
-![Configure XCode for C++](https://qph.fs.quoracdn.net/main-qimg-127428e338bac20f83da77e593cfd1c8.webp)
+<iframe src="https://drive.google.com/file/d/1G-6tSGkGITz9pVv-QAIxgHxcgDIV_JGi/preview" width="640" height="480"></iframe>
 
-Create project and click on `main.cpp` to make/edit your project. 
+Create project and click on `main.cpp` to make/edit your project. You can run the program under the **Product** tab > **Run**.
+
+<iframe src="https://drive.google.com/file/d/1fXQKZ8DCoIaO4VTLwalpSbWUDTSksf7e/preview" width="640" height="480"></iframe>
 
 ## `hello.cpp`
 
@@ -127,8 +129,8 @@ To view the results of your program, return to the command line and enter `hello
 
 ## Additional Resources 
 
-- VS Code Documentation: [https://code.visualstudio.com/docs](https://code.visualstudio.com/docs)
-- The C++ Extension for VS Code: [https://blogs.msdn.microsoft.com/vcblog/2016/03/31/cc-extension-for-visual-studio-code/](https://blogs.msdn.microsoft.com/vcblog/2016/03/31/cc-extension-for-visual-studio-code/)
-- Building C++ Programs (alt. method): [https://blogs.msdn.microsoft.com/vcblog/2016/10/24/building-your-c-application-with-visual-studio-code/](https://blogs.msdn.microsoft.com/vcblog/2016/10/24/building-your-c-application-with-visual-studio-code/)
+- **VS Code Documentation:** [https://code.visualstudio.com/docs](https://code.visualstudio.com/docs)
+- **The C++ Extension for VS Code:** [https://blogs.msdn.microsoft.com/vcblog/2016/03/31/cc-extension-for-visual-studio-code/](https://blogs.msdn.microsoft.com/vcblog/2016/03/31/cc-extension-for-visual-studio-code/)
+- **Building C++ Programs (alt. method):** [https://blogs.msdn.microsoft.com/vcblog/2016/10/24/building-your-c-application-with-visual-studio-code/](https://blogs.msdn.microsoft.com/vcblog/2016/10/24/building-your-c-application-with-visual-studio-code/)
 
 
