@@ -103,7 +103,7 @@ To create our first C++ program, navigate to the **Explorer** icon on the sideba
 
 Type `hello.cpp` and press enter. In the created file, paste and save the following code. This is a basic "Hello World" program that does only one thing: print `Hello World`.
 
-```C++
+```cpp
 // Preprocessor directive that includes header iostream
 #include <iostream>
 
