@@ -36,7 +36,7 @@ In order to begin programming, we need a programming (or development) environmen
 4. [The `Hello World` Program](https://ramnauth.github.io/cs%20102/2018/09/10/introduction/#mac-osx)
 5. [Additional Resources](https://ramnauth.github.io/cs%20102/2018/09/10/introduction/#additional-resources)
 
-**Alternative:** If for some reason you are not comfortable with any of these tools, create an account on Repl.it [https://repl.it/](https://repl.it/) and skip this guide.
+**Alternative:** If for some reason you are not comfortable with any of these tools, create an account on REPL.it [https://repl.it/](https://repl.it/) and skip this guide.
 
 ## Install VS Code 
 
