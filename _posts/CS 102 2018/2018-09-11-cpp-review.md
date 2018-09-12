@@ -8,7 +8,7 @@ title: C++ Review Sheet
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-   C++ review sheet, updated as of **9/10/2018**
+   C++ review sheet, updated as of **9/12/2018**
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
@@ -31,6 +31,7 @@ This review sheet will cover the following topics:
 
 1. [Basics](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-I/#basics) - Zybook Chapter 1
 2. [Data Types](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-I/#data-types) - Zybook Chapter 2
+3. [Arithmetic](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-I/#arithmetic) - Zybook Chapter 2
 
 ## Basics
 
@@ -87,12 +88,75 @@ int main() {
     cout << "Size of bool: " << sizeof(isHappy) << " bytes." << endl;
     cout << "Size of char: " << sizeof(myGrade) << " bytes." << endl;
     
-    int largestInt = 2147483647;
+    int largestInt = 2147483647; // also written as INT_MAX
     cout << "Largest int possible: " << largestInt << endl;
-   
-    int smallestInt = 2147483648; // also equal to -2147483648
+    
+    int smallestInt = -2147483648; // also written as INT_MIN
     cout << "Smallest int possible: " << smallestInt << endl;
 	
+	/*  Why is the smallest integer value just the negation of the largest integer? 
+		In two's complement (a representation for positive and negative binary numbers), the leftmost
+		bit is reserved for the sign (+ or -). If a number is negative, the leftmost bit will be 1. 
+		If positive, the leftmost bit is 0. 
+		
+		In a fixed-size representation of 3 bits (with signed numbers, aka Two's Complement), 
+		the most negative value is the binary number 100 ( = 4). The largest number is 011 ( = 3). 
+		For the fixed-size representation of any number of bits (which I name 'x'),
+		the largest number is 2^(x-1) -1. The smallest value (or the most negative value) is -1 * 2^(x-1)
+		or just one less than the largest number. 
+	*/
+	
+	return 0;
+}
+```
+
+To read more about number systems and binary representations, see: [CS 101 Notes on Binary](https://ramnauth.github.io/cs%20101/2018/09/10/numbers/)
+
+## Arithmetic
+
+```cpp
+#include <iostream>
+
+using namespace std;
+int main() {
+
+    /* MATH OPERATIONS include:
+         +      addition 
+         -      subtraction
+         *      multiplication
+         /      division
+         %      modulus 
+         ++     increment by 1 aka add 1
+         --     decrement by 1 aka subtract 1
+    */
+    cout << "5 + 2 = " << 5 + 2 << endl;
+    cout << "5 - 2 = " << 5 - 2 << endl;
+    cout << "5 * 2 = " << 5 * 2 << endl;
+    cout << "5 / 2 = " << 5 / 2 << endl;
+    cout << "5 % 2 = " << 5 % 2 << endl;
+
+    int num = 5;
+    cout << "5++ = " << num++ << endl; // shows '5', then increments by 1;  num = 6
+    cout << "++5 = " << ++num << endl; // increments by 1, then shows 7;    num = 7
+    cout << "5-- = " << num-- << endl; // shows '7', then decrements by 1;  num = 6
+    cout << "--5 = " << --num << endl; // decrements by 1, then shows '5';  num = 5
+    
+    num += 10; // num = num + 10;
+
+    // consider the ORDER OF OPERATIONS: * and / execute first, then + and -
+    cout << "1 + 2 - 3 * 2 = " << 1 + 2 - 3 * 2 << endl; // = -3
+    cout << "(1 + 2 - 3) * 2 = " << (1 + 2 - 3) * 2 << endl; // = 0
+
+    // CASTING changes the data type
+    cout << "4 / 5 = " << 4 / 5 << endl; // returns 0 because an int / int = int
+    cout << "4 / 5 = " << (double) 4 / 5 << endl; // returns 0.8 because double / int = double
+    cout << "4 / 5 = " << (double) 4 / (double) 5 << endl; // returns 0.8 because double / double = double
+
+    // generating RANDOM numbers
+    int randNum0To99 = (rand() % 100); //random number between 0 and 99
+    int randNum1To100 = (rand() % 100) + 1; //random number between 1 and 100
+    cout << "Random # between 1 and 100: " << randNum1To100 << endl;
+
 	return 0;
 }
 ```
