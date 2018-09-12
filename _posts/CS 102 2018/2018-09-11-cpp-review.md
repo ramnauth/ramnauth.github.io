@@ -29,9 +29,9 @@ tags: [C++, Programming Basics]
 ---
 This review sheet will cover the following topics:
 
-1. [Basics](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-I/#basics) - Zybook Chapter 1
-2. [Data Types](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-I/#data-types) - Zybook Chapter 2
-3. [Arithmetic](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-I/#arithmetic) - Zybook Chapter 2
+1. [Basics](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#basics) - Zybook Chapter 1
+2. [Data Types](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#data-types) - Zybook Chapter 2
+3. [Arithmetic](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#arithmetic) - Zybook Chapter 2
 
 ## Basics
 
@@ -129,6 +129,7 @@ int main() {
          ++     increment by 1 aka add 1
          --     decrement by 1 aka subtract 1
     */
+	
     cout << "5 + 2 = " << 5 + 2 << endl;
     cout << "5 - 2 = " << 5 - 2 << endl;
     cout << "5 * 2 = " << 5 * 2 << endl;
