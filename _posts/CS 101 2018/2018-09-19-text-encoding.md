@@ -39,7 +39,7 @@ A group of characters is called a **character set**. An example character set fo
 However, some characters look similar to another that it's hard to distinguish between them. For example, `l` (the letter) and `1` (the number). One solution is to associate each character with a number, called a **code point**. 
 
 So, in a computer, characters are stored as a series of bits. In other words, characters are stored in the computer using a special code that can be deciphered only by knowing the **character encoding**. Without knowing the encoding, you won't be able to read the text. 
-This is similar to *morse code* which uses a series of dots and dashes to represent characters/letters. If you did not know how letters are encoded in morse, you would be able to read the message: [-- --- .-. ... . / -.-. --- -.. . / .. ... / .--- ..- ... - / .- -. --- - .... . .-. / .-- .- -.-- / - --- / .-. . .--. .-. . ... . -. - / - . -..- - .-.-.-](http://morsecode.world/m/eJxdT8ERwCAIO9tHF3CcjNsRHNAjEEx7HhIlhHA9c66BNeKgEKAA03sT5-ehJYF1ND2wK6EzQZY1xLWKpG5Gi4kuHyHknotovb5FPfETS4mvv7O-rg002leF).
+This is similar to *morse code* which uses a series of dots and dashes to represent characters/letters. If you did not know how letters are encoded in morse, you wouldn't be able to read the message: [.... . .-.. .-.. --- / .-- --- .-. .-.. -..](http://morsecode.world/m/eJxjYhIR8XD18fFXCPcP8nEBABS9A0k=).
 
 ### ASCII 
 
@@ -61,9 +61,9 @@ This caused another problem. Most other 8-bit encodings at the time agreed on th
 
 To resolve incompatible encodings across different languages and cultures, the **Unicode Consortium** attempted (and is still attempting) to create a single encoding that would contain every character and symbol used in every language. You can browse the many code charts on the [Unicode website](http://www.unicode.org/charts/). 
 
-How is this possible? As shown in the Unicode code charts, most code points fit in 16 bits (aka 2 bytes). But this means there are only 2<sup>16<sup> or 65,636 characters that we can represent. There are obviously much more than 65,636 characters in the world, so Unicode has several **planes** (like in geometry). Each plane has different code points, which you can see here: [Unicode planes & code point ranges](https://en.wikipedia.org/wiki/Plane_(Unicode)#Overview). Designating a bit or two to indicate which plane to use, allows us to represent `65,636 times the number of planes` characters.
+How is this possible? As shown in the Unicode code charts, most code points fit in 16 bits (aka 2 bytes). But this means there are only 2<sup>16</sup> or 65,636 characters that we can represent. There are obviously much more than 65,636 characters in the world, so Unicode has several **planes** (like in geometry). Each plane has different code points, which you can see here: [Unicode planes & code point ranges](https://en.wikipedia.org/wiki/Plane_(Unicode)#Overview). Designating a bit or two to indicate which plane to use, allows us to represent `65,636 times the number of planes` characters. <br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MijmeoH9LT4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="650" height="315" src="https://www.youtube.com/embed/MijmeoH9LT4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Text Compression
 
@@ -77,7 +77,7 @@ This type of compression method simply replaces frequently used words (aka *keyw
 
 Then, we'll determine which words appeared the most (or appeared *frequently*). We find that the word `she` appeared 5 times, `was` 4 times, `the` 4 times, and `and` appeared 4 times. We can continue finding more frequently used words, but we can stop here. 
 
-Let's now replace these words with each their own character. For `she`, we'll put the `@`, for `was` put `%`, `the` put `~`, and for `and` put `&`. The compressed paragraph:
+Let's now replace these words with each their own character. For `she`, we'll put the `@`, for `was` put `%`, `the` put `~`, and for `and` put `&`. It doesn't matter what symbol you use as long as you state what word the symbol represents. The compressed paragraph:
 
 > All children, except one, grow up. They soon know that they will grow up, & ~ way Wendy knew % this. One day when @ % two years old @ % playing in a garden, & @ plucked another flower & ran with it to her mother. I suppose @ must have looked rather delightful, for Mrs Darling put her hand to her heart & cried, 'Oh, why can't you remain like this for ever!' This % all that passed between them on ~ subject, but henceforth Wendy knew that @ must grow up. You always know after you are two. Two is ~ beginning of ~ end.
 
@@ -97,7 +97,7 @@ With the run-length compression **algorithm** (an algorithm is just a series of 
 
 ### Huffman Coding
 
-The creator of the **Huffman compression algorithm**, Dr. David Huffman asked *Why should the letter `X` or `Q`, which are rarely used, take up the same number of bits as a `space`, which is frequently used?* 
+The creator of the **Huffman compression algorithm**, Dr. David Huffman asked *Why should the letter `X` or `Q`, which are rarely used, take up the same number of bits as a `space`, which is frequently used?* <br>
 
 <iframe src="https://drive.google.com/file/d/1GX-ehLwxna5RTF7K3GeXvnCJla7DZJqs/preview" width="640" height="480"></iframe>
 
@@ -109,6 +109,6 @@ Above is the **Huffman tree**. Unlike in the natural world, the **root** of the 
 
 This particular tree is called a **binary tree**. This means that every node is either branch with exactly two **children**. This is useful because any path from the root to a leaf corresponds to a binary number. Going **left** from a node is represented by `zero`, and going **right** is represented by `one`. 
 
-For example, the number `01010` really means "start at the root, then go left-right-left-right-left". This lands on the leaf labelled `C`. 
+For example, the number `01010` really means "start at the root, then go left-right-left-right-left". This lands on the leaf labelled `C`.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JsTptu56GM8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="650" height="315" src="https://www.youtube.com/embed/JsTptu56GM8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
