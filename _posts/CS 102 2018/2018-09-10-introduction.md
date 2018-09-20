@@ -40,9 +40,9 @@ In order to begin programming, we need a programming (or development) environmen
 
 ## Install VS Code 
 
-**Note:** if you're a Mac OSX user, jump to [Installing XCode](https://ramnauth.github.io/cs%20102/2018/09/10/introduction/#mac-osx). However, lecture notes/tutorials will be provided in reference to VS Code because that's what we'll be using in the classroom.
+**Note:** if you're a Mac OSX user, jump to [Installing XCode](https://ramnauth.github.io/cs%20102/2018/09/10/introduction/#mac-osx).
 
-The following video tutorial will walk you through setting up Visual Studio Code ([https://code.visualstudio.com/](https://code.visualstudio.com/)) and give a general overview of its features.
+The following video tutorial will walk you through setting up Visual Studio Code ([https://code.visualstudio.com/](https://code.visualstudio.com/)) and gives a general overview of its features.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Sdg0ef2PpBw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

@@ -271,21 +271,21 @@ using namespace std;
 int main() {
 
 	// a FOR LOOP that counts from 0 to 25
-    for (int i = 0; i <= 25; i++){
-        cout << i << " ";
+	for (int i = 0; i <= 25; i++){
+		cout << i << " ";
     } cout << endl;
-    
+	
 	// The WHILE LOOP that generates random numbers until a random number equals 10
 	while (randNum != 10){
-        cout << randNum << " is not equal to 10." << endl;
-        randNum = (rand() % 10) + 1; //regenerate a random number
-    } cout << "Random number equals 10. Exiting loop." << endl;
-
-    int index = 0;
-    while (index <= 25){ // will simulate a FOR loop counting to 25
-        cout << index << " ";
-        index++;
-    } cout << endl;
+		cout << randNum << " is not equal to 10." << endl;
+		randNum = (rand() % 10) + 1; //regenerate a random number
+	} cout << "Random number equals 10. Exiting loop." << endl;
+	
+	int index = 0;
+	while (index <= 25){ // will simulate a FOR loop counting to 25
+		cout << index << " ";
+		index++;
+	} cout << endl;
 
     // a DO WHILE LOOP that plays a guessing game with the user until the user guess the correct number
     string numberGuessed; // a STRING is a series of chars
@@ -370,4 +370,4 @@ int main() {
     
     return 0;
 }
-
+```
