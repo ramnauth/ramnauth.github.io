@@ -23,12 +23,12 @@ image: /assets/img/default.jpg
 # The difference is that categories will be part of the URL, while tags will not.
 # E.g. the URL of this post is <site.baseurl>/hydejack/2017/11/23/example-content/
 categories: [CS 102]
-tags: [C++, Programming Basics]
+tags: [C++]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
-In order to begin programming, we need a programming (or development) environment. **Text editors**, such as Microsoft Word, allows us to write/edit text. The text editor that we will be using in class to write/edit code is [Visual Studio Code]((https://code.visualstudio.com/)), or "VS Code" for short.
-1. [Install Virtual Studio Code](https://ramnauth.github.io/cs%20102/2018/09/10/introduction/#install-vs-code)
+In order to begin programming, we need a programming (or development) environment. **Text editors**, such as Microsoft Word, allows us to write/edit text. The text editor that we will be using in class to write/edit code is [Visual Studio Code](https://code.visualstudio.com/), or "VS Code" for short.
+1. [Install Visual Studio Code](https://ramnauth.github.io/cs%20102/2018/09/10/introduction/#install-vs-code)
 2. [Enable C++](https://ramnauth.github.io/cs%20102/2018/09/10/introduction/#install-vs-code)
 3. [Install C++ Compiler](https://ramnauth.github.io/cs%20102/2018/09/10/introduction/#install--configure-a-c-compiler)
     - [For Windows](https://ramnauth.github.io/cs%20102/2018/09/10/introduction/#install--configure-a-c-compiler)
