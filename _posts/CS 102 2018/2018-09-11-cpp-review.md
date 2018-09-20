@@ -34,7 +34,7 @@ This review sheet will cover the following topics:
 3. [Arithmetic](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#arithmetic) - Zybook Chapter 2
 4. [Conditionals](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#conditionals) - Zybook Chapter 3
 5. [Loops](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#loops) - Zybook Chapter 4
-6. [Strings](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#string)
+6. [Strings](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#strings)
 
 ## Basics
 
@@ -273,31 +273,31 @@ int main() {
 	// a FOR LOOP that counts from 0 to 25
 	for (int i = 0; i <= 25; i++){
 		cout << i << " ";
-    } cout << endl;
-	
+	} cout << endl;
+
 	// The WHILE LOOP that generates random numbers until a random number equals 10
 	while (randNum != 10){
 		cout << randNum << " is not equal to 10." << endl;
 		randNum = (rand() % 10) + 1; //regenerate a random number
 	} cout << "Random number equals 10. Exiting loop." << endl;
-	
+
 	int index = 0;
 	while (index <= 25){ // will simulate a FOR loop counting to 25
 		cout << index << " ";
 		index++;
 	} cout << endl;
 
-    // a DO WHILE LOOP that plays a guessing game with the user until the user guess the correct number
-    string numberGuessed; // a STRING is a series of chars
-    int intNumberGuessed = 0; 
+	// a DO WHILE LOOP that plays a guessing game with the user until the user guess the correct number
+	string numberGuessed; // a STRING is a series of chars
+	int intNumberGuessed = 0; 
 
-    do {
-        cout << "Guess a number between 1 and 10: ";
-        getline(cin, numberGuessed); // get USER INPUT and store it into variable numberGuessed
-        intNumberGuessed = stoi(numberGuessed); // convert string to int with stoi
-    } while (intNumberGuessed != 4);
-    cout << "You guessed the correct number!" << endl;
-	
+	do {
+		cout << "Guess a number between 1 and 10: ";
+		getline(cin, numberGuessed); // get USER INPUT and store it into variable numberGuessed
+		intNumberGuessed = stoi(numberGuessed); // convert string to int with stoi
+	} while (intNumberGuessed != 4);
+	cout << "You guessed the correct number!" << endl;
+
 	return 0;
 }
 ```
