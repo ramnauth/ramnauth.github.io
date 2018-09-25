@@ -27,7 +27,7 @@ tags: []
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
-Binary is the only 'language' computers speaks. Therefore, if we want to represent [numbers](https://ramnauth.github.io/cs%20101/2018/09/10/numbers/), [letters, words, text](https://ramnauth.github.io/cs%20101/2018/09/18/text-encoding/), and images, we must first convert it into binary (`0`s and `1`s).
+Binary is the only 'language' computers speak. Therefore, if we want to represent [numbers](https://ramnauth.github.io/cs%20101/2018/09/10/numbers/), [letters, words, text](https://ramnauth.github.io/cs%20101/2018/09/18/text-encoding/), and images, we must first convert it into binary (`0` and `1`).
 
 To store an image on a computer, the image is broken down into tiny *picture elements* called **pixels**. An image with a **resolution** of `11 by 7` pixels has `11` times `7` or `77` pixels. An image composed of just 77 pixels is shown below. Resolution can also refer to the **density** of the pixels in the display, where the unit of measurement is **pixels per inch** (PPI). Given a screen of 250 pixels across 5 inches, the density of pixels is `250 / 5` which is 50 PPI.
 
@@ -83,7 +83,9 @@ Write a 5-letter word in a 8 x 8 pixelated font. For example:
 
 ![Pixel Alphabet](https://ct.mob0.com/Fonts/CharacterMap/pixel.png)
 
-Then, translate each letter into binary, and then into hexadecimal. In class, you will challenge your partner to decode the hexadecimal digits to read the word. **Come prepared with your hex digits and grid paper**.
+Then, translate each letter into binary, and then into hexadecimal. 
+
+In class, you will challenge your partner to decode the hexadecimal digits to read the word. **Come prepared with your hex digits and grid paper**.
 
 ## Color
 
