@@ -29,11 +29,11 @@ tags: [C++, Programming Basics]
 ---
 This review sheet will cover the following topics:
 
-1. [Basics](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#basics) - Zybook Chapter 1
-2. [Data Types](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#data-types) - Zybook Chapter 2
-3. [Arithmetic](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#arithmetic) - Zybook Chapter 2
-4. [Conditionals](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#conditionals) - Zybook Chapter 3
-5. [Loops](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#loops) - Zybook Chapter 4
+1. [Basics](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#basics)
+2. [Data Types](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#data-types)
+3. [Arithmetic](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#arithmetic)
+4. [Conditionals](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#conditionals)
+5. [Loops](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#loops)
 6. [Strings](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#strings)
 
 ## Basics
