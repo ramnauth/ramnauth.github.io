@@ -8,7 +8,7 @@ title: C++ Review Sheet
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-   C++ review sheet, updated as of **9/17/2018**
+   C++ review sheet, updated as of **9/24/2018**
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
@@ -35,6 +35,7 @@ This review sheet will cover the following topics:
 4. [Conditionals](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#conditionals)
 5. [Loops](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#loops)
 6. [Strings](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#strings)
+7. [Functions](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#functions)
 
 ## Basics
 
@@ -369,5 +370,123 @@ int main() {
     cout << "Your new name is " + yourName << endl;
     
     return 0;
+}
+```
+
+## Functions
+
+```cpp
+#include <iostream>
+#include <cmath>
+#include <string>
+
+using namespace std;
+
+int addNumbers(int a, int b) {
+    int sum = a + b;
+    return sum;
+}
+
+int addNumbers(int c, int d, int f) { // overloading addNumbers() -- two functions have the same name, but different parameters
+    int sum = c + d + f;
+    return sum;
+}
+
+int multiplyNumbers(int a, int b) {
+    int product = a * b;
+    return product;
+}
+
+int subtractNumbers(int a, int b) {
+    int result = a - b;
+    return result;
+}
+
+int divideNumbers(int a, int b) {
+    if (b != 0) { //cannot divide by 0
+        cout << "Divide by 0 error." << endl;
+        return -21312; //you have to return an integer.
+    } else {
+        int quotient = a / b;
+        return quotient;
+    }
+}
+
+int showMenu(){
+    cout << "Choose which option you'd like to perform: " << endl;
+    cout << "1. Add 2 integers" << endl;
+    cout << "2. Add 3 integers" << endl;
+    cout << "3. Subtract 2 integers" << endl;
+    cout << "4. Multiply 2 integers" << endl;
+    cout << "5. Divide 2 integers" << endl;
+
+    int choice;
+    cin >> choice;
+    return choice;
+}
+
+int enterNumber(){
+    cout << "Enter a number: ";
+    int num;
+    cin >> num;
+    return num;
+}
+
+int main(){
+    cout << "----------------------------" << endl;
+    cout << "         CALCULATOR         " << endl;
+    cout << "----------------------------" << endl;
+
+    int x, y, z; //declare 3 variables
+
+    int operation = showMenu();
+    
+    switch(operation){
+        case 1: // add 2 numbers (x and y)
+            x = enterNumber();
+            y = enterNumber();
+            cout << x << " + " << y << " = " << addNumbers(x, y) << endl;
+            break;
+        case 2: // add 3 numbers (x, y, and z)
+            x = enterNumber();
+            y = enterNumber();
+            z = enterNumber();
+            cout << x << " + " << y << " + " << z << " = " << addNumbers(x, y, z) << endl;
+            break;
+        case 3: // subtract 2 numbers
+            x = enterNumber();
+            y = enterNumber();
+            cout << x << " - " << y << " = " << subtractNumbers(x, y) << endl;
+            break;
+        case 4: // multiply 2 numbers
+            x = enterNumber();
+            y = enterNumber();
+            cout << x << " * " << y << " = " << multiplyNumbers(x, y) << endl;
+            break;
+        case 5: // divide 2 numbers
+            x = enterNumber();
+            y = enterNumber();
+            cout << x << " / " << y << " = " << divideNumbers(x, y) << endl;
+            break;
+        default:
+            cout << "You did not enter a valid menu choice. Try again." << endl;
+            showMenu();
+    }
+
+    return 0;
+
+    /* Example output:
+        Choose which option you'd like to perform:
+        1. Add 2 integers
+        2. Add 3 integers
+        3. Subtract 2 integers
+        4. Multiply 2 integers
+        5. Divide 2 integers
+        2
+        Enter a number: 4
+        Enter a number: 5
+        Enter a number: 4
+        4 + 5 + 4 = 13
+    */
 }
 ```
