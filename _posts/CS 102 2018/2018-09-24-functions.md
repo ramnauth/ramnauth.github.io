@@ -35,7 +35,7 @@ that you need to make a phone call. So, you place a bookmark, close your book, m
 with the phone call, you open your book to where you left off. 
 
 C++ programs work the same way. A program will be sequentially executing statements inside of `main()`
-when it encounters a function call. A **function call* tells the CPU to pause the current function, execute a **called** function, and when finished, 
+when it encounters a function call. A **function call** tells the CPU to pause the current function, execute a **called** function, and when finished, 
 return to the original function (the **callee**). In other words, the CPU "puts a bookmark" in the current function, and then calls the function named in the function call. 
 When the called function terminates, the CPU goes back to the point it bookmarked, and resumes as usual. 
 
@@ -78,7 +78,7 @@ Every function has a **function header** (also called a function **signature**) 
 - **Function name**: by what name can we call the function?
 - **Parameter(s)**: what are the expected inputs and their individual data types?
 
-![Function Signature](https://drive.google.com/file/d/1F101DS9MHSZ9MiXr0HCDNdQWUs7vG8WW)
+![Function Signature](https://docs.google.com/uc?id=1F101DS9MHSZ9MiXr0HCDNdQWUs7vG8WW)
 
 For example, when the `main()` function finishes executing, it returns an integer value (typically `0`) back to the caller function by using a return statement. 
 
