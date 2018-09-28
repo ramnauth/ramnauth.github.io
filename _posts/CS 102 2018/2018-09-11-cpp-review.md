@@ -29,13 +29,13 @@ tags: [C++, Programming Basics]
 ---
 This review sheet will cover the following topics:
 
-1. [Basics](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#basics)
-2. [Data Types](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#data-types)
-3. [Arithmetic](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#arithmetic)
-4. [Conditionals](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#conditionals)
-5. [Loops](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#loops)
-6. [Strings](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#strings)
-7. [Functions](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#functions)
+1. [Basics](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#basics) - Mon, Sept. 10; Quiz Mon, Sept. 17
+2. [Data Types](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#data-types) - Mon, Sept. 10; Quiz Mon, Sept. 17
+3. [Arithmetic](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#arithmetic) - Wed, Sept. 12; Quiz Mon, Sept. 17
+4. [Conditionals](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#conditionals) - Mon, Sept. 17
+5. [Loops](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#loops) - Wed, Sept. 19
+6. [Strings](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#strings) - Wed, Sept. 19
+7. [Functions](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#functions) - Mon, Sept. 24 ([L1](https://ramnauth.github.io/cs%20102/2018/09/24/functions/)); Wed, Sept. 26 ([L2](https://ramnauth.github.io/cs%20102/2018/09/26/functions-2/))
 
 ## Basics
 
