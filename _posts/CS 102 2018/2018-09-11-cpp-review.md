@@ -242,6 +242,23 @@ int main() {
         default: // if no cases are true
             cout << "Computer Science textbook" << endl;
    }
+   
+	switch(1) {
+		case 1 : 
+			cout << '1'; // prints "1",
+		case 2 : 
+			cout << '2'; // then prints "2"
+	}	
+	
+	switch(1) {
+		case 1 : 
+			cout << '1'; // prints "1"
+			break;       // and exits the switch
+		case 2 : 
+			cout << '2';
+			break;
+	}
+	
 
    /* TERNARY OPERATOR
         variable = (condition) ? true : false
