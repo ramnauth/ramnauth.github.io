@@ -36,4 +36,4 @@ A handful of important topics covered in the following slides:
 - Turing Machines
 - Moore’s Law
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR4vefC5ysQkfxqiI15wGdgnDlRr2TztofhFUn64nuT32q-xYYe2caL7NwC_5yDDJy7SRFdpN9NgWz8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR4vefC5ysQkfxqiI15wGdgnDlRr2TztofhFUn64nuT32q-xYYe2caL7NwC_5yDDJy7SRFdpN9NgWz8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="650" height="450" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
