@@ -609,7 +609,10 @@ int main() {
     cout << "Last unlucky number = " << unluckyNums[4] << endl;
 
     // MULTIDIMENSIONAL ARRAYS means baskets of baskets
-    char name[5][5] = {{'B', 'e', 'c', 'k', 'y'}, {'R', 'a', 'm', 'e', 'n'}};
+    char name[5][5] = {
+						{'B', 'e', 'c', 'k', 'y'}, 
+						{'R', 'a', 'm', 'e', 'n'}
+					};
     
     // name[index of first array][index of second array]
     cout << "2nd letter in the 2nd array: " << name[1][1] << endl;
