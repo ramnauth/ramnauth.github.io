@@ -40,19 +40,19 @@ PEOPLE
 ```
 Select all that apply.
 ```cpp
-cout << "We the PEOPLE" << endl; 						// A
+cout << "We the PEOPLE" << endl; 				// A
 cout << "We the" << "endl" << "PEOPLE" << "endl";		// B
 cout << "We" << " the" << endl << "PEOPLE" << endl;		// C
 cout << "We the" << endl << "PEOPLE" << endl; 			// D
-cout << "WE the" << endl << "people";					// E
+cout << "WE the" << endl << "people";				// E
 ```
 **Solution:**
 ```cpp
-cout << "We the PEOPLE" << endl; 						// prints "We the PEOPLE"
+cout << "We the PEOPLE" << endl; 				// prints "We the PEOPLE"
 cout << "We the" << "endl" << "PEOPLE" << "endl";		// prints "We the endl PEOPLE"
 cout << "We" << " the" << endl << "PEOPLE" << endl;		// prints correct output
 cout << "We the" << endl << "PEOPLE" << endl; 			// prints correct output
-cout << "WE the" << endl << "people";					// prints with capital "E" in "WE"
+cout << "WE the" << endl << "people";				// prints with capital "E" in "WE"
 ```
 Only options **c** and **d** produce the required output.
 
