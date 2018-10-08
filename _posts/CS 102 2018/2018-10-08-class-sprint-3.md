@@ -39,37 +39,37 @@ We the
 PEOPLE
 ```
 Select all that apply.
-<ol type="a">
-	<li>`cout << "We the PEOPLE" << endl;`</li>
-	<li>`cout << "We the" << "endl" << "PEOPLE" << "endl";`</li>
-	<li>`cout << "We" << " the" << endl << "PEOPLE" << endl;`</li>
-	<li>`cout << "We the" << endl << "PEOPLE" << endl;`</li>
-	<li>`cout << "WE the" << endl << "people";`</li>
-</ol>
+```cpp
+cout << "We the PEOPLE" << endl; 					// A
+cout << "We the" << "endl" << "PEOPLE" << "endl";	// B
+cout << "We" << " the" << endl << "PEOPLE" << endl;	// C
+cout << "We the" << endl << "PEOPLE" << endl; 		// D
+cout << "WE the" << endl << "people";				// E
+```
 **Solution:**
 ```cpp
-	cout << "We the PEOPLE" << endl; 					// prints "We the PEOPLE"
-	cout << "We the" << "endl" << "PEOPLE" << "endl";	// prints "We the endl PEOPLE"
-	cout << "We" << " the" << endl << "PEOPLE" << endl;	// prints correct output
-	cout << "We the" << endl << "PEOPLE" << endl; 		// prints correct output
-	cout << "WE the" << endl << "people";				// prints with capital "E" in "WE"
+cout << "We the PEOPLE" << endl; 					// prints "We the PEOPLE"
+cout << "We the" << "endl" << "PEOPLE" << "endl";	// prints "We the endl PEOPLE"
+cout << "We" << " the" << endl << "PEOPLE" << endl;	// prints correct output
+cout << "We the" << endl << "PEOPLE" << endl; 		// prints correct output
+cout << "WE the" << endl << "people";				// prints with capital "E" in "WE"
 ```
 Only options **c** and **d** produce the required output.
 
 ### Question 2
 Given a variable `maxDays = 14`, which statement prints `14`?
-<ol type="a">
-	<li>`cout >> maxDays;`</li>
-	<li>B. `cout << maxDays;`</li>
-	<li>C. `cout << "maxDays";`</li>
-	<li>D. `print maxDays;`</li>
-</ol>
+```cpp
+cout >> maxDays;		// A
+cout << maxDays;		// B
+cout << "maxDays";		// C
+print maxDays;			// D
+```
 **Solution:**
 ```cpp
-	cout >> maxDays;	// arrows are facing the wrong way for cout
-	cout << maxDays;	// prints correct answer
-	cout << "maxDays";	// prints the word "maxDays" not the value
-	print maxDays;		// wrong command for printing, use cout
+cout >> maxDays;		// arrows are facing the wrong way for cout
+cout << maxDays;		// prints correct answer
+cout << "maxDays";		// prints the word "maxDays" not the value
+print maxDays;			// wrong command for printing, use cout
 ```
 Only option **b** produces the required output.
 
@@ -135,14 +135,14 @@ int main()
 using namespace std;
 int main()
 {
-    cout << 9 / 2            << endl; // 4
-    cout << 7 / 2.0          << endl; // 3.5
-    cout << 17 % 2           << endl; // 1
-    cout << 31 % 7           << endl; // 3
-    cout << pow(3,3)         << endl; // 27
-    cout << sqrt(25)         << endl; // 5
-    cout << floor(9.8)       << endl; // 9
-    cout << sqrt(pow(2,4))+1 << endl; // 5
-    return 0;
+	cout << 9 / 2            << endl; // 4
+	cout << 7 / 2.0          << endl; // 3.5
+	cout << 17 % 2           << endl; // 1
+	cout << 31 % 7           << endl; // 3
+	cout << pow(3,3)         << endl; // 27
+	cout << sqrt(25)         << endl; // 5
+	cout << floor(9.8)       << endl; // 9
+	cout << sqrt(pow(2,4))+1 << endl; // 5
+	return 0;
 }
 ```
