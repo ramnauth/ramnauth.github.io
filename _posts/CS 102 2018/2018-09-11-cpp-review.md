@@ -8,7 +8,7 @@ title: C++ Review Sheet
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-   C++ review sheet, updated as of **9/24/2018**
+   C++ review sheet, updated as of **10/08/2018**
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
@@ -36,6 +36,10 @@ This review sheet will cover the following topics:
 5. [Loops](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#loops) - Wed, Sept. 19
 6. [Strings](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#strings) - Wed, Sept. 19
 7. [Functions](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#functions) - Mon, Sept. 24 ([L1](https://ramnauth.github.io/cs%20102/2018/09/24/functions/)); Wed, Sept. 26 ([L2](https://ramnauth.github.io/cs%20102/2018/09/26/functions-2/))
+8. [Scope](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#scope) -  Wed, Sept. 26
+9. [Recursion](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#recursion) - TBD
+10. [Arrays](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#arrays) - TBD
+11. [Vectors](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#vector) - TBD
 
 ## Basics
 
@@ -505,5 +509,163 @@ int main(){
         Enter a number: 4
         4 + 5 + 4 = 13
     */
+}
+```
+
+## Scope
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int x = 10;
+
+int main() {
+    int x = 4; 
+    
+    cout << "Global x = " << ::x << endl;
+    cout << "Local x = " << x << endl;
+    
+	return 0;
+}
+```
+
+## Recursion
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int getFactorial(int number); // does not recurse to get factorial of a number
+int getFactorialRecursively(int number); // recurses to get factorial of a number
+
+int main() {
+    cout << "8! = " << getFactorial(8) << endl;
+    cout << "5! = " << getFactorial(5) << endl;
+    cout << "0! = " << getFactorial(0) << endl;
+
+    cout << "8! = " << getFactorialRecursively(8) << endl;
+    cout << "5! = " << getFactorialRecursively(5) << endl;
+    cout << "0! = " << getFactorialRecursively(0) << endl;
+	
+	return 0;
+}
+
+int getFactorial(int number){
+    int num = number; //just storing param for safekeeping
+    int factorial = 1;
+    while(num > 0){
+        factorial = factorial * num; 
+        num--;
+    }
+    return factorial;
+}
+
+int getFactorialRecursively(int number){
+    int factorial;
+    if (number == 1) // this base case tells the recursive function when to stop
+        factorial = 1;
+    else 
+        factorial = getFactorial(number - 1) * number; // recursive because it calls itself
+    return factorial;
+
+    /* behind the scenes of getFactorialRecursively(5):
+            getFactorialRecursively(5) --> else statement --> getFactorialRecursively(4) * 5
+            getFactorialRecursively(4) --> else statement --> getFactorialRecursively(3) * 4
+            getFactorialRecursively(3) --> else statement --> getFactorialRecursively(2) * 3
+            getFactorialRecursively(2) --> else statement --> getFactorialRecursively(1) * 2
+            getFactorialRecursively(1) --> if statement --> 1 
+
+        Now we know: 
+            getFactorialRecursively(2) = getFactorialRecursively(1) * 2 = 1 * 2
+            getFactorialRecursively(3) = getFactorialRecursively(2) * 3 = 1 * 2 * 3
+            getFactorialRecursively(4) = getFactorialRecursively(3) * 4 = 1 * 2 * 3 * 4
+            getFactorialRecursively(5) = getFactorialRecursively(4) * 5 = 1 * 2 * 3 * 4 * 5
+
+        Therefore:
+            getFactorialRecursively(5) = 1 * 2 * 3 * 4 * 5 = 120
+    */
+}
+```
+
+## Arrays
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	cout << "-----------------------------------" << endl;
+    cout << "              ARRAYS               " << endl;
+    cout << "-----------------------------------" << endl;
+    // arrays store multiple values of the same data type, like baskets
+    
+    int luckyNums[5]; // says that this "basket" called luckyNums can hold only 5 integers
+    
+    int unluckyNums[5] = {4, 6, 1, 9, 78}; // these are the integers in my "basket" called unluckyNums
+    
+    cout << "First unlucky number = " << unluckyNums[0] << endl;
+    cout << "Second unlucky number = " << unluckyNums[1] << endl;
+    cout << "Last unlucky number = " << unluckyNums[4] << endl;
+
+    // MULTIDIMENSIONAL ARRAYS means baskets of baskets
+    char name[5][5] = {{'B', 'e', 'c', 'k', 'y'},
+                        {'R', 'a', 'm', 'e', 'n'}};
+    
+    // name[index of first array][index of second array]
+    cout << "2nd letter in the 2nd array: " << name[1][1] << endl;
+    cout << "1st letter in the 1st array: " << name[0][0] << endl;
+    cout << "Last letter in the last array: " << name[1][4] << endl;
+
+    name[0][4] = 'i'; // changing last letter of first array to 'i'
+    cout << "Last letter in the 1st array: " << name[0][4] << endl;
+
+    for (int i = 0; i < 2; i++) {
+        for (int j = 0; j < 5; j++) {
+            cout << name[i][j];
+        }
+        cout << " ";
+    }
+	
+	return 0;
+}
+```
+
+## Vectors
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	cout << "-----------------------------------" << endl;
+    cout << "             VECTORS               " << endl;
+    cout << "-----------------------------------" << endl;
+    // just like arrays, except their size could change
+
+    vector <int> lotteryNumVect(10); // initializes vector with 10 zeros
+    int lotteryNumArray[5] = {4, 13, 14, 24, 34};
+	
+    // at the beginning of vector, insert elements 0, 1, and 2 of array
+    lotteryNumVect.insert(lotteryNumVect.begin(), lotteryNumArray, lotteryNumArray+3);
+	
+    for (int i = 0; i < lotteryNumVect.size(); i++){
+        cout << "Value at index " << i << " = " << lotteryNumVect.at(i) << endl;
+    }
+
+    lotteryNumVect.insert(lotteryNumVect.begin()+5, 44); //add number 44 to vector at index 5
+    cout << "Item at index 5 = " << lotteryNumVect.at(5) << endl;
+    
+    lotteryNumVect.push_back(64); // insert number 64 to the end of the vector
+    
+    cout << "Last value = " << lotteryNumVect.back() << endl; // get last/back element
+    cout << "First value = " << lotteryNumVect.front() << endl; // get first/front element
+    cout << "Is the vector empty? " << lotteryNumVect.empty() << endl; // returns an int (0 = false, 1 = true)
+    cout << "Size of vector = " << lotteryNumVect.size() << endl; // how many elements?
+    
+    lotteryNumVect.pop_back(); // removes last element
+    cout << "New size of vector = " << lotteryNumVect.size() << endl; // size has decreased by 1
+
+	return 0;
 }
 ```
