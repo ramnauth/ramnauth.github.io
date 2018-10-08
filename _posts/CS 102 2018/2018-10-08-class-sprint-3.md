@@ -32,24 +32,20 @@ You may download and complete the following quiz. The solutions are posted below
 
 ## Solutions
 
-#### Question 1
+### Question 1
 Which of the following statements prints exactly this text, as shown:
 ```
 We the
 PEOPLE
 ```
 Select all that apply.
-
-	A. `cout << "We the PEOPLE" << endl;`
-	
-	B. `cout << "We the" << "endl" << "PEOPLE" << "endl";`
-	
-	C. `cout << "We" << " the" << endl << "PEOPLE" << endl;`
-	
-	D. `cout << "We the" << endl << "PEOPLE" << endl;`
-	
-	E. `cout << "WE the" << endl << "people";`
-	
+<ol type="a">
+	<li>`cout << "We the PEOPLE" << endl;`</li>
+	<li>`cout << "We the" << "endl" << "PEOPLE" << "endl";`</li>
+	<li>`cout << "We" << " the" << endl << "PEOPLE" << endl;`</li>
+	<li>`cout << "We the" << endl << "PEOPLE" << endl;`</li>
+	<li>`cout << "WE the" << endl << "people";`</li>
+</ol>
 **Solution:**
 ```cpp
 	cout << "We the PEOPLE" << endl; 					// prints "We the PEOPLE"
@@ -60,17 +56,14 @@ Select all that apply.
 ```
 Only options **c** and **d** produce the required output.
 
-#### Question 2
+### Question 2
 Given a variable `maxDays = 14`, which statement prints `14`?
-
-	A. `cout >> maxDays;`
-	
-	B. `cout << maxDays;`
-	
-	C. `cout << "maxDays";`
-
-	D. `print maxDays;`
-	
+<ol type="a">
+	<li>`cout >> maxDays;`</li>
+	<li>B. `cout << maxDays;`</li>
+	<li>C. `cout << "maxDays";`</li>
+	<li>D. `print maxDays;`</li>
+</ol>
 **Solution:**
 ```cpp
 	cout >> maxDays;	// arrows are facing the wrong way for cout
@@ -80,7 +73,7 @@ Given a variable `maxDays = 14`, which statement prints `14`?
 ```
 Only option **b** produces the required output.
 
-#### Question 3
+### Question 3
 Circle and describe any syntax errors in this program:
 ```cpp
 #include <iostream>
@@ -100,7 +93,7 @@ INT main( )
 - Need semi-colon after `endl`
 - Need double less-than `<<` on second `cout`
 
-#### Question 4
+### Question 4
 Below is a simple C++ program containing a calculation and some output. What would it output when you run it?
 ```cpp
 #include <iostream>
@@ -116,7 +109,7 @@ int main()
 ```
 **Solution:** will output `3, 108`
 
-#### Question 5
+### Question 5
 The following program uses a variety of arithmetic operators and mathematical functions. What does it output? You can write each line of output to the right of the corresponding `endl`.
 ```cpp
 #include <iostream>
