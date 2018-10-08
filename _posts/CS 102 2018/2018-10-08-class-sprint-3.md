@@ -32,17 +32,24 @@ You may download and complete the following quiz. The solutions are posted below
 
 ## Solutions
 
-1. Which of the following statements prints exactly this text, as shown:
+#### Question 1
+Which of the following statements prints exactly this text, as shown:
 ```
 We the
 PEOPLE
 ```
 Select all that apply.
-	a. `cout << "We the PEOPLE" << endl;`
-	b. `cout << "We the" << "endl" << "PEOPLE" << "endl";`
-	c. `cout << "We" << " the" << endl << "PEOPLE" << endl;`
-	d. `cout << "We the" << endl << "PEOPLE" << endl;`
-	e. `cout << "WE the" << endl << "people";`
+
+	A. `cout << "We the PEOPLE" << endl;`
+	
+	B. `cout << "We the" << "endl" << "PEOPLE" << "endl";`
+	
+	C. `cout << "We" << " the" << endl << "PEOPLE" << endl;`
+	
+	D. `cout << "We the" << endl << "PEOPLE" << endl;`
+	
+	E. `cout << "WE the" << endl << "people";`
+	
 **Solution:**
 ```cpp
 	cout << "We the PEOPLE" << endl; 					// prints "We the PEOPLE"
@@ -52,11 +59,17 @@ Select all that apply.
 	cout << "WE the" << endl << "people";				// prints with capital "E" in "WE"
 ```
 Only options **c** and **d** produce the required output.
-2. Given a variable `maxDays = 14`, which statement prints `14`?
-	a. `cout >> maxDays;`
-	b. `cout << maxDays;`
-	c. `cout << "maxDays";`
-	d. `print maxDays;`
+
+#### Question 2
+Given a variable `maxDays = 14`, which statement prints `14`?
+
+	A. `cout >> maxDays;`
+	
+	B. `cout << maxDays;`
+	
+	C. `cout << "maxDays";`
+
+	D. `print maxDays;`
 	
 **Solution:**
 ```cpp
@@ -67,7 +80,8 @@ Only options **c** and **d** produce the required output.
 ```
 Only option **b** produces the required output.
 
-3. Circle and describe any syntax errors in this program:
+#### Question 3
+Circle and describe any syntax errors in this program:
 ```cpp
 #include <iostream>
 using namespace;
@@ -86,7 +100,8 @@ INT main( )
 - Need semi-colon after `endl`
 - Need double less-than `<<` on second `cout`
 
-4. Below is a simple C++ program containing a calculation and some output. What would it output when you run it?
+#### Question 4
+Below is a simple C++ program containing a calculation and some output. What would it output when you run it?
 ```cpp
 #include <iostream>
 using namespace std;
@@ -100,7 +115,9 @@ int main()
 }
 ```
 **Solution:** will output `3, 108`
-5. The following program uses a variety of arithmetic operators and mathematical functions. What does it output? You can write each line of output to the right of the corresponding `endl`.
+
+#### Question 5
+The following program uses a variety of arithmetic operators and mathematical functions. What does it output? You can write each line of output to the right of the corresponding `endl`.
 ```cpp
 #include <iostream>
 #include <cmath>
