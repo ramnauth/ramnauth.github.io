@@ -13,5 +13,5 @@ description: >
   Celebrating student work and achievement
 
 # Setting `menu` will generate an entry in the sidebar for this category.
-menu: true
+menu: false
 ---
