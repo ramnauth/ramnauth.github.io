@@ -595,7 +595,7 @@ int getFactorialRecursively(int number){
 using namespace std;
 
 int main() {
-	cout << "-----------------------------------" << endl;
+cout << "-----------------------------------" << endl;
     cout << "              ARRAYS               " << endl;
     cout << "-----------------------------------" << endl;
     // arrays store multiple values of the same data type, like baskets
@@ -609,12 +609,12 @@ int main() {
     cout << "Last unlucky number = " << unluckyNums[4] << endl;
 
     // MULTIDIMENSIONAL ARRAYS means baskets of baskets
-    char name[5][5] = {
+    char name[2][5] = {
 		{'B', 'e', 'c', 'k', 'y'}, 
 		{'R', 'a', 'm', 'e', 'n'}
 	};
     
-    // name[index of first array][index of second array]
+    // name[index of which row?][index of which column?]
     cout << "2nd letter in the 2nd array: " << name[1][1] << endl;
     cout << "1st letter in the 1st array: " << name[0][0] << endl;
     cout << "Last letter in the last array: " << name[1][4] << endl;
@@ -629,7 +629,7 @@ int main() {
         cout << " ";
     }
 	
-	return 0;
+return 0;
 }
 ```
 
@@ -640,7 +640,7 @@ int main() {
 using namespace std;
 
 int main() {
-	cout << "-----------------------------------" << endl;
+cout << "-----------------------------------" << endl;
     cout << "             VECTORS               " << endl;
     cout << "-----------------------------------" << endl;
     // just like arrays, except their size could change
@@ -668,6 +668,6 @@ int main() {
     lotteryNumVect.pop_back(); // removes last element
     cout << "New size of vector = " << lotteryNumVect.size() << endl; // size has decreased by 1
 
-	return 0;
+return 0;
 }
 ```
