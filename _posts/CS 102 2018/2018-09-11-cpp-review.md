@@ -37,9 +37,9 @@ This review sheet will cover the following topics:
 6. [Strings](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#strings) - Wed, Sept. 19
 7. [Functions](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#functions) - Mon, Sept. 24 ([L1](https://ramnauth.github.io/cs%20102/2018/09/24/functions/)); Wed, Sept. 26 ([L2](https://ramnauth.github.io/cs%20102/2018/09/26/functions-2/))
 8. [Scope](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#scope) -  Wed, Sept. 26
-9. [Recursion](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#recursion) - TBD
-10. [Arrays](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#arrays) - TBD
-11. [Vectors](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#vector) - TBD
+9. [Recursion](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#recursion) - Wed, Oct. 3; TB-Continued
+10. [Arrays](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#arrays) - Wed, Oct. 10
+11. [Vectors](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#vector) - Wed, Oct. 10
 
 ## Basics
 
@@ -595,7 +595,7 @@ int getFactorialRecursively(int number){
 using namespace std;
 
 int main() {
-cout << "-----------------------------------" << endl;
+	cout << "-----------------------------------" << endl;
     cout << "              ARRAYS               " << endl;
     cout << "-----------------------------------" << endl;
     // arrays store multiple values of the same data type, like baskets
@@ -640,7 +640,7 @@ return 0;
 using namespace std;
 
 int main() {
-cout << "-----------------------------------" << endl;
+	cout << "-----------------------------------" << endl;
     cout << "             VECTORS               " << endl;
     cout << "-----------------------------------" << endl;
     // just like arrays, except their size could change
