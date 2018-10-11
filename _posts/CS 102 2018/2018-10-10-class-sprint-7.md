@@ -30,9 +30,9 @@ tags: [C++]
 
 **Variations**
 
-- [A solution](https://ramnauth.github.io/cs%20102/2018/10/01/class-sprint-7/#variation-1) entirely in `main`
-- [A solution](https://ramnauth.github.io/cs%20102/2018/10/01/class-sprint-7/#variation-2) partially in `main`
-- [A solution](https://ramnauth.github.io/cs%20102/2018/10/01/class-sprint-7/#variation-3) *modularized* outside of `main`
+- [A solution](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/10/class-sprint-7/#variation-1) entirely in `main`
+- [A solution](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/10/class-sprint-7/#variation-2) partially in `main`
+- [A solution](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/10/class-sprint-7/#variation-3) *modularized* outside of `main`
 
 ### Variation 1
 
