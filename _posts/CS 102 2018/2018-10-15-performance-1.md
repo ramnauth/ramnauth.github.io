@@ -36,24 +36,24 @@ tags: [C++]
 4. Use style guidelines to keep organized
 
 ## Solutions
-- [Program 1](): prints a user-inputted number
-- [Program 2](): prints sum of two user-inputted numbers
-	- [Variation 1]() entirely in `main`
-	- [Variation 2](), with a function responsibly for entering a number, `enterNumber`
-	- [Variation 3](), with two functions, `enterNumber` and `getSum`
-- [Program 3](): prints quotient and remainder of two user-inputted numbers
-	- [Variation 1]() entirely in `main`
-	- [Variation 2](), with two function, `getQuotient` and `getRemainder`
-	- [Variation 3](), with a function `getSolution` which returns a vector containing quotient and remainder
-- [Program 4](): prints whether a user-inputted year is a leap year
-	- [Variation 1]() entirely in `main`
-	- [Variation 2]() entirely in `main`, but checks if a valid year is entered
-	- [Variation 3]() entirely in `main`, but continues asking until a valid year is entered
-- [Program 5](): prints the `10` x `10` multiplication table
+- [Program 1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#program-1): prints a user-inputted number
+- [Program 2](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#program-2): prints sum of two user-inputted numbers
+	- [Variation 1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-1) entirely in `main`
+	- [Variation 2](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-2), with a function responsibly for entering a number, `enterNumber`
+	- [Variation 3](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-3), with two functions, `enterNumber` and `getSum`
+- [Program 3](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#program-3): prints quotient and remainder of two user-inputted numbers
+	- [Variation 1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-1-1) entirely in `main`
+	- [Variation 2](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-2-1), with two function, `getQuotient` and `getRemainder`
+	- [Variation 3](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-3-1), with a function `getSolution` which returns a vector containing quotient and remainder
+- [Program 4](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#program-4): prints whether a user-inputted year is a leap year
+	- [Variation 1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-1-2) entirely in `main`
+	- [Variation 2](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-2-2) entirely in `main`, but checks if a valid year is entered
+	- [Variation 3](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-3-2) entirely in `main`, but continues asking until a valid year is entered
+- [Program 5](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#program-5): prints the `10` x `10` multiplication table
 
 
-### Program 1
-**Prompt** (*5 minutes*): print a number entered by the user
+## Program 1
+Write a program that prints a number entered by the user. (*5 minutes*)
 
 ```cpp
 #include <iostream> 
@@ -71,10 +71,10 @@ int main() {
 }
 ```
 
-### Program 2
-**Prompt** (*5 minutes*): write a program that calculates the sum of two user-inputted numbers
+## Program 2
+Write a program that calculates the sum of two user-inputted numbers. (*5 minutes*)
 
-#### Variation 1
+### Variation 1
 
 ```cpp
 #include <iostream> 
@@ -94,7 +94,7 @@ int main() {
 }
 ```
 
-#### Variation 2
+### Variation 2
 
 ```cpp
 #include <iostream> 
@@ -118,7 +118,7 @@ int main() {
 }
 ```
 
-#### Variation 3
+### Variation 3
 
 ```cpp
 #include <iostream> 
@@ -147,10 +147,10 @@ int main() {
 }
 ```
 
-### Program 3
-**Prompt** (*5 minutes*): write a program that prints the quotient and remainder of two user-inputted numbers
+## Program 3
+Write a program that prints the quotient and remainder of two user-inputted numbers. (*5 minutes*)
 
-#### Variation 1
+### Variation 1
 
 ```cpp
 #include <iostream> 
@@ -170,7 +170,7 @@ int main() {
 }
 ```
 
-#### Variation 2
+### Variation 2
 ```cpp
 #include <iostream> 
 
@@ -203,7 +203,7 @@ int main() {
 }
 ```
 
-#### Variation 3
+### Variation 3
 ```cpp
 #include <iostream> 
 #include <vector>
@@ -244,10 +244,10 @@ int main(){
 }
 ```
 
-### Program 4
-**Prompt** (*5 minutes*): prints whether a user-inputted number (year) is a leap year or not
+## Program 4
+Write a program that prints whether a user-inputted number (year) is a leap year. (*5 minutes*)
 
-#### Variation 1
+### Variation 1
 
 ```cpp
 #include <iostream> 
@@ -269,7 +269,7 @@ int main() {
 }
 ```
 
-#### Variation 2
+### Variation 2
 
 ```cpp
 #include <iostream> 
@@ -295,7 +295,7 @@ int main() {
 }
 ```
 
-#### Variation 3
+### Variation 3
 
 ```cpp
 #include <iostream> 
@@ -320,9 +320,8 @@ int main() {
 }
 ```
 
-### Program 5
-**Prompt** (*5 minutes*): generates a 10 by 10 multiplication table (shown below). Disregard formatting.
-![Multiplication Table](https://i.pinimg.com/originals/67/37/e5/6737e5ce801751ef91200e0df886921a.gif)
+## Program 5
+Write a program that generates a 10 by 10 multiplication table (shown below). Formatting isn't necessary. (*5 minutes*)
 
 ```cpp
 #include <iostream>
