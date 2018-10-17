@@ -530,6 +530,29 @@ int main() {
 }
 ```
 
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int x = 10; // global
+
+int addNumbers(int x, int y) {
+    return x + y; // local
+}
+
+int incrementNumber(int num) {
+    return num + 1; // local
+}
+
+int main() {
+    int y = 5; // local
+    y = incrementNumber(y);
+    cout << addNumbers(x, y);
+    return 0;
+}
+```
+
 ## Recursion
 ```cpp
 #include <iostream>
