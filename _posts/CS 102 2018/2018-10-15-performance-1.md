@@ -50,8 +50,16 @@ tags: [C++]
 	- [Variation 2](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-2-2) entirely in `main`, but checks if a valid year is entered
 	- [Variation 3](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-3-2) entirely in `main`, but continues asking until a valid year is entered
 - [Program 5](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#program-5): prints the `10` x `10` multiplication table
-
-
+- [Program 6](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#program-6): checks if a user-inputted char is a vowel or consonant
+	- [Variation 1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-1-3), with an `if` statement
+	- [Variation 2](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-2-3), with an array
+	- [Variation 3](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-3-3), with a vector
+	- [Variation 4](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-4-3), with a function responsible for vowel-checking
+- [Program 7](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#program-7): counts how many vowels and how many consonants in an entered sentence
+	- [Variation 1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-1-4), with `isVowel` function - counts non-letters as consonants
+	- [Variation 2](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-2-4), considers only letters by checking ASCII ranges in `isLetter` function
+	- [Variation 3](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-3-4), considers only letters by `isalpha` function in `isLetter` function
+	
 ## Program 1
 Write a program that prints a number entered by the user. (*5 minutes*)
 
@@ -336,6 +344,282 @@ int main() {
         } 
         cout << endl;
     }
+    return 0;
+}
+```
+
+## Program 6
+Write a program that checks if a user-inputted character is a vowel or a consonant (*8 minutes*)
+
+### Variation 1
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char sym;
+    cout << "Enter a character: ";
+    cin >> sym;
+
+    if (sym == 'a' || sym == 'e' || sym == 'i' || sym == 'o' || sym == 'u' ||
+        sym == 'A' || sym == 'E' || sym == 'I' || sym == 'O' || sym == 'U') {
+        cout << sym << " is a vowel." << endl;
+    } else {
+        cout << sym << " is a consonant." << endl;
+    }
+	
+	return 0;
+}
+```
+
+### Variation 2
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char vowels[5] = {'a', 'e', 'i', 'o', 'u'};
+    
+	bool isVowel = false; // assume it's a consonant unless proven to be a vowel
+    
+	char c;
+    cout << "Enter a symbol: " << endl;
+    cin >> c;
+
+    for (int i = 0; i < 5; i++) {
+        if (c == vowels[i]) {
+            isVowel = true;
+        }
+    } 
+    
+    if (isVowel == true) {
+        cout << c << " is a vowel." << endl;
+    } else {
+        cout << c << " is a consonant." << endl;
+    }
+	
+    return 0;
+}
+```
+
+### Variation 3
+```cpp
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    vector<char> vowels = {'a', 'e', 'i', 'o', 'u'};
+
+    /*
+	vowels.push_back('a');
+    vowels.push_back('e');
+    vowels.push_back('i');
+    vowels.push_back('o');
+    vowels.push_back('u');
+	*/
+
+    bool isVowel = false; // assume it's a consonant unless proven to be a vowel
+	
+    char c;
+    cout << "Enter a symbol: " << endl;
+    cin >> c;
+
+    for (int i = 0; i < 5; i++) {
+        if (c == vowels.at(i)) {
+            isVowel = true;
+        }
+    } 
+    
+    if (isVowel == true) {
+        cout << c << " is a vowel." << endl;
+    } else {
+        cout << c << " is a consonant." << endl;
+    }
+	
+    return 0;
+}
+```
+
+### Variation 4
+```cpp
+#include <iostream>
+
+using namespace std;
+
+bool isVowel(char sym) {
+	if (sym == 'a' || sym == 'e' || sym == 'i' || sym == 'o' || sym == 'u' ||
+        sym == 'A' || sym == 'E' || sym == 'I' || sym == 'O' || sym == 'U') {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+int main() {
+	char c;
+    cout << "Enter a symbol: " << endl;
+    cin >> c;
+	
+	bool provenVowel = false;
+
+    for (int i = 0; i < 5; i++) {
+        if (isVowel(c)) {
+            provenVowel = true;
+        }
+    } 
+    
+    if (provenVowel == true) {
+        cout << c << " is a vowel." << endl;
+    } else {
+        cout << c << " is a consonant." << endl;
+    }
+	
+    return 0;
+}
+```
+
+## Program 7
+Write a program that counts how many vowels and how many consonants in an user-inputted sentence (*10 minutes*)
+
+### Variation 1
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+bool isVowel(char sym) {
+    if (sym == 'a' || sym == 'e' || sym == 'i' || sym == 'o' || sym == 'u' ||
+        sym == 'A' || sym == 'E' || sym == 'I' || sym == 'O' || sym == 'U') {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+int main() {
+    
+    string sentence = "";
+    cout << "Enter a word/sentence: " << endl;
+    getline(cin, sentence);
+
+    int vowelCounter = 0;
+    int consonantCounter = 0;
+
+    for (int i = 0; i < sentence.size(); i++) {
+		if (isVowel(sentence.at(i)))
+			vowelCounter++;
+		else 
+			consonantCounter++;
+    }
+    cout << "Consonants = " << consonantCounter << "; Vowels = " << vowelCounter << endl;
+    
+    return 0;
+}
+```
+
+### Variation 2
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+bool isVowel(char sym) {
+    if (sym == 'a' || sym == 'e' || sym == 'i' || sym == 'o' || sym == 'u' ||
+        sym == 'A' || sym == 'E' || sym == 'I' || sym == 'O' || sym == 'U') {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+bool isLetter(char sym) {
+    int val = (int)sym; // give me the ASCII value of the char
+    if ((val >= 65 && val <= 90) || (val >= 97 && val <= 122)) {
+        return true; // it's a letter
+    } else {
+        return false;
+    }
+}
+
+int main() {
+    
+    string sentence = "";
+    cout << "Enter a word/sentence: " << endl;
+    getline(cin, sentence);
+
+    int vowelCounter = 0;
+    int consonantCounter = 0;
+
+    for (int i = 0; i < sentence.size(); i++) {
+        if (isLetter(sentence.at(i))) {
+            if (isVowel(sentence.at(i)))
+                vowelCounter++;
+            else 
+                consonantCounter++;
+        }
+    }
+    cout << "Consonants = " << consonantCounter << "; Vowels = " << vowelCounter << endl;
+    
+    return 0;
+}
+```
+
+### Variation 3
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+bool isVowel(char sym) {
+    if (sym == 'a' || sym == 'e' || sym == 'i' || sym == 'o' || sym == 'u' ||
+        sym == 'A' || sym == 'E' || sym == 'I' || sym == 'O' || sym == 'U') {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+bool isLetter(char sym) {
+    int val = isalpha(sym);
+    if (val != 0) { // it's a letter
+        return true; 
+    } else {
+        return false;
+    }
+}
+
+int main() {
+    
+    string sentence = "";
+    cout << "Enter a word/sentence: " << endl;
+    getline(cin, sentence);
+
+    int vowelCounter = 0;
+    int consonantCounter = 0;
+
+    for (int i = 0; i < sentence.size(); i++) {
+        if (isLetter(sentence.at(i))) {
+            if (isVowel(sentence.at(i)))
+                vowelCounter++;
+            else 
+                consonantCounter++;
+        }
+    }
+    cout << "Consonants = " << consonantCounter << "; Vowels = " << vowelCounter << endl;
+    
     return 0;
 }
 ```
