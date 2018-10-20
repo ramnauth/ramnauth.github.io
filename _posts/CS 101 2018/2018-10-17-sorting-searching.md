@@ -61,7 +61,7 @@ We say the **complexity** (aka speed) of algorithms is based on the **size of ou
 We've considered the linear search algorithm. Can we do better? Yes, if the list of items is sorted.
 
 Binary search is a more efficient search algorithm that relies on the items of the list already being sorted. 
-![Binary search gif](https://ds055uzetaobb.cloudfront.net/image_optimizer/717403b1368376cb6f915e6b4beeb3a7ad54105e.gif)
+![Binary search gif](http://www.globalsoftwaresupport.com/wp-content/uploads/2017/02/ezgif.com-video-to-gif-18.gif)
 
 ```cpp
 1. Pick the middle item (index = number of remaining items / 2)
@@ -76,6 +76,7 @@ With binary search, we perform less comparisons than we did with linear search. 
 The speed of the binary search algorithm is 2<sup># of comparisons </sup> = # of items in the list. Or log<sub>2</sub>(`x`) = `y`
 
 In the following animation, we can see that binary search may be more *efficient* than linear search in most cases. Can you think of a case when linear search beats binary search? In other words, what is the **best case** and **worst case** for the linear search algorithm? For binary search?
+
 ![Binary vs. Linear Searching](https://qph.fs.quoracdn.net/main-qimg-45d8e933eab6b2a4388116d472c402ff)
 
 ### Best & Worst Cases
@@ -89,6 +90,7 @@ In the following animation, we can see that binary search may be more *efficient
 - **Worst Case:** when the item you're looking for is not in the list or at the end (# of comparisons performed = size of the list).
 
 Therefore, linear search performs better than binary search when the item you're looking for is the first item of the list.
+
 ![Binary Worst Case](https://www.mathwarehouse.com/programming/images/binary-vs-linear-search/linear-vs-binary-search-worst-case.gif)
 
 ## Sorting
@@ -122,6 +124,7 @@ To order a given list using selection sort, we repeatedly select the smallest it
 
 1. Let's start at the beginning of the list.
 2. We find the smallest value of the list:
+
 ```cpp
 	1. assume 5 is the smallest value.
 	2. 2 < 5, therefore 2 is the smallest value.
@@ -132,11 +135,14 @@ To order a given list using selection sort, we repeatedly select the smallest it
 	We can conclude that 1 is the smallest value.
 ```
 3. We'll put `1` at the beginning of our list.
+
 ```cpp
-1				||		5, 2, 8, 9
+1				||	5, 2, 8, 9
 sorted					unsorted
 ```
+
 4. Then we'll repeat step 2, find the new smallest value:
+
 ```cpp
 	1. assume 5 is the smallest value.
 	2. 2 < 5, therefore 2 is the smallest value.
@@ -145,12 +151,16 @@ sorted					unsorted
 	5. We've reached the end of the list (after 4 comparisons). 
 	We can conclude that 2 is the smallest value.
 ```
+
 5. We put `2` at the next index of our sorted list.
+
 ```cpp
 1, 2			||		5, 8, 9
 sorted					unsorted
 ```
+
 6. Then we repeat step 2, finding the new smallest value:
+
 ```cpp
 	1. assume 5 is the smallest value.
 	2. 8 > 5, 5 is still the smallest value.
@@ -158,34 +168,45 @@ sorted					unsorted
 	4. We've reached the end of the list (after 3 comparisons). 
 	We can conclude that 5 is the smallest value.
 ```
+
 7. We put `5` at the next index of our sorted list.
+
 ```cpp
 1, 2, 5			||		8, 9
 sorted					unsorted
 ```
+
 8. Repeat step 2, finding the new smallest value:
+
 ```cpp
 	1. assume 8 is the smallest value.
 	2. 9 > 8, 8 is still the smallest value.
 	3. We've reached the end of the list (after 2 comparisons). 
 	We can conclude that 8 is the smallest value.
 ```
+
 9. We put `8` at the next index of our sorted list.
+
 ```cpp
 1, 2, 5, 8		||		9
 sorted					unsorted
 ```
+
 10. Repeat step 2, finding the new smallest value:
+
 ```cpp
 	1. assume 9 is the smallest value.
 	2. We've reached the end of the list (after 1 comparisons). 
 	We can conclude that 9 is the smallest value.
 ```
+
 11. We put `9` at the next index of our sorted list.
+
 ```cpp
 1, 2, 5, 8, 9	||		
 sorted					unsorted
 ```
+
 12. According to step 6, we have no more items left to sort. Our sorted list is `1, 2, 5, 8, 9`.
 
 Let's analyze the speed of the selection sort algorithm. When we had a list of 5 items, it took `5 + 4 + 3 + 2 + 1` or `15` comparisons.
@@ -210,6 +231,7 @@ When we use merge sort to order a list, we repeatedly merge sorted sub-lists of 
 ````
 
 <iframe width="650" height="315" src="https://www.youtube.com/embed/XaqR3G_NVoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
 **Example:** let's sort the list `14, 7, 3, 12, 9, 11, 6, 12` using merge sort.
 ![Merge Sort Example](https://www.studytonight.com/data-structures/images/merge-sort-working.png)
