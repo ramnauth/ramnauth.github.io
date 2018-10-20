@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: Algorithms
+title: Algorithms I - General Introduction
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
@@ -46,7 +46,7 @@ the human brain calculating the sum of two numbers or an insect searching for fo
 
 ```vb
 1. Pick up the phone and listen for a dial tone
-2. Press each digit of friend's phone number on the phone
+2. Press each digit of the phone number of your friend on the phone
 3. If busy, hang up phone, wait 5 minutes, jump to step 2
 4. If no one answers, leave a message then hang up
 5. If no answering machine, hang up and wait 2 hours, then jump to step 2
@@ -69,7 +69,7 @@ The above algorithm makes the following *assumptions*
 	put on blue jeans,
 	put on white socks.
 	put on sneakers;
-3. else								/* it's cold out */
+3. else						/* it's cold out */
 	put on sweatshirt,
 	put on blue jeans,   
 	put on wool socks,
@@ -95,6 +95,7 @@ One notations often used for algorithms is called **pseudo-code** (aka *false* o
 - Pseudo-code is based on a *natural language* such as English, Spanish, German, and any language that humans speak/read/understand.
 
 Below is an example of an algorithm, written in pseudo-code, that will compute the **factorial** for a given integer **N**. (The factorial is the result of multiplying all the numbers between 1 and *n, so the factorial of 4 (also written as `4!`) is `1 x 2 x 3 x 4` = `24`).
+
 **[Example 3](https://liucs.net/cs101f18/n5-algos.html)**: an algorithm for finding the factorial of N.
 
 ```vb
@@ -130,8 +131,6 @@ Back to step 3: does N equal 1? Yes, this time it does. So in step 3, we output 
 Output: 24
 ```
 
-*images by Prof. Christopher League [liucs.net](https://liucs.net/cs101f18/n5-algos.html)*
-
 Using the same algorithm with a different value of N, we could compute the factorial of any whole number greater than zero.
 
 **Try it yourself:** Here's an algorithm you can try tracing yourself.
@@ -147,3 +146,5 @@ Using the same algorithm with a different value of N, we could compute the facto
 3. Finally, start the algorithm when A = 14 and B = 33. 
 
 Do you see the pattern? [What does the algorithm compute?](https://en.wikipedia.org/wiki/Greatest_common_divisor)
+
+*Images, examples 3 & 4, and definitions by Prof. Christopher League [liucs.net](https://liucs.net/cs101f18/n5-algos.html)*
