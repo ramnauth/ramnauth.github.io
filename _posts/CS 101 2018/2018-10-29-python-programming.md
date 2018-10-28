@@ -8,7 +8,7 @@ title: Programming in Python
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  **Enroll in our online community** [repl.it/classroom/](https://repl.it/classroom/invite/10YUXv2); **Online compiler** [repl.it](https://repl.it)
+  **Enroll** in our online community: [repl.it/classroom/](https://repl.it/classroom/invite/10YUXv2); **Online Python compiler:** [repl.it](https://repl.it)
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
@@ -23,7 +23,7 @@ image: /assets/img/default.jpg
 # The difference is that categories will be part of the URL, while tags will not.
 # E.g. the URL of this post is <site.baseurl>/hydejack/2017/11/23/example-content/
 categories: [CS 101]
-tags: []
+tags: [Programming Basics]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
@@ -33,9 +33,10 @@ yet powerful enough to back some of the world's most popular products and applic
 Microsoft, and Instagram. One of [Python's design goals](https://en.wikipedia.org/wiki/Python_(programming_language)#Features_and_philosophy) is 
 to make the programming experience feel almost as natural as writing English.
 
-- Primitives: numbers, string, and booleans
-- User Inputs
-- Control Statements: conditionals and loops
+- [Primitives](https://ramnauth.github.io/cs%20101/2018/10/29/python-programming/#primitives): [numbers](https://ramnauth.github.io/cs%20101/2018/10/29/python-programming/#numbers), [strings](https://ramnauth.github.io/cs%20101/2018/10/29/python-programming/#strings), and [booleans](https://ramnauth.github.io/cs%20101/2018/10/29/python-programming/#booleans)
+- [User Inputs](https://ramnauth.github.io/cs%20101/2018/10/29/python-programming/#user-inputs)
+- [Control Statements](https://ramnauth.github.io/cs%20101/2018/10/29/python-programming/#control-statements): [conditionals](https://ramnauth.github.io/cs%20101/2018/10/29/python-programming/#if-statements) and [loops](https://ramnauth.github.io/cs%20101/2018/10/29/python-programming/#loops)
+- [Other sample programs](https://ramnauth.github.io/cs%20101/2018/10/29/python-programming/#other-sample-programs)
 
 ## Primitives
 In social studies, the word "primitive" may refer to the earliest stage in the evolutionary development of something (e.g., *primitive* mammals). Or in the natural sciences, such as physics, "primitive" means "not developed/derived from anything else" (e.g., the *primitive* material of the universe).
@@ -84,7 +85,7 @@ You can use the basic mathematical operators:
 >>> 3 ** 3		# exponents -- base ** exponent
 27
 
->>> num = 3			# storing a number into a variable called 'num'
+>>> num = 3		# storing a number into a variable called 'num'
 >>> num = num - 1	# subtracting 1 from the current value of 'num'
 >>> print(num)		# outputs the value of num
 2
@@ -138,7 +139,8 @@ But what if you have a message with a quote in the middle of the string? Python 
 >>> "She said \"no\" to me"	# this uses the escape character (the backslash) -- whatever comes after must stay in the string
 'She said "no" to me'
 
->>> 'I don't think so'	# this produces a syntax error. Python understand the string 'I don', but doesn't know what to do with the rest of the sentence
+# this produces a syntax error. Python understand the string 'I don', but doesn't know what to do with the rest of the sentence
+>>> 'I don't think so'	
 Traceback (most recent call last):
   File "python", line 1
     ""hello""
@@ -253,7 +255,7 @@ True	# true if my quiz score is between 0 and 100
 Sometimes, you may want to ask the user of your program to input something. There are two methods in Python that you can use to read data from the user: `raw_input()` and `input`. You can store the results from them into a variable.
 
 ```py
->>> name = raw_input("What is your name? ")	# raw_input reads your input as a string
+>>> name = raw_input("What is your name? ") # raw_input reads your input as a string
 >>> print("Your input is of type " + type(name))
 Your input is of type <type 'str'>
 
@@ -325,7 +327,7 @@ else:
 ```
 This example outputs `The number is GREATER than 20`.
 
-## Loops
+### Loops
 **Loops** are helpful when you want to do something several times. There are two kinds of loops used in Python -- the `for` loop and the `while` loop. 
 
 `for` loops are traditionally used when you have a piece of code which you want to repeat *n* number of times. They are also commonly used to count and iterate over lists.
