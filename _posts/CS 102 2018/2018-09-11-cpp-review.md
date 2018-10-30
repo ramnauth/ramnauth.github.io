@@ -40,7 +40,7 @@ This review sheet will cover the following topics:
 9. [Recursion](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#recursion) - Wed, Oct. 3; TB-Continued
 10. [Arrays](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#arrays) - Wed, Oct. 10
 11. [Vectors](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#vector) - Wed, Oct. 10
-12. [Pseudorandom Numbers]() - Wed, Oct. 3 ([S1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/03/class-sprint-2/); [L1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/03/class-sprint-2/#variation-3))
+12. [Pseudorandom Numbers](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#psuedorandom-numbers) - Wed, Oct. 3 ([S1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/03/class-sprint-2/); [L1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/03/class-sprint-2/#variation-3))
 
 ## Basics
 
