@@ -804,5 +804,26 @@ int main(){
     } cout << endl;
 
     return 0;
+	
+	/* SAMPLE OUTPUTS
+	notSoRandomNum(): 		84	84	84	84	84	84	84	
+	stillNotSoRandomNum(): 	84	84	84	84	84	84	84	
+	kindaRandomNum(): 		87	78	16	94	36	87	93	
+	lilBetterRandomNum(): 	11	11	11	11	11	11	11	
+	notBetterRandomNum(): 	84	84	84	84	84	84	84	
+	myNumAttempt1(): 		-47	-47	-47	-47	-47	-47	-47	
+	myNumAttempt2(): 		11	98	37	43	66	62	78	
+	yourRandomNum(): 		0	0	0	0	0	0	0
+	
+	
+	notSoRandomNum(): 		84	84	84	84	84	84	84	
+	stillNotSoRandomNum(): 	84	84	84	84	84	84	84	
+	kindaRandomNum(): 		87	78	16	94	36	87	93	
+	lilBetterRandomNum(): 	54	54	54	54	54	54	54	
+	notBetterRandomNum(): 	84	84	84	84	84	84	84	
+	myNumAttempt1(): 		-47	-47	-47	-47	-47	-47	-47	
+	myNumAttempt2(): 		39	62	21	26	32	47	41	
+	yourRandomNum(): 		0	0	0	0	0	0	0	
+	*/
 }
 ```
