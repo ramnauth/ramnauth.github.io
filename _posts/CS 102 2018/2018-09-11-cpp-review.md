@@ -40,6 +40,7 @@ This review sheet will cover the following topics:
 9. [Recursion](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#recursion) - Wed, Oct. 3; TB-Continued
 10. [Arrays](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#arrays) - Wed, Oct. 10
 11. [Vectors](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#vector) - Wed, Oct. 10
+12. [Pseudorandom Numbers]() - Wed, Oct. 3 ([S1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/03/class-sprint-2/); [L1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/03/class-sprint-2/#variation-3))
 
 ## Basics
 
@@ -692,5 +693,116 @@ int main() {
     cout << "New size of vector = " << lotteryNumVect.size() << endl; // size has decreased by 1
 
 return 0;
+}
+```
+
+## Psuedorandom Numbers
+```cpp
+#include<iostream>
+#include<cstdlib>
+#include <math.h>
+#include <vector>
+
+using namespace std;
+
+int notSoRandomNum(){
+        srand(0); // set the seed of the pseudo random algorithm to 0
+    return rand() % 100 + 1; // always returns 84
+}
+
+int stillNotSoRandomNum(){
+    srand(1); // set the seed to 1
+    return rand() % 100 + 1; // always returns 84
+}
+
+int kindaRandomNum(){
+    return rand() % 100 + 1; // returns the same numbers each time (87, 78, 16, 94, 36)
+}
+
+int lilBetterRandomNum(){
+    srand(time(0)); // use the current time as the seed
+    return rand() % 100 + 1; // executes so fast that it really uses the same seed, but different each time you run the program
+}
+
+int notBetterRandomNum(){
+    srand(pow(time(0), 4)); // executes so fast that the time that passes is less than 1 seconds. So 0^4 = 0. This is the same as saying srand(0).
+    return rand() % 100 + 1; // always returns 84
+}
+
+int myNumAttempt1(){
+    int num_1 = rand(); // from kindaRandomNum
+    
+    srand(time(0));
+    int num_2 = rand(); // from lilBetterRandomNum
+
+    return ((int)(pow(num_1 + num_2, 7)) % 100 + 1); // made this algorithm up. Doesn't really work. Can you guess why?
+}
+
+int myNumAttempt2(){
+    vector<int> nums(100);
+
+    for (int i = 0; i < 100; i++){ // generate 100 kindaRandomNums
+        int num = rand() % 100 + 1;
+        nums.at(i) = num;
+    }
+
+    int randIndex = (rand() * time(0)) % 100; // multiply rand and current time, then constrain possible numbers to 0 - 99. 
+    
+    return nums.at(randIndex); // why do you think this algorithm works/doesn't work?
+}
+
+int yourRandomNum(){
+    /* 	Try to create a random number generator like I did in myNumAttempt1() and myNumAttempt2()
+		Explain your logic, where you succeeded, and where your algorithm went wrong
+         
+		Do you think it's possible to generate truly random numbers?
+    */
+    return 0; 
+}
+
+int main(){
+    int howMany = 7;
+
+    cout << "notSoRandomNum(): " << "\t";
+    for(int i = 1; i <= howMany; i++){
+        cout << notSoRandomNum() << "\t";
+    } cout << endl;
+
+    cout << "stillNotSoRandomNum(): " << "\t";
+    for(int i = 1; i <= howMany; i++){
+        cout << stillNotSoRandomNum() << "\t";
+    } cout << endl;
+
+    cout << "kindaRandomNum(): " << "\t";
+    for(int i = 1; i <= howMany; i++){
+        cout << kindaRandomNum() << "\t";
+    } cout << endl;
+
+    cout << "lilBetterRandomNum(): " << "\t";
+    for(int i = 1; i <= howMany; i++){
+        cout << lilBetterRandomNum() << "\t";
+    } cout << endl;
+
+    cout << "notBetterRandomNum(): " << "\t";
+    for(int i = 1; i <= howMany; i++){
+        cout << notBetterRandomNum() << "\t";
+    } cout << endl;
+
+    cout << "myNumAttempt1(): " << "\t";
+    for(int i = 1; i <= howMany; i++){
+        cout << myNumAttempt1() << "\t";
+    } cout << endl;
+
+    cout << "myNumAttempt2(): " << "\t";
+    for(int i = 1; i <= howMany; i++){
+        cout << myNumAttempt2() << "\t";
+    } cout << endl;
+
+    cout << "yourRandomNum(): " << "\t";
+    for(int i = 1; i <= howMany; i++){
+        cout << yourRandomNum() << "\t";
+    } cout << endl;
+
+    return 0;
 }
 ```

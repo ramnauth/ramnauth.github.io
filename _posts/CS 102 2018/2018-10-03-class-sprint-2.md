@@ -37,7 +37,7 @@ tags: [C++]
 **Variations**
 1. Your program plays that guessing game [as previously described](https://ramnauth.github.io/cs%20102/2018/10/03/class-sprint-2/#variation-1)
 2. [Limit the number of the tries/attempts/guesses](https://ramnauth.github.io/cs%20102/2018/10/03/class-sprint-2/#variation-2) the user has to select the correct number
-3. [Generate a different "random" number each time the game is played](https://ramnauth.github.io/cs%20102/2018/10/03/class-sprint-2/#variation-3)
+3. [Generate a different "random" number each time the game is played](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/03/class-sprint-2/#variation-3)
 
 ### Variation 1
 
