@@ -268,8 +268,8 @@ If I enter `Rebecca` for my name and `37` for my age, this program will output:
 Hello Rebecca.
 You are 37 years old.
 ```
-
-~~There are two methods in Python [**Updated:** version 2.7] that you can use to read data from the user: `raw_input()` and `input()`. You can store the results from them into a variable.
+<strike>
+There are two methods in Python [**Updated:** version 2.7] that you can use to read data from the user: `raw_input()` and `input()`. You can store the results from them into a variable.
 
 ```py
 >>> name = raw_input("What is your name? ") # raw_input reads your input as a string
@@ -296,7 +296,7 @@ You are '37' years old.
 
 Note the main difference between `raw_input()` and `input()` is how Python reads your input. `raw_input()` reads your input as a string, whereas `input()` reads it as an integer. If you get them mixed up, you might get the following error:
 
-```py
+<code>
 >>> name = input("Enter your name: ")
 >>> print("Hello " + name)
 
@@ -305,9 +305,10 @@ Traceback (most recent call last):
   File "python", line 1, in <module>
   File "<string>", line 1, in <module>
 NameError: name 'Rebecca' is not defined
-```
+</code>
 
-This is because your program expects an integer, but you gave it a string (`"Rebecca"`).~~
+This is because your program expects an integer, but you gave it a string (`"Rebecca"`).
+</strike>
 
 ## Control Statements
 
