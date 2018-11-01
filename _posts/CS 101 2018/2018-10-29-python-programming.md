@@ -187,13 +187,13 @@ There are different string methods that you can use. For example, `upper()`, `lo
 **Boolean** values are either `True` or `False`. 
 ```py
 >>> type(True)
-<type 'bool'>
+<class 'bool'>
 
 >>> type(True)
-<type 'bool'>
+<class 'bool'>
 
 >>> type("True")
-<type 'str'>
+<class 'str'>
 ```
 
 **Comparison operations** generally produce a boolean value.
@@ -252,7 +252,24 @@ True	# true if my quiz score is between 0 and 100
 ```
 
 ## User Inputs
-Sometimes, you may want to ask the user of your program to input something. There are two methods in Python that you can use to read data from the user: `raw_input()` and `input`. You can store the results from them into a variable.
+Sometimes, you may want to ask the user of your program to input something. 
+
+In **Python v.3^**, there is **one** method that you can use to read data from the user: `input()`. You can store the results of `input()` into a variable. 
+
+```py
+name = input("What's you name? ")
+age = input("What is your age? ")
+print("Hello " + name + ".")
+print("You are " + age + " years old.")
+```
+
+If I enter `Rebecca` for my name and `37` for my age, this program will output:
+```
+Hello Rebecca.
+You are 37 years old.
+```
+
+~~There are two methods in Python [**Updated:** version 2.7] that you can use to read data from the user: `raw_input()` and `input()`. You can store the results from them into a variable.
 
 ```py
 >>> name = raw_input("What is your name? ") # raw_input reads your input as a string
@@ -290,7 +307,7 @@ Traceback (most recent call last):
 NameError: name 'Rebecca' is not defined
 ```
 
-This is because your program expects an integer, but you gave it a string (`"Rebecca"`).
+This is because your program expects an integer, but you gave it a string (`"Rebecca"`).~~
 
 ## Control Statements
 
