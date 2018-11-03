@@ -29,7 +29,12 @@ tags: [C++]
 ---
 
 Here are the solutions for the following quizzes/exams:
-
+- [Fall 2016 Quiz #2](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/08/class-sprint-3/#fall-2016---quiz-2)
+- [Fall 2016 Quiz #3](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/08/class-sprint-3/#fall-2012---quiz-3)
+- [Fall 2012 Quiz #4](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/08/class-sprint-3/#fall-2012---quiz-4)
+- [Fall 2012 Quiz #6](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/08/class-sprint-3/#fall-2012---quiz-6)
+- [Fall 2015 Quiz #1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/08/class-sprint-3/#fall-2015---quiz-1)
+- [Fall 2015 Quiz #2]
 
 ## [Fall 2016 - Quiz 2](https://drive.google.com/file/d/1hHGyVfnsw_9XKkHaySpc6K_bDmFiNsap)
 
@@ -419,8 +424,9 @@ e. -- Hello world
 f. (( Hello world ))
 g. // Hello world
 ```
+
 **Solution:**
-``cpp
+```cpp
 a. /* Hello world */ 
 g. // Hello world
 ```
