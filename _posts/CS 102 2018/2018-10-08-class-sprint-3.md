@@ -28,9 +28,10 @@ tags: [C++]
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
 
-## Fall 2016 - Quiz 2
-You may download and complete the following quiz. The solutions are posted below.
-<iframe src="https://drive.google.com/file/d/1hHGyVfnsw_9XKkHaySpc6K_bDmFiNsap/preview" width="720" height="240"></iframe>
+Here are the solutions for the following quizzes/exams:
+
+
+## [Fall 2016 - Quiz 2](https://drive.google.com/file/d/1hHGyVfnsw_9XKkHaySpc6K_bDmFiNsap)
 
 ### Question 1
 Which of the following statements prints exactly this text, as shown:
@@ -147,10 +148,7 @@ int main()
 }
 ```
 
-## Fall 2012 - Quiz 3
-
-You may download and complete the following quiz. The solutions are posted below.
-<iframe src="https://drive.google.com/file/d/1kzba8zftWNNVYtkxUmzpyth_VFlOpMk7/preview" width="720" height="240"></iframe>
+## [Fall 2012 - Quiz 3](https://drive.google.com/file/d/1kzba8zftWNNVYtkxUmzpyth_VFlOpMk7)
 
 ### Question 1
 The following program fragment uses loops. What is the output? 
@@ -258,10 +256,7 @@ for (int a = 8; a > 4; a--) {
 }
 ```
 
-## Fall 2012 - Quiz 4
-
-You may download and complete the following quiz. The solutions are posted below.
-<iframe src="https://drive.google.com/file/d/1_TU7Ed6hRaY5-3owg6zErfiaGmzNOLoM/preview" width="720" height="240"></iframe>
+## [Fall 2012 - Quiz 4](https://drive.google.com/file/d/1_TU7Ed6hRaY5-3owg6zErfiaGmzNOLoM)
 
 ### Question 1
 The following program fragment uses loops. What is the output? 
@@ -331,10 +326,7 @@ for (int i = 2; i <= 4; i++) {
 8 12
 ```
 
-## Fall 2012 - Quiz 6
-
-You may download and complete the following quiz. The solutions are posted below.
-<iframe src="https://drive.google.com/file/d/1ESM_wki49RVnEGK4-JuuyVcZrozbamCe/preview" width="720" height="240"></iframe>
+## [Fall 2012 - Quiz 6](https://drive.google.com/file/d/1ESM_wki49RVnEGK4-JuuyVcZrozbamCe)
 
 ### Question 1
 What is the output of the following program?
@@ -408,34 +400,21 @@ int main() {
 1600
 ```
 
-## Fall 2015 - Quiz 1
+## [Fall 2015 - Quiz 1](https://drive.google.com/file/d/1VKqefqVuFkRsoQGp2LKK6NXAAx_Aq_vX/)
 
-You may download and complete the following quiz. The solutions are posted below.
-<iframe src="https://drive.google.com/file/d/1VKqefqVuFkRsoQGp2LKK6NXAAx_Aq_vX/preview" width="720" height="240"></iframe>
-
+### Question 1
 
 
-## Fall 2015 - Quiz 2
+## [Fall 2015 - Quiz 2](https://drive.google.com/file/d/1ku6tsugmiJ6BwMZx9mmPO6W1qQAWAW58)
 
-You may download and complete the following quiz. The solutions are posted below.
-<iframe src="https://drive.google.com/file/d/1ku6tsugmiJ6BwMZx9mmPO6W1qQAWAW58/preview" width="720" height="240"></iframe>
 
-## Fall 2015 - Quiz 3
+## [Fall 2015 - Quiz 3](https://drive.google.com/file/d/1V8F5_JfaOqeovBbNNhuHKCNPCyhJ_BtF)
 
-You may download and complete the following quiz. The solutions are posted below.
-<iframe src="https://drive.google.com/file/d/1V8F5_JfaOqeovBbNNhuHKCNPCyhJ_BtF/preview" width="720" height="240"></iframe>
 
-## Fall 2015 - Quiz 4
+## [Fall 2015 - Quiz 4](https://drive.google.com/file/d/1y2VYUnRXQgVWzCvqLI0OO6R7EMisb9P1)
 
-You may download and complete the following quiz. The solutions are posted below.
-<iframe src="https://drive.google.com/file/d/1y2VYUnRXQgVWzCvqLI0OO6R7EMisb9P1/preview" width="720" height="240"></iframe>
 
-## Fall 2015 - Quiz 6
+## [Fall 2015 - Quiz 6](https://drive.google.com/file/d/14M8dSEYQxZ5xNRsoA3kKSiyVj2hoW8tP)
 
-You may download and complete the following quiz. The solutions are posted below.
-<iframe src="https://drive.google.com/file/d/14M8dSEYQxZ5xNRsoA3kKSiyVj2hoW8tP/preview" width="720" height="240"></iframe>
 
-## Fall 2015 - Final Exam
-
-You may download and complete the following quiz. The solutions are posted below.
-<iframe src="https://drive.google.com/file/d/1_6XOPCMQWJ4QKigmBfj-IVo2EOxD5slh/preview" width="720" height="240"></iframe>
+## [Fall 2015 - Final Exam](https://drive.google.com/file/d/1_6XOPCMQWJ4QKigmBfj-IVo2EOxD5slh/)
