@@ -28,7 +28,7 @@ tags: [Programming Basics]
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
 
-**Pair programming ** is a term that comes from [agile software development](https://en.wikipedia.org/wiki/Agile_software_development) and describes a technique in which two programmers collaborate at one workstation/computer. One programmer, the *driver*, writes code while the other, the *navigator*, reviews each line of code as it is typed.
+Pair programming is a term that comes from [agile software development](https://en.wikipedia.org/wiki/Agile_software_development) and describes a technique in which two programmers collaborate at one workstation/computer. One programmer, the *driver*, writes code while the other, the *navigator*, reviews each line of code as it is typed.
 From Robert Kessler and Laurie Williams' [Pair Programming Illuminated](https://www.amazon.com/Pair-Programming-Illuminated-Laurie-Williams/dp/0201745763/ref=sr_1_1?s=books&ie=UTF8&qid=1541282608&sr=1-1&keywords=pair+programming+illuminated), here are some tips to keep in mind.
 
 ## 7 Synergistic Behaviors
