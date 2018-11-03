@@ -403,18 +403,323 @@ int main() {
 ## [Fall 2015 - Quiz 1](https://drive.google.com/file/d/1VKqefqVuFkRsoQGp2LKK6NXAAx_Aq_vX/)
 
 ### Question 1
+Same as [Fall 2016 - Quiz 2 - Question 1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/08/class-sprint-3/#question-1)
 
+### Question 2
+Same as [Fall 2016 - Quiz 2 - Question 2](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/08/class-sprint-3/#question-2)
+
+### Question 3
+Which of these are valid C++ comments that will be ignored by the compiler? Select all that apply.
+```
+a. /* Hello world */
+b. "Hello world"
+c. # Hello world
+d. /* Hello world
+e. -- Hello world
+f. (( Hello world ))
+g. // Hello world
+```
+**Solution:**
+``cpp
+a. /* Hello world */ 
+g. // Hello world
+```
+Options **a** and **g** are valid comments in C++.
+
+### Question 4
+Same as [Fall 2016 - Quiz 2 - Question 3](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/08/class-sprint-3/#question-3)
+
+### Question 5
+Same as [Fall 2016 - Quiz 2 - Question 4](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/08/class-sprint-3/#question-4)
 
 ## [Fall 2015 - Quiz 2](https://drive.google.com/file/d/1ku6tsugmiJ6BwMZx9mmPO6W1qQAWAW58)
 
+### Question 1
+Same as [Fall 2016 - Quiz 2 - Question 5](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/08/class-sprint-3/#question-5)
+
+### Question 2
+Suppose that we have a `main` program containing this declaration:
+```cpp
+string courseTitle;
+```
+Briefly explain the difference between these two operations:
+```cpp
+cin >> courseTitle;			//a
+getline(cin, courseTitle);	//b
+```
+
+**Solution:**
+`cin` reads only one word from the input and leaves the 'cursor' just before the first space or newline. On the other hand, `getline` reads an entire line up to the user pressing enter.
+
+### Question 3
+The following program does some arithmetic on `char` types. What does it output?
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+    char one = 'I';
+    char fiv = 'V';
+    char x   = one + 4;
+    char y   = fiv + 2;
+    cout << x << x << y << one << fiv << endl;
+    return 0;
+}
+```
+
+**Solution:** `MMXIV`
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+    char one = 'I';
+    char fiv = 'V';
+    char x   = one + 4;	// means add 4 to the ASCII value of 'I' or 4 letters after = M
+    char y   = fiv + 2; // means add 2 to the ASCII value of 'V' or 2 letters after = X
+    cout << x << x << y << one << fiv << endl;
+    return 0;
+}
+```
+
+### Question 4
+The program below uses conditional statements (specifically, an `if-else` chain). Given the values of `x` and `y` as inputs, what does the program output?
+- `x` = 6; `y` = 3; Output: _________
+- `x` = 7; `y` = 7; Output: _________
+- `x` = 5; `y` = 5; Output: _________
+- `x` = 7; `y` = 10; Output: _________
+
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x, y;
+    cout << "Enter two integers: ";
+    cin >> x >> y;
+    if(x < 7)
+    {
+        cout << "A";
+    }
+    else if(y < 9)
+    {
+        cout << "B";
+    }
+    else
+    {
+        cout << "C";
+    }
+    return 0;
+}
+```
+**Solutions:**
+
+- `x` = 6; `y` = 3; Output: `A`
+- `x` = 7; `y` = 7; Output: `B`
+- `x` = 5; `y` = 5; Output: `A`
+- `x` = 7; `y` = 10; Output: `C`
 
 ## [Fall 2015 - Quiz 3](https://drive.google.com/file/d/1V8F5_JfaOqeovBbNNhuHKCNPCyhJ_BtF)
 
+### Question 1 
+The program on this page uses nested conditional statements. Given the values below as inputs, what does the program output?
+- `fred` = 6; `wilma` = 3; Output: _________
+- `fred` = 7; `wilma` = 7; Output: _________
+- `fred` = 3; `wilma` = 6; Output: _________
+- `fred` = 6; `wilma` = 9; Output: _________
+- `fred` = 5; `wilma` = 1; Output: _________
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+    int fred, wilma;
+    cin >> fred >> wilma; // inputs given above
+    if(fred < wilma)
+    {
+        if(wilma > 5) cout << "A";
+        else cout << "B";
+        cout << "C";
+    }
+    if(fred == wilma)
+    {
+        cout << "D";
+    }
+    else
+    {
+        if(fred > 5) cout << "E";
+        cout << "F";
+    }
+}
+```
+**Solutions:**
+
+- `fred` = 6; `wilma` = 3; Output: `EF`
+- `fred` = 7; `wilma` = 7; Output: `D`
+- `fred` = 3; `wilma` = 6; Output: `ACF`
+- `fred` = 6; `wilma` = 9; Output: `ACEF`
+- `fred` = 5; `wilma` = 1; Output: `F`
+
+### Question 2 
+This is a similar problem, but this program uses a `while` loop. What does the program output?
+
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+    int carol = 3;
+    while(carol > 1)
+    {
+        cout << carol << "\n";
+        if(carol % 2 == 0) {
+            carol /= 2;
+        }
+        else {
+            carol = carol * 3 + 1;
+        }
+    }
+    return 0;
+}
+```
+
+**Solution:**
+```cpp
+3
+10
+5
+16
+8
+4
+2
+```
 
 ## [Fall 2015 - Quiz 4](https://drive.google.com/file/d/1y2VYUnRXQgVWzCvqLI0OO6R7EMisb9P1)
+### Question 1
+This program contains a loop. What does it output?
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+    int k = 9;
+    while(1)
+    {
+        if(k % 2 == 0)
+        {
+            cout << k*k << "\n";
+        }
+        if(k % 5 == 0)
+        {
+            break;
+        }
+        k--;
+    }
+    cout << k << "\n";
+    return 0;
+}
+```
 
+**Solution:**
+```cpp
+64
+35
+5
+```
+
+### Question 2 
+Here is another program with a loop. What does it output?
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x = 0;
+    for(int i = 1; i < 8; i+=2)
+    {
+        cout << i << "\n";
+        x += i;
+    }
+    cout << x << "\n";
+    return 0;
+}
+```
+
+**Solution:**
+```cpp
+1
+3
+5
+7
+16
+```
 
 ## [Fall 2015 - Quiz 6](https://drive.google.com/file/d/14M8dSEYQxZ5xNRsoA3kKSiyVj2hoW8tP)
 
+### Question 1
+The following program uses an array. What does it output?
+```cpp
+int main()
+{
+    const int SZ = 5;
+    int g[SZ];
+    int x = 5;
+    for(int i = 0; i < SZ; i++)
+    {
+        x += i;
+        g[i] = x+1;
+    }
+    for(int i = SZ-1; i > 0; i--)
+    {
+        cout << g[i] << "\n";
+    }
+    return 0;
+}
+```
+
+**Solution:**
+```cpp
+16
+12
+9
+7
+```
+
+### Question 2 
+The following program uses nested function calls with return values. What is its output?
+```cpp
+int trot(int x)
+{
+    if(x > 4) {
+        return x - 3;
+    }
+    else {
+        return x - 1;
+    }
+}
+
+int thaw(int y)
+{
+    return y+5;
+}
+
+int main()
+{
+    cout << trot(3) << "\n";
+    cout << thaw(4) << "\n";
+    cout << trot(thaw(5)) << "\n";
+    cout << thaw(trot(thaw(6))) << "\n";
+    return 0;
+}
+```
+
+**Solution:**
+```cpp
+2
+9
+7
+13
+```
 
 ## [Fall 2015 - Final Exam](https://drive.google.com/file/d/1_6XOPCMQWJ4QKigmBfj-IVo2EOxD5slh/)
+**Solutions** posted [here](https://liucs.net/cs102f15/e2pr.sol.pdf)
