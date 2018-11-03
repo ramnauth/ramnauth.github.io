@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: Classroom Coding Sprint - Prof. League's 2012-2016 Quizzes
+title: Individual - Prof. League's 2012-2016 Quizzes
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
