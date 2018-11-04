@@ -41,6 +41,8 @@ This review sheet will cover the following topics:
 10. [Arrays](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#arrays) - Wed, Oct. 10
 11. [Vectors](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#vector) - Wed, Oct. 10
 12. [Pseudorandom Numbers](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#psuedorandom-numbers) - Wed, Oct. 3 ([S1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/03/class-sprint-2/); [L1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/03/class-sprint-2/#variation-3))
+13. [Pass By Reference/Value](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#pass-by-reference) - Mon, Nov. 5
+14. [Structs](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#structs) - Mon, Nov. 5
 
 ## Basics
 
@@ -825,5 +827,99 @@ int main(){
 	myNumAttempt2(): 		39	62	21	26	32	47	41	
 	yourRandomNum(): 		0	0	0	0	0	0	0	
 	*/
+}
+```
+
+## Pass By Reference
+```cpp
+#include <iostream>
+
+using namespace std;
+
+// CALL BY VALUE is the default way of passing parameters
+// in C/C++: the parameter is a COPY of the original, so
+// the function can't change the original.
+int changeByValue(int x, int amount);
+
+// CALL BY REFERENCE is indicated by the (&) after the type
+// of the parameter. It means the parameter is initialized
+// as a reference (aka a pointer) to the original value, 
+// so it can change the original.
+int changeByRef(int& x, int amount);
+
+int main(){
+  int x = 10;
+
+  changeByValue(x, 23);
+  cout << "x = " << x;
+
+  changeByRef(x, 23);
+  cout << "x = " << x;
+
+  return 0;
+}
+
+int changeByValue(int x, int amount) {
+  x = x + amount;
+  return x;
+}
+
+int changeByRef(int& x, int amount) {
+  x = x + amount;
+  return x;
+}
+```
+
+## Structs
+```cpp
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+struct Employee {
+    int id;
+    string firstName;
+    string lastName;
+    int age;
+    double hourlyWage;
+    string jobTitle;
+    string jobDescription;
+};
+
+void printEmployeeInfo(Employee e);
+
+int main() {
+    Employee me;
+    me.firstName = "Rebecca";
+    me.lastName = "Ramnauth";
+    me.jobTitle = "Professor of Computer Science";
+    me.jobDescription = "Sleep. Eat. Code.";
+    me.id = 10019823;
+    me.age = 37;
+    me.hourlyWage = rand() % 100 + 11.50;
+
+    Employee sh;
+    sh.firstName = "Sherlock";
+    sh.lastName = "Holmes";
+    sh.jobTitle = "Consulting Detective";
+    sh.jobDescription = "You know my methods, Watson.";
+    sh.id = 23987012;
+    sh.age = 43;
+    sh.hourlyWage = 0;
+
+    printEmployeeInfo(me);
+    printEmployeeInfo(sh);
+    
+    return 0;
+}
+
+void printEmployeeInfo(Employee e) {
+    cout << "Employee's ID: " << e.id << endl;
+    cout << "Employee's Name: " << e.firstName << " " << e.lastName << endl;
+    cout << "Employee's Age: " << e.age << endl;
+    cout << "Employee's Wage: " << "$" << e.hourlyWage << endl;
+    cout << "Employee's Annual Salary: " << "$" << e.hourlyWage * 40 * 52 << endl;
+    cout << endl;
 }
 ```
