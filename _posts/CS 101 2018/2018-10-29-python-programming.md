@@ -268,8 +268,11 @@ If I enter `Rebecca` for my name and `37` for my age, this program will output:
 Hello Rebecca.
 You are 37 years old.
 ```
-<strike>
-There are two methods in Python [**Updated:** version 2.7] that you can use to read data from the user: `raw_input()` and `input()`. You can store the results from them into a variable.
+
+### User Inputs in v.2.7
+**Note:** in this class, we are using version 3 and above. This section is for the curious students wanting to know one reason why we upgraded.
+
+There are two methods in Python that you can use to read data from the user: `raw_input()` and `input()`. You can store the results from them into a variable.
 
 ```py
 >>> name = raw_input("What is your name? ") # raw_input reads your input as a string
@@ -305,10 +308,9 @@ Traceback (most recent call last):
   File "python", line 1, in <module>
   File "<string>", line 1, in <module>
 NameError: name 'Rebecca' is not defined
-</code>
 
 This is because your program expects an integer, but you gave it a string (`"Rebecca"`).
-</strike>
+
 
 ## Control Statements
 
