@@ -299,7 +299,6 @@ You are '37' years old.
 
 Note the main difference between `raw_input()` and `input()` is how Python reads your input. `raw_input()` reads your input as a string, whereas `input()` reads it as an integer. If you get them mixed up, you might get the following error:
 
-<code>
 >>> name = input("Enter your name: ")
 >>> print("Hello " + name)
 
