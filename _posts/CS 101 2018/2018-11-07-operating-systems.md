@@ -55,7 +55,7 @@ The part of an operating system that responds to operating system commands is ca
 ![Linux Terminal](https://i.stack.imgur.com/QQreA.png)
 
 A **graphical user interface** (GUI, pronounced *gooey*) allows you to make commands by pointing and clicking at graphical objects on the screen. Below is a screenshot of the Windows 10 GUI.
-![Win 10](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjUtbew4cDeAhWSxVkKHT0TAT0QjRx6BAgBEAU&url=https%3A%2F%2Fwww.guitricks.com%2F2015%2F07%2Fhow-to-download-or-get-windows-10.html&psig=AOvVaw26fogdqvrT6GrayezAFCQ3&ust=1541627837038915)
+![Win 10](http://toastytech.com/guis/win10start.png)
 
 GUIs such as Microsoft Windows and the one used by Apple Mac feature the following components:
 - A **pointer**. The symbol (usually an small angled arrow) that appears on the display and is controlled by the mouse

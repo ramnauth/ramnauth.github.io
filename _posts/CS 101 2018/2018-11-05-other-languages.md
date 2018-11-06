@@ -58,18 +58,18 @@ def fact(n):         # Factorial function, imperative style, Python
 
 **Procedural Languages**
 
-The imperative language family is further divided into procedural and object-oriented languages. In **procedural** languages, the program is divided into **procedures** aka groups of steps to solve a particular problem. Procedures are also called *subprograms* or *functions*. Our pseudocode examples follow this model.
+The imperative language family is further divided into procedural and object-oriented languages. In procedural languages, the program is divided into **procedures** aka groups of steps to solve a particular problem. Procedures are also called *subprograms* or *functions*. Our pseudocode examples follow this model.
 
 **Object-Oriented Languages**
 
-**Object-oriented** languages see the world as a bunch of interacting objects. Each object is responsible for its own actions and can contain (aka **encapsulate**) procedures and data structures within themselves. Furthermore, various objects in a program can send messages and respond to each other's messages in order to solve problems.
+Object-oriented languages see the world as a bunch of interacting objects. Each object is responsible for its own actions and can contain (aka **encapsulate**) procedures and data structures within themselves. Furthermore, various objects in a program can send messages and respond to each other's messages in order to solve problems.
 
 ### Declarative Languages
 In the **declarative** paradigm, results are described (aka declared) and the steps to accomplish those results are not stated. There are two main declarative subparadigms, functional and logic languages.
 
 **Functional Languages**
 
-The **functional** model uses math to describe functions. This means that each piece of code throughout a program produces a value and can be replaced with its value without any side effects. 
+The functional model uses math to describe functions. This means that each piece of code throughout a program produces a value and can be replaced with its value without any side effects. 
 
 ```scheme
 (define factorial	; Factorial function, functional style, Scheme
@@ -86,7 +86,7 @@ fact n = product [1..n]      -- Factorial, functional style, Haskell
 
 **Logic Languages**
 
-**Logic** programming is based on predicate logics, a branch of math that deals with formal reasoning about `AND` and `OR` (the Boolean operators), as well as implication, relations, and inference. In other words, this model uses **facts** about objects and **rules** about the relationships among the objects. A program would consist of asking questions about these objects and their relationship, where answers are deduced from the facts and rules.
+Logic programming is based on predicate logics, a branch of math that deals with formal reasoning about `AND` and `OR` (the Boolean operators), as well as implication, relations, and inference. In other words, this model uses **facts** about objects and **rules** about the relationships among the objects. A program would consist of asking questions about these objects and their relationship, where answers are deduced from the facts and rules.
 
 ```prolog
 /* Example clauses in Prolog*/
@@ -108,7 +108,7 @@ The following questions (aka **queries**) give these answers:
 
 **Query Languages**
 
-**Query** languages characterize interaction with a database such as inserting, updating, deleting, selecting records. **SQL** (Structured Query Language) is a famous query language that we'll learn about later.
+Query languages characterize interaction with a database such as inserting, updating, deleting, selecting records. **SQL** (Structured Query Language) is a famous query language that we'll learn about later.
 
 ## Expression Notation
 
