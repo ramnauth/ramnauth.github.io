@@ -3,12 +3,12 @@
 layout: post
 
 # The title of your post
-title: Operating System
+title: Operating Systems
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-	What are operating systems? Why are they important?
+   What are operating systems? Why are they important?
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.

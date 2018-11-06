@@ -3,12 +3,11 @@
 layout: post
 
 # The title of your post
-title: Bash Language - Reference Sheet
-
+title: Bash - Reference Sheet
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-	A reference sheet for the Bash commands we covered in class.
+   A reference sheet of the Bash commands we covered in class.
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
@@ -23,11 +22,10 @@ image: /assets/img/default.jpg
 # The difference is that categories will be part of the URL, while tags will not.
 # E.g. the URL of this post is <site.baseurl>/hydejack/2017/11/23/example-content/
 categories: [CS 101]
-tags: [Programming Basics]
+tags: []
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
-
 Bash is a Unix shell and command language. It has been distributed widely as the default login shell for most Linux distributions and Apple's macOS/OS X. Bash typically runs in a text window where you can type commands, telling the computer what to do. 
 
 Bash was written for the **GNU Project** as a **free software** replacement for the [Bourne shell](https://en.wikipedia.org/wiki/Bourne_shell). The name "Bash" is an acronym for *Bourne-again shell*, a pun on the word Bourne and "born again".
