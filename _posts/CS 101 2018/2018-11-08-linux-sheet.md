@@ -3,12 +3,12 @@
 layout: post
 
 # The title of your post
-title: Bash/Linux Commands - Reference Sheet
+title: Bash Language - Reference Sheet
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-	
+	A reference sheet for the Bash commands we covered in class.
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
