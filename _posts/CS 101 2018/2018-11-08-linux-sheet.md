@@ -39,7 +39,7 @@ hostname		# Show system host name
 hostname -I		# Display the IP addresses of the host
 last reboot		# Show system reboot history
 date			# Show the current date and time
-w				# Display who is online
+w			# Display who is online
 whoami			# Who you are logged in as
 ```
 
@@ -47,15 +47,15 @@ whoami			# Who you are logged in as
 ```shell
 cat /proc/cpuinfo	# Display CPU information
 cat /proc/meminfo	# Display memory information
-free				# Display free and used memory 
-free -h				# -h for human readable
-free -m				# -m for MB
-free -g				# -g for GB 
+free			# Display free and used memory 
+free -h			# -h for human readable
+free -m			# -m for MB
+free -g			# -g for GB 
 ```
 
 ## Performance Monitoring & Stats
 ```shell
-top				# Display and manage the top processes
+top			# Display and manage the top processes
 vmstat 1		# Display virtual memory statistics
 free -h			# Display free and used memory ( -h for human readable, -m for MB, -g for GB.)
 watch df -h		# Execute "df -h", showing periodic updates
@@ -63,33 +63,33 @@ watch df -h		# Execute "df -h", showing periodic updates
 
 ## User Information & Management
 ```shell
-id				# Display the user and group ids of your current user.
+id			# Display the user and group ids of your current user.
 last			# Display the last users who have logged onto the system.
-w				# Show who is logged in and what they are doing.
+w			# Show who is logged in and what they are doing.
 ```
 
 ## File & Directory Commands
 ```shell
-ls -al				# List all files in a long listing (detailed) format
+ls -al					# List all files in a long listing (detailed) format
 pwd					# Display the present working directory
 
-touch file			# Create a file
-mkdir directory		# Create a directory
+touch file				# Create a file
+mkdir directory				# Create a directory
 
-rm file				# Remove (delete) file
-rm -r directory		# Remove the directory and its contents recursively
+rm file					# Remove (delete) file
+rm -r directory				# Remove the directory and its contents recursively
 
-cp file1 file2		# Copy file1 to file2
-cp -r source_directory destination		# Copy source_directory recursively to destination. If destination exists, copy source_directory into destination, otherwise create destination with the contents of source_directory.
+cp file1 file2				# Copy file1 to file2
+cp -r source_directory destination	# Copy source_directory recursively to destination. If destination exists, copy source_directory into destination, otherwise create destination with the contents of source_directory.
 
-mv file1 file2		# Rename or move file1 to file2. If file2 is an existing directory, move file1 into directory file2
+mv file1 file2			# Rename or move file1 to file2. If file2 is an existing directory, move file1 into directory file2
 
 cat file			# View the contents of file
 cat > file			# Replace the contents of file
 
 head file			# Display the first 10 lines of file
 tail file			# Display the last 10 lines of file
-tail -f file		# Display the last 10 lines of file and "follow" the file as it grows.
+tail -f file			# Display the last 10 lines of file and "follow" the file as it grows.
 ```
 
 ### The vi Editor
@@ -113,9 +113,9 @@ ZZ		# Same as :wq
 ## Process Management
 ```shell
 ps			# Display your currently running processes
-ps -ef		# Display all the currently running processes with more information
+ps -ef			# Display all the currently running processes with more information
 top			# Display and manage the top processes
-kill pid	# Kill process with process ID of pid
+kill pid		# Kill process with process ID of pid
 ```
 
 ## File Permissions
@@ -148,16 +148,16 @@ ping host						# Send ICMP echo request to host
 host domain						# Display DNS ip address for domain
 hostname -i						# Display the network address of the host name.
 hostname -I						# Display all local ip addresses
-wget http://domain.com/file		# Download http://domain.com/file
+wget http://domain.com/file			# Download http://domain.com/file
 ```
 
 ## Searching
 ```shell
-grep pattern file					# Search for pattern in file
+grep pattern file				# Search for pattern in file
 grep -r pattern directory			# Search recursively for pattern in directory
-locate name							# Find files and directories by name
+locate name				# Find files and directories by name
 find /home/john -name 'prefix*'		# Find files in /home/john that start with "prefix".
-find /home -size +100M				# Find files larger than 100MB in /home
+find /home -size +100M			# Find files larger than 100MB in /home
 ```
 
 ## Disk Usage
@@ -171,6 +171,6 @@ du -sh		# Display total disk usage off the current directory
 ## Directory Navigation
 ```shell
 cd ..		# To go up one level of the directory tree.  (Change into the parent directory.)
-cd			# Go to the $HOME directory
+cd		# Go to the $HOME directory
 cd /etc		# Change to the /etc directory
 ```

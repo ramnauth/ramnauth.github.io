@@ -37,10 +37,10 @@ An **operating system** (OS) is software that starts up a computer and keeps it 
 **Note:** we don't look to the OS to do anything "fun". For example, you can't use it to send an email, draw a picture, or to create a video game. However, your operating system contributes to all of these activities because it allows the applications (that do those "fun" things) to run.
 
 The primary components/aspects of an operating system are:
-- the [User Interface]()
-- the [Kernel]()
-- [Networking]()
-- [Security]()
+- the [User Interface](https://ramnauth.github.io/cs%20101/2018/11/07/operating-systems/#user-interface)
+- the [Kernel](https://ramnauth.github.io/cs%20101/2018/11/07/operating-systems/#kernel)
+- [Networking](https://ramnauth.github.io/cs%20101/2018/11/07/operating-systems/#networking)
+- [Security](https://ramnauth.github.io/cs%20101/2018/11/07/operating-systems/#security)
 
 ## User Interface
 The operating system is a software, and a major part of software is the **user-interface** (else, why create software if your user can't interface/**interact** with it?). There are other **interfaces** that are not *user*-interfaces because they don't interact with human users. For example, a non-user-interface could interact with other programs, connect devices (such as your printer), and connect programs to devices. 
@@ -91,3 +91,5 @@ Many operating systems support a variety of networking protocols, hardware, and 
 An operating system must be aware of requests that are **privileged** (allowed) versus **non-privileged** (aka not allowed). To do this, your OS will request the **identity** of the user or application making the request. Then, to make sure the person/application isn't lying, the computer **authenticates**. Usually, a username and the password must be correctly given. 
 
 Today, we have many sophisticated ways of authentication, such as magnetic cards (like our LIU ids) or biometric data (like a retina or fingerprint scanner).
+
+In the next few classes, we'll look at these components in more detail.
