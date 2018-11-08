@@ -159,7 +159,37 @@ You can also join (**concatenate**) strings.
 'carpet'
 ```
 
-There are different string methods that you can use. For example, `upper()`, `lower()`, `replace()`, and `count()`.
+However, you cannot concatenate strings and other data types:
+```py
+word = "Apple"
+num = 4
+
+print(word + num)
+```
+This results in an error:
+```
+Traceback (most recent call last):
+  File "main.py", line 4, in <module>
+    print(word + num)
+TypeError: '+' not supported between instances of 'str' and 'int'
+```
+One solution is to **cast** one data type into another. For example,
+```py
+word = "Apple"
+num = str(4) # cast an integer into a string
+
+print(word + num) # this is a CONCATENATION of strings
+```
+or
+```py
+word = "642" # a string composed of chars '6', '4', and '2'
+wordInt = int(word) # cast a string into an integer
+num = 4 
+
+print(wordInt + num) # this is an ADDITION of integers
+```
+
+There are also different string methods that you can use. For example, `upper()`, `lower()`, `replace()`, and `count()`.
 
 ```py
 # upper() changes your string to all uppercase letters
@@ -299,15 +329,17 @@ You are '37' years old.
 
 Note the main difference between `raw_input()` and `input()` is how Python reads your input. `raw_input()` reads your input as a string, whereas `input()` reads it as an integer. If you get them mixed up, you might get the following error:
 
->>> name = input("Enter your name: ")
->>> print("Hello " + name)
-
+```py
+name = input("Enter your name: ")
+print("Hello " + name)
+```
+```
 Enter your name:  Rebecca
 Traceback (most recent call last):
   File "python", line 1, in <module>
   File "<string>", line 1, in <module>
 NameError: name 'Rebecca' is not defined
-
+```
 This is because your program expects an integer, but you gave it a string (`"Rebecca"`).
 
 
