@@ -61,7 +61,9 @@ Enter the name: «Cheesecake»
 Enter the origin: «Greece»
 Enter the price (US $): «4.99»
 Enter the rating (out of 5): «4.5»
-Enter a description: «Some people think destiny is something you cannot escape, such as death or aEnter a description Some people think destiny is something you cannot escape, such as death or a curdled cheesecake, both of which always turn up sooner or later. - Lemony Snicket, The Penultimate Peril.»
+Enter a description: «Some people think destiny is something you cannot escape, such as 
+death or a curdled cheesecake, both of which always turn up sooner 
+or later. - Lemony Snicket, The Penultimate Peril.»
 
 Cheesecake was added to the Global Foods Database.
 Returning to database menu.
