@@ -32,14 +32,12 @@ For this pair-programming project, you will write a C++ program to simulate data
 ## Requirements
 1. Use a `struct` to define a `Food`. Have at least 3 attributes/members.
 2. Show and allow the user to select from the following menu:
-```
-1. Create and add a new food.
-2. Read information about a food.
-3. Update an existing food.
-4. Delete an existing food from history.
-5. Show all foods.
-6. Exit database.
-```
+	1. Create and add a new food.
+	2. Read information about a food.
+	3. Update an existing food.
+	4. Delete an existing food from history.
+	5. Show all foods.
+	6. Exit database.
 3. See the following program transcripts for more information on the implementation.
 
 ## Partial Transcripts
