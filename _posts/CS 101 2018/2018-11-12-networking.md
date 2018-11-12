@@ -92,7 +92,7 @@ a **Domain Name System** (DNS) has to translate a hostname into its correspondin
 In IPv4, IP addresses are stored into 32 bits:
 ```
 10010100	01001110	11111010	00001100
-  148    .     78     .   250     .    12
+148		  . 78		  . 250		  . 12
 ```
 
 However, as Internet use increased (especially with the invention of smart phone, and other smart devices), the supply of unique 4-byte IP addresses were running out. By 2011, the last block of IPv4 addresses were assigned. As a result, IPv6 was created. It used 128 bits, organized in eight groups of 16. Thus, IPv6 addresses are usually written using hexadecimal digits to keep the length manageable. For example: `FE80:0000:0000:0000:0202:B3FF:FE1E:8329`. Not only does IPv6 provide more addresses, but also provides additional features that improve network traffic management and works alongside IPv4. 
