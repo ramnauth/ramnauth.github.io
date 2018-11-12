@@ -29,6 +29,8 @@ tags: [C++, Programming Basics]
 ---
 For this pair-programming project, you will write a C++ program to simulate database CRUD functionality (i.e., creating, reading, updating, and deleting records). As proposed by Derron T., the topic is a database for all kinds of *food*.
 
+**Note**: repl.it doesn't allow initializer lists. A great alternative is [Coding Ground](https://www.tutorialspoint.com/codingground.htm) which does allow for more C++ functionality.
+
 ## Requirements
 1. Use a `struct` to define a `Food`. Have at least 3 attributes/members.
 2. Show and allow the user to select from the following menu:
