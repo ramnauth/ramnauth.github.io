@@ -32,7 +32,7 @@ For this pair-programming project, you will write a C++ program to simulate data
 ## Requirements
 1. Use a `struct` to define a `Food`. Have at least 3 attributes/members.
 2. Show and allow the user to select from the following menu:
-```cpp
+```
 1. Create and add a new food.
 2. Read information about a food.
 3. Update an existing food.
