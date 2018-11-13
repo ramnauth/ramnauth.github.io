@@ -8,7 +8,7 @@ title: Pair Programming - Simulated "Database"
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-   
+   This is a group project **due** Wed. Nov. 21 at 11:59 PM.
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
@@ -41,6 +41,56 @@ For this pair-programming project, you will write a C++ program to simulate data
 	5. Show all foods.
 	6. Exit database.
 3. See the following program transcripts for more information on the implementation.
+
+
+## Outline
+Your program is not required to follow this outline.
+
+```cpp
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+struct Food {
+    string name;
+    double price;
+    double rating;
+    string origin;
+    string description;
+};
+
+vector<Food> foods = {
+    {"Pasta salad", 6.99, 4.3, "Italy", "Organic wheat pasta with creamy alfredo sauce"},
+    {"Pizza pie", 4.99, 4.6, "Italy", "Non-GMO cheese sprinkled around toasted pita bread"},
+    {"Cheeseburger", 4.75, 3.5, "USA", "The classic American chicken burger with Smashburger's secret sauce"},
+    {"Butter popcorn", 1.99, 3.5, "USA", "The classic American movie-time snack"},
+    {"Masala dosa", 2.99, 4.5, "India", "A crispy, rice-batter crepe encases a spicy mix of mashed potato"},
+    {"Potato chips", 0.99, 3.5, "UK", "One of the world's most child-friendly and best foods"},
+    {"Seafood paella", 6.99, 4.8, "Spain", "Shrimp, lobster, mussels and cuttlefish combine with white rice and various herbs, oil and salt in this Valencian dish"},
+    {"Chicken rice", 3.99, 3.75, "Singapore", "Steamed or boiled chicken is served atop fragrant oily rice, with sliced cucumber as the token vegetable"},
+    {"Marzipan", 2.55, 3.75, "Germany", "Ground almonds coated with sugar"},
+    {"Chicken parm", 6.75, 4.75, "Australia", "Melted Parmesan and mozzarella cheese, and a peppery, garlicky tomato sauce drizzled over the top of a chicken fillet"},
+    {"Ankimo fish", 7.75, 4.95, "Japan", "Chunk of monkfish liver with a little grated daikon on the side"},
+    {"Goi cuon", 0.75, 4.95, "Vietnam", "This snack made from pork, shrimp, herbs, rice vermicelli and other ingredients wrapped in rice paper is served at room temperature"},
+};
+
+void printStars(int num); // prints the rating as a star * or half star '
+void printFood(Food f);
+void printAllFood();
+void showMenu();
+
+void createFood();
+void readFood();
+void updateFood();
+void deleteFood();
+
+int main() {
+    showMenu();
+    return 0;
+}
+```
 
 ## Partial Transcripts
 
