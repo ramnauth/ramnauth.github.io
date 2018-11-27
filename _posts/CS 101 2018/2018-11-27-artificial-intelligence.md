@@ -34,13 +34,13 @@ From spam filters to self-driving cars, there has been an increasing need for ou
 This is the heart of **artificial intelligence** (AI).
 
 ## Not-so Intelligent Programs?
-Not every program that does something a human could typically do is deemed "intelligent". In general, computer programs that can do human-like tasks are extremely useful in answer questions like
+Not every program that does something a human could typically do is deemed "intelligent". In general, computer programs that can do human-like tasks are extremely useful in answering questions like
 - is an email spam? 
 - does this patient's heart have arrythmia?
 - will it be raining tomorrow?
 - what song should Spotify play next? 
 
-While useful, we don't describe these programs as "intelligent" in the same way we think of **human intelligence**. The impetus of artificial intelligence is, however, to *simulate* human intelligence in machines.
+While useful, we don't describe these programs as "intelligent" in the same way we think of **human intelligence**. The main goal of artificial intelligence is, however, to *simulate* human intelligence in machines.
 
 ## Goals of AI
 Machines that mimic human cognitive functions such as learning and problem solving are considered **intelligent**. The scope of AI is often disputed. Because as machine become increasingly capable, a phenomenon called the **AI effect** kicks in. Critics start saying that intelligence is not just doing what we know humans are already capable of. Instead, intelligence is doing whatever hasn't been done yet ([Tesler's Theorem](https://en.wikipedia.org/wiki/AI_effect)). Nonetheless, the common goals of AI research include:
@@ -52,7 +52,7 @@ Machines that mimic human cognitive functions such as learning and problem solvi
 - **learning**, famously known as the field of **Machine Learning** (ML) where machines try to improve their performance at a certain task (e.g., playing chess)
 
 ## Approaches
-Trying to capture human intelligence is very ambitious. But there are several popular ways of approaching the problem:
+Trying to capture human intelligence is a very ambitious task. But there are several popular ways of approaching the problem:
 - **cybernetics** is an approach that tries to connect neurobiology and information theory to build machines that used electronic networks similar to our biology. This approach was largely abandoned by 1960, but [Grey Walter's turtles](https://en.wikipedia.org/wiki/Turtle_(robot)) and [John Hopkins Beast](https://en.wikipedia.org/wiki/Johns_Hopkins_Beast) were contributors for its revival in the 1980s.
 - **symbolic** AI is based on high-level "symbolic" (aka human-readable) representations of problems. This approach took the baton from cybernetics and continued the research with a slightly different perspective:
 	- **cognitive simulation** is the study of simulating human problem-solving skills and techniques
