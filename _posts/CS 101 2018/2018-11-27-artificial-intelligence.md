@@ -80,6 +80,8 @@ Before we capture all of human intelligence, we need to take baby steps. These b
 ![Neural Network](https://cdn-images-1.medium.com/max/1200/1*CcQPggEbLgej32mVF2lalg.png)
 
 ## Additional Topics & Resources
+- [Class Presentation](https://docs.google.com/presentation/d/10c3tCrRZPHeSq9Qlg8ni0HGNmrEKEeqSUqXH4kt4e84/edit?usp=sharing)
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSWZyeJjiRbvwq4gdxseh-864qdh_azxR8hxr_PqOUmPBqGF_Yj9c0x7Bo74PqoDK8TAN30-wYgL1_8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 - [CrashCourse #34 Artificial intelligence](https://youtu.be/z-EtmaFJieY)
 - [Turing Test](https://en.wikipedia.org/wiki/Turing_test) - on measuring how effective an artificially intelligent machine is.
 - [A critique of the Turing Test](https://www.newyorker.com/tech/annals-of-technology/why-cant-my-computer-understand-me), an article titled *Why Can't my Computer Understand Me?* by Gary Marcus
