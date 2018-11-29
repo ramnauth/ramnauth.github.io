@@ -28,11 +28,9 @@ tags: [C++]
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
 
-**Submission portal**
-[https://goo.gl/forms/NWanEDatuCOiZ9Yq1](https://goo.gl/forms/NWanEDatuCOiZ9Yq1)
+This is less of an assessment than it is a game of [musical chairs](https://en.wikipedia.org/wiki/Musical_chairs). 
 
 ## Assessment Format
-This is less of an assessment than it is a game of [musical chairs](https://en.wikipedia.org/wiki/Musical_chairs). 
 You'll be presented a programming task to write/solve. Whoever finishes last is out of the game. The person/team that finishes first will be awarded the most points. 
 However, those that are eliminated from the game can rejoin by critiquing (finding a way to break) someone else's code. The individual left or with the most points by the end of the week wins. 
 
@@ -43,10 +41,10 @@ However, those that are eliminated from the game can rejoin by critiquing (findi
 4. Use style guidelines to keep organized
 
 ## Prompts
-- [Factorial Finder]() - write a program that determines the factorial of a user-inputted number
-- [Is Prime?]() - write a program that determines if a user-inputted number is prime
-- [Is Palindrome?]() - write a program that determines if a user-inputted string/number is a [palindrome](https://en.wikipedia.org/wiki/Palindrome)
-- [Fibonacci Sequence]() - write a program that get the nth number in the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number), where *n* is a user-inputted integer
+- [Factorial Finder](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/11/26/performance-2/#factorial-finder) - write a program that determines the factorial of a user-inputted number
+- [Is Prime?](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/11/26/performance-2/#is-prime) - write a program that determines if a user-inputted number is prime
+- [Is Palindrome?](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/11/26/performance-2/#is-palindrome) - write a program that determines if a user-inputted string/number is a [palindrome](https://en.wikipedia.org/wiki/Palindrome)
+- [Fibonacci Sequence](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/11/26/performance-2/#fibonacci-sequence) - write a program that get the nth number in the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number), where *n* is a user-inputted integer
 
 ## Solutions
 
@@ -82,9 +80,6 @@ int main()
   return 0; 
 }
 ```
-
-```cpp
-
 
 ```cpp
 /* Author: Rebecca Ramnauth
@@ -501,3 +496,6 @@ int main() {
   return 0;
 }
 ```
+
+**Submission portal**
+[https://goo.gl/forms/NWanEDatuCOiZ9Yq1](https://goo.gl/forms/NWanEDatuCOiZ9Yq1)
