@@ -43,6 +43,7 @@ This review sheet will cover the following topics:
 12. [Pseudorandom Numbers](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#psuedorandom-numbers) - Wed, Oct. 3 ([S1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/03/class-sprint-2/); [L1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/03/class-sprint-2/#variation-3))
 13. [Pass By Reference/Value](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#pass-by-reference) - Mon, Nov. 5
 14. [Structs](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#structs) - Mon, Nov. 5
+15. [Classes & Objects]() - Mon, Dec. 3
 
 ## Basics
 
@@ -921,5 +922,115 @@ void printEmployeeInfo(Employee e) {
     cout << "Employee's Wage: " << "$" << e.hourlyWage << endl;
     cout << "Employee's Annual Salary: " << "$" << e.hourlyWage * 40 * 52 << endl;
     cout << endl;
+}
+```
+
+##Classes & Objects
+```cpp
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Animal {
+  // Private Access Specifier -- hidden from other classes
+  private:
+    // Private Data Members
+    string ownerName;
+    string ownerAddress;
+
+  // Public Access Specifier -- seen by all classes
+  public: 
+    // Public Data Members
+    string scientificName;
+    string petName;
+    int id;
+
+    // a Default Constructor
+    Animal() {
+      scientificName = "";
+      petName = "";
+      id = -1;
+      ownerName = "";
+      ownerAddress = "";
+    }
+    // a Parametrized Constructor
+    Animal(string sname, string pname, int identifier){
+      scientificName = sname;
+      petName = pname;
+      id = identifier;
+    }
+    // another Parametrized Constructor
+    Animal(string sname, string pname, int identifier, string owner, string add){
+      scientificName = sname;
+      petName = pname;
+      id = identifier;
+      ownerName = owner;
+      ownerAddress = add;
+    }
+
+    // a Copy Constructor
+    Animal (Animal& original) {
+      scientificName = original.scientificName;
+      petName = original.petName;
+      id = original.id;
+      ownerName = original.ownerName;
+      ownerAddress = original.ownerAddress;
+    }
+
+    // a Destructor
+    ~Animal(){
+      cout << "Destructor called for animal with id = " << id << endl;
+    }
+
+    // Member Functions -- getters/accessors
+    string getScientificName(){
+      return scientificName;
+    }
+    string getPetName(){
+      return petName;
+    }
+    string getOwner(){ // returns a private data mem so other classes can see/use it
+      return ownerName;
+    }
+    string getAddress(){
+      return ownerAddress;
+    }
+
+    // Member Functions -- setters/modifiers
+    void changePetName(string newName){
+      petName = newName;
+    }
+    void changePetOwner(string newOwner){
+      ownerName = newOwner;
+    }
+};
+
+int main() {
+  // Instantiate an object of class Animal
+  Animal puppy; // calls Default Constructor
+
+  // Accessing data member of class Animal
+  puppy.scientificName = "Canis Lupus Familiaris";
+
+  // Accessing member function of class Animal
+  cout << puppy.getScientificName() << endl;
+
+  // Instantiate another object of class Animal
+  Animal cat("Felis catus", "Fluffy", 123); // calls Parameterized Constructor
+  
+  // Accessing and modifying a data member's value
+  cout << cat.getPetName() << endl;
+  cat.changePetName("Kitty");
+  cout << cat.getPetName() << endl;
+
+  Animal goldfish("Carassius Auratus", "Dorothy", 1, "Rebecca", "1 Uni Plaza");
+  cout << goldfish.getOwner() << endl;
+
+  Animal goldfish2(goldfish);
+  cout << goldfish.getPetName() << endl;
+
+
+  return 0;
 }
 ```
