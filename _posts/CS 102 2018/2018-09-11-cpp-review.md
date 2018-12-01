@@ -43,7 +43,7 @@ This review sheet will cover the following topics:
 12. [Pseudorandom Numbers](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#psuedorandom-numbers) - Wed, Oct. 3 ([S1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/03/class-sprint-2/); [L1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/03/class-sprint-2/#variation-3))
 13. [Pass By Reference/Value](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#pass-by-reference) - Mon, Nov. 5
 14. [Structs](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#structs) - Mon, Nov. 5
-15. [Classes & Objects]() - Mon, Dec. 3
+15. [Classes & Objects]() - Mon, Dec. 3 ([L1](https://ramnauth.github.io/cs%20102/2018/12/03/classes/))
 
 ## Basics
 
@@ -925,7 +925,7 @@ void printEmployeeInfo(Employee e) {
 }
 ```
 
-##Classes & Objects
+## Classes & Objects
 ```cpp
 #include <iostream>
 #include <string>
