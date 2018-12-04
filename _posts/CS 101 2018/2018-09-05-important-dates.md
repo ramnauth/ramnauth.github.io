@@ -58,3 +58,4 @@ Section numbers in the textbook are noted as `§1.2`, and correspond to the 6th 
 - *Wed Dec 5* - Authentication and authorization.
 - *Mon Dec 10* - Cryptography. `§17.4, 17.5`. **Quiz 6**.
 - *Wed Dec 12* - Wildcard day and wrap-up.
+- *Wed Dec 19* - *Final Exam* - 2:45 PM - 4:45 PM
