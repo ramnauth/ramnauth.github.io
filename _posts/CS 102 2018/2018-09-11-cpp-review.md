@@ -8,7 +8,7 @@ title: C++ Review Sheet
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-   C++ review sheet, updated as of **10/08/2018**
+   C++ review sheet, updated as of **12/05/2018**
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
@@ -44,6 +44,7 @@ This review sheet will cover the following topics:
 13. [Pass By Reference/Value](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#pass-by-reference) - Mon, Nov. 5
 14. [Structs](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#structs) - Mon, Nov. 5
 15. [Classes & Objects](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#classes--objects) - Mon, Dec. 3 ([L1](https://ramnauth.github.io/cs%20102/2018/12/03/classes/))
+16. [Keyboard Input](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#keyboard-input) - things to test on Mac OSX
 
 ## Basics
 
@@ -395,6 +396,34 @@ int main() {
     cout << "Your new name is " + yourName << endl;
     
     return 0;
+}
+```
+
+In the case you want to ignore all escape characters, use the following methods for getting **raw-input**.
+```cpp
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main(){
+  // Method 1: using '\\' instead of '\'
+  cout << " ============================================== "      << endl;
+  cout << "  ___   ___   _  __  ___  __  __   ___   _  _   "      << endl;  
+  cout << " | _ \\ / _ \\ | |/ / | __||  \\/  | / _ \\ | \\| |  " << endl;
+  cout << " |  _/| (_) || ' <  | _| | |\\/| || (_) || .` |  "     << endl;
+  cout << " |_|   \\___/ |_|\\_\\ |___||_|__|_| \\___/ |_|\\_|  " << endl;
+  cout << " ============================================== "      << endl;
+
+  // Method 2: using raw string literals
+  cout << R"( ============================================== )" << endl;
+  cout << R"(  ___   ___   _  __  ___  __  __   ___   _  _   )" << endl;  
+  cout << R"( | _ \ / _ \ | |/ / | __||  \/  | / _ \ | \| |  )" << endl;
+  cout << R"( |  _/| (_) || ' <  | _| | |\/| || (_) || .` |  )" << endl;
+  cout << R"( |_|   \___/ |_|\_\ |___||_|__|_| \___/ |_|\_|  )" << endl;
+  cout << R"( ============================================== )" << endl;        
+
+  return 0;
 }
 ```
 
@@ -1034,3 +1063,32 @@ int main() {
   return 0;
 }
 ```
+
+## Keyboard Input
+
+On **Windows** using the **minGW** compiler:
+```cpp
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main() {
+    while (1){
+        if ( _kbhit() ) {
+            int key_code = _getch();
+            cout << key_code << " ";
+        }
+        else 
+            continue;
+    }
+    return 0;
+}
+```
+
+On **Mac OSX**:
+
+To compile a C/C++ program using the `ncurses` library, you must:
+1. `#include <ncurses.h>`
+2. Link the programs using `gcc -lncurses yourProgram.cpp` (a dynamic link). 
+3. (*Optional*) For your program to run on another computer, you may have to statically link these files by finding the `libcurses.a` in `/usr/lib` and do `gcc yourProgram.cpp libncurses.a` 
