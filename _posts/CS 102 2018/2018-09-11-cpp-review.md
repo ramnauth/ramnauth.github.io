@@ -34,7 +34,7 @@ This review sheet will cover the following topics:
 3. [Arithmetic](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#arithmetic) - Wed, Sept. 12; Quiz Mon, Sept. 17
 4. [Conditionals](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#conditionals) - Mon, Sept. 17
 5. [Loops](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#loops) - Wed, Sept. 19
-6. [Strings](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#strings) - Wed, Sept. 19
+6. [Strings](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#strings) & Raw Inputs - Wed, Sept. 19; Wed, Dec. 5
 7. [Functions](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#functions) - Mon, Sept. 24 ([L1](https://ramnauth.github.io/cs%20102/2018/09/24/functions/)); Wed, Sept. 26 ([L2](https://ramnauth.github.io/cs%20102/2018/09/26/functions-2/))
 8. [Scope](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#scope) -  Wed, Sept. 26
 9. [Recursion](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#recursion) - Wed, Oct. 3; TB-Continued
@@ -44,7 +44,7 @@ This review sheet will cover the following topics:
 13. [Pass By Reference/Value](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#pass-by-reference) - Mon, Nov. 5
 14. [Structs](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#structs) - Mon, Nov. 5
 15. [Classes & Objects](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#classes--objects) - Mon, Dec. 3 ([L1](https://ramnauth.github.io/cs%20102/2018/12/03/classes/))
-16. [Keyboard Input](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#keyboard-input) - things to test on Mac OSX
+16. [Keyboard Input](https://ramnauth.github.io/cs%20102/2018/09/11/cpp-review/#keyboard-input) - Mon, Dec. 5
 
 ## Basics
 
@@ -1066,7 +1066,7 @@ int main() {
 
 ## Keyboard Input
 
-On **Windows** using the **minGW** compiler:
+On **Windows**:
 ```cpp
 #include <iostream>
 #include <conio.h>
@@ -1086,9 +1086,40 @@ int main() {
 }
 ```
 
-On **Mac OSX**:
-
+On **Mac OSX** or any **POSIX** (~to be tested):
 To compile a C/C++ program using the `ncurses` library, you must:
-1. `#include <ncurses.h>`
-2. Link the programs using `gcc -lncurses yourProgram.cpp` (a dynamic link). 
-3. (*Optional*) For your program to run on another computer, you may have to statically link these files by finding the `libcurses.a` in `/usr/lib` and do `gcc yourProgram.cpp libncurses.a` 
+1. **Using the Library**
+	1. `#include <ncurses.h>`
+	2. Link the programs using `gcc -lncurses yourProgram.cpp` (a dynamic link). 
+	3. (*Optional*) For your program to run on another computer, you may have to statically link these files by finding the `libcurses.a` in `/usr/lib` and do `gcc yourProgram.cpp libncurses.a` 
+2. **Initialization**
+	- Before you anything from the `ncurses` library, you must call `initscr();`
+	- `cbreak()` disables the buffering of type characters so you can get a character-at-a-time input.
+	- `noecho()` suppresses the automatic echoing of input
+	- In order to capture special keystrokes (e.g., the four arrow keys), you need to call `keypad(stdscr, TRUE);`
+	- Before your program terminates, call `endwin()` to restore the terminal settings.
+3. **Example**
+```cpp
+#include <ncurses.h>
+
+int main() { 
+	initscr();
+	cbreak();
+	noecho();
+	
+	int ch = getch();
+	switch (ch) {
+		case KEY_BACKSPACE: /* user pressed backspace */ 
+		 ...
+		case KEY_UP:  /* user pressed up arrow key */
+		 ...
+		case KEY_DOWN:  /* user pressed up arrow key */
+		 ...
+		case 'A' ....   /* user pressed key 'A' */
+		 ...
+	}
+	endwin();
+	
+	return 0;
+}
+```	
