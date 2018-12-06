@@ -1099,6 +1099,7 @@ To compile a C/C++ program using the `ncurses` library, you must:
 	- In order to capture special keystrokes (e.g., the four arrow keys), you need to call `keypad(stdscr, TRUE);`
 	- Before your program terminates, call `endwin()` to restore the terminal settings.
 3. **Example**
+
 ```cpp
 #include <ncurses.h>
 
@@ -1122,4 +1123,4 @@ int main() {
 	
 	return 0;
 }
-```	
+```
