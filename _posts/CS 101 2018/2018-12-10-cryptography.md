@@ -157,9 +157,9 @@ A serious drawback of all the above cryptography techniques is that the sender a
 The invention of public-key cryptography removes this disadvantage by splitting the key into two parts: one that is *fully public* and one that is *fully private*.
 
 ## Resources
-- [Caesar Cipher & Frequency Analysis](https://www.youtube.com/watch?v=sMOZf4GN3oc)(2:36)
-- [Polyalphabetic Cipher](https://www.youtube.com/watch?v=BgFJD7oCmDE)(2:26)
-- [One-Time Pads](https://www.youtube.com/watch?v=FlIG3TvQCBQ)(2:55)
-- [Public-Key - Diffie-Hellman](https://www.youtube.com/watch?v=3QnD2c4Xovk)(5:23)
-- [Public-Key - RSA](https://www.youtube.com/watch?v=wXB-V_Keiu8)(16:30)
+- [Caesar Cipher & Frequency Analysis](https://www.youtube.com/watch?v=sMOZf4GN3oc) (2:36)
+- [Polyalphabetic Cipher](https://www.youtube.com/watch?v=BgFJD7oCmDE) (2:26)
+- [One-Time Pads](https://www.youtube.com/watch?v=FlIG3TvQCBQ) (2:55)
+- [Public-Key - Diffie-Hellman](https://www.youtube.com/watch?v=3QnD2c4Xovk) (5:23)
+- [Public-Key - RSA](https://www.youtube.com/watch?v=wXB-V_Keiu8) (16:30)
 - [General Overview of Cryptographic Techniques](https://www.youtube.com/watch?v=jhXCTbFnK8o)
