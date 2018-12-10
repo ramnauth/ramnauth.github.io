@@ -7,7 +7,7 @@ title: Cryptography
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-   
+   What are some of the well-known and popularly implemented cryptographic techniques?
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
@@ -26,6 +26,7 @@ tags: []
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
+
 
 The word 'cryptography' comes from **crypto** meaning "secret" and **graphy** meaning "writing". So, the idea of cryptography is that we want to send
 messages that can be understood only by its **intended recipient**. 
