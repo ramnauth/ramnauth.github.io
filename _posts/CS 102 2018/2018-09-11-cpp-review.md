@@ -1087,10 +1087,23 @@ int main() {
 ```
 
 On **Mac OSX** or any **POSIX** (~to be tested):
-To compile a C/C++ program using the `ncurses` library, you must:
+To compile a C/C++ program using the `ncurses` library:
+
 1. **Using the Library**
 	1. `#include <ncurses.h>`
-	2. Link the programs using `gcc -lncurses yourProgram.cpp` (a dynamic link). 
+	2. ```bash
+		$ curl -O ftp://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz
+		$ tar -xzvf ncurses-5.9.tar.gz
+		$ cd ./ncurses-5.9
+		$ sudo make install
+
+		$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+		$ brew install ncurses
+
+		# compiling and executing your program
+		$ g++ -std=c++11 -lncurses -o hello hello.cpp
+		$ ./hello
+		```
 	3. (*Optional*) For your program to run on another computer, you may have to statically link these files by finding the `libcurses.a` in `/usr/lib` and do `gcc yourProgram.cpp libncurses.a` 
 2. **Initialization**
 	- Before you anything from the `ncurses` library, you must call `initscr();`
@@ -1102,25 +1115,29 @@ To compile a C/C++ program using the `ncurses` library, you must:
 
 ```cpp
 #include <ncurses.h>
+#include <iostream>
 
-int main() { 
-	initscr();
-	cbreak();
-	noecho();
-	
-	int ch = getch();
-	switch (ch) {
-		case KEY_BACKSPACE: /* user pressed backspace */ 
-		 ...
-		case KEY_UP:  /* user pressed up arrow key */
-		 ...
-		case KEY_DOWN:  /* user pressed up arrow key */
-		 ...
-		case 'A' ....   /* user pressed key 'A' */
-		 ...
-	}
-	endwin();
-	
-	return 0;
+using namespace std;
+
+int main()
+{   
+    int ch;
+
+    initscr();                // Start ncurses mode
+    raw();                    // Line buffering disabled
+    keypad(stdscr, TRUE);     // We get special chars like the arrow keys
+    noecho();                 // Don't echo() while we do getch
+
+    while((ch = wgetch(stdscr)) != KEY_F(2)) // Terminate program using F2
+    {
+        system("clear");
+        printw("Key code: %u Key: %c\n", ch, ch); // Use printw instead cout (http://www.cplusplus.com/reference/cstdio/printf/)
+        refresh();
+    }
+    endwin();                 // Exit ncurses mode
+
+    printf("F2 pressed .. program exiting\n");
+
+    return(0);
 }
 ```
