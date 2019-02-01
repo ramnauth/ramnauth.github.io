@@ -29,7 +29,7 @@ tags: []
 ---
 A PDF of these notes with additional comments and questions is provided: [PDF](https://drive.google.com/file/d/1TyKR4EACSZ0K2ypYYEbrso_B86KEEGG7/view?usp=sharing)
 
-Students will be able to
+**Goals**: Students will be able to
 1.	Describe how businesses and not-for-profit organizations help create our standard of living
 2.	Identify the sectors of the business environment, and explain how changes in those sectors influence business decisions
 3.	List the primary features of the world’s economic systems, and describe how the three sectors of the U.S. economy are linked
@@ -37,8 +37,22 @@ Students will be able to
 5.	Determine changes in price using the basic microeconomic concepts of supply and demand
 6.	Describe the trends reshaping the business, microeconomic, and macroeconomic environments, and competitive arena in terms of their own business ideas.
 
-Contents
-
+**Contents:**
+1. [Understanding Businesses](https://ramnauth.github.io/bus%20110/2019/01/31/business-economics/#understanding-businesses)
+	- [Building Blocks of Business](https://ramnauth.github.io/bus%20110/2019/01/31/business-economics/#building-blocks-of-business)
+2. [Understanding the Business Environment](https://ramnauth.github.io/bus%20110/2019/01/31/business-economics/#understanding-the-business-environment)
+3. [How Businesses & Economies Work](https://ramnauth.github.io/bus%20110/2019/01/31/business-economics/#how-businesses--economies-work)
+	- [Economic Systems](https://ramnauth.github.io/bus%20110/2019/01/31/business-economics/#economic-systems)
+	- [Macro and Microeconomics](https://ramnauth.github.io/bus%20110/2019/01/31/business-economics/#macroeconomics--microeconomics)
+	- [Economic Circular Flow](https://ramnauth.github.io/bus%20110/2019/01/31/business-economics/#economic-circular-flow)
+4. [Macroeconomic Goals](https://ramnauth.github.io/bus%20110/2019/01/31/business-economics/#macroeconomic-goals)
+	- [Economic Growth](https://ramnauth.github.io/bus%20110/2019/01/31/business-economics/#growth)
+	- [Employment](https://ramnauth.github.io/bus%20110/2019/01/31/business-economics/#employment)
+	- [Prices & Stability](https://ramnauth.github.io/bus%20110/2019/01/31/business-economics/#prices--stability)
+5. [Microeconomic Goals](https://ramnauth.github.io/bus%20110/2019/01/31/business-economics/#microeconomic-goals)
+	- [Shifts in Demand](https://ramnauth.github.io/bus%20110/2019/01/31/business-economics/#shifts-in-demand)
+	- [Shifts in Supply](https://ramnauth.github.io/bus%20110/2019/01/31/business-economics/#shifts-in-supply)
+6. [Accompanying assignment](https://ramnauth.github.io/bus%20110/2019/01/31/assignment-1/)
 
 # Understanding Businesses
 *How to businesses and not-for-profit organizations help create our standard of living?*
@@ -288,7 +302,7 @@ With the rising sneaker culture, the high demand for certain sneakers attracts e
 
 The **demand curve** displays the relationship between price and the quantity demanded of a good within a given period. 
 
-![Demand Curve](https://docs.google.com/uc?id=1IrxdsXzICfJm3CEaNhKBiPw1-At99Km)
+![Demand Curve](https://docs.google.com/uc?id=1IrxdsXzICfJm3CEaNhKBiPw1-At99KmV)
 
 Notice that when prices are high, consumers demand fewer avocados; when prices are 
 low, consumers are willing to buy more avocados. This relationship 
