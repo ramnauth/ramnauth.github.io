@@ -160,7 +160,7 @@ Businesses operate in a dynamic environment composed of five main forces/sectors
 
 **Economic Influences**: this sector is an important external influence on businesses. Fluctuations in economic activity create cycles that affect businesses and individuals. When the economy is growing, for example, unemployment rates are low, and income levels are high. Inflation and interest rates change according to economic activity. Government attempts to manage the level of economic activity by setting policies such as taxes and investments. In addition, supply and demand determine how prices and quantities of goods/services behave in a free market.
 
-**Political & Legal Influences*: the political climate of a country greatly influences day-to-day business operations. The three components of the political climate are 
+*Political & Legal Influences*: the political climate of a country greatly influences day-to-day business operations. The three components of the political climate are 
 1. the amount of government activity
 2. the types of laws it passes, and 
 3. the political stability of a government. 
