@@ -94,19 +94,19 @@ int main() {
     int smallestInt = -2147483648; // also written as INT_MIN
     cout << "Smallest int possible: " << smallestInt << endl;
 	
-	/*  Why is the smallest integer value just the negation of the largest integer? 
-		In two's complement (a representation for positive and negative binary numbers), the leftmost
-		bit is reserved for the sign (+ or -). If a number is negative, the leftmost bit will be 1. 
-		If positive, the leftmost bit is 0. 
-		
-		In a fixed-size representation of 3 bits (with signed numbers, aka Two's Complement), 
-		the most negative value is the binary number 100 ( = 4). The largest number is 011 ( = 3). 
-		For the fixed-size representation of any number of bits (which I name 'x'),
-		the largest number is 2^(x-1) -1. The smallest value (or the most negative value) is -1 * 2^(x-1)
-		or just one less than the largest number. 
-	*/
+    /*  Why is the smallest integer value just the negation of the largest integer? 
+    	In two's complement (a representation for positive and negative binary numbers), the leftmost
+    	bit is reserved for the sign (+ or -). If a number is negative, the leftmost bit will be 1. 
+    	If positive, the leftmost bit is 0. 
+    	
+    	In a fixed-size representation of 3 bits (with signed numbers, aka Two's Complement), 
+    	the most negative value is the binary number 100 ( = 4). The largest number is 011 ( = 3). 
+    	For the fixed-size representation of any number of bits (which I name 'x'),
+    	the largest number is 2^(x-1) -1. The smallest value (or the most negative value) is -1 * 2^(x-1)
+    	or just one less than the largest number. 
+    */
 	
-	return 0;
+    return 0;
 }
 ```
 
@@ -158,6 +158,6 @@ int main() {
     int randNum1To100 = (rand() % 100) + 1; //random number between 1 and 100
     cout << "Random # between 1 and 100: " << randNum1To100 << endl;
 
-	return 0;
+    return 0;
 }
 ```
