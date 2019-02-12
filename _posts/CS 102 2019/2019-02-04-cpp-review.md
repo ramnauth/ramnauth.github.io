@@ -32,6 +32,7 @@ This review sheet will cover the following topics:
 1. [Basics](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#basics) - Mon, Jan. 28; Quiz Wed, Feb. 06
 2. [Data Types](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#data-types) - Wed, Jan. 30; Quiz Wed, Feb. 06
 3. [Arithmetic](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#arithmetic) - Mon, Feb. 04; Quiz Wed, Feb. 06
+4. [Conditionals](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#conditionals) - Mon, Feb. 11; Activity 1
 
 ## Basics
 
@@ -159,5 +160,119 @@ int main() {
     cout << "Random # between 1 and 100: " << randNum1To100 << endl;
 
     return 0;
+}
+```
+
+## Conditionals
+
+```cpp
+#include <iostream>
+
+using namespace std;
+int main() {
+    // CONDITIONALS (aka BRANCHES) execute different code depending on the conditions
+    
+    /* COMPARISON OPERATORS
+         ==     is it equal?
+         !=     is it not equal?
+         >      is it greater than?
+         <      is it less than?
+         >=     is it greater than or equal to?
+         <=     is it less than or equal to?
+    */
+   
+    bool canBeWalked = false;
+    bool isLazy = true;
+
+    if (canBeWalked){ // is false, doesn't print anything, goes to next statement
+        cout << "The animal is a dog." << endl;
+    } else if (isLazy) { // this statement is true, prints '... is a cat'
+        cout << "The animal is a cat." << endl;
+    } else { // this statement is not checked because the prev. is already true.
+        cout << "The animal is a fish." << endl;
+    }
+
+    canBeWalked = true;
+
+    if (isLazy){ // is true. Check next statement because it is not an 'else'
+        cout << "The animal is a cat." << endl;
+    }
+    if (canBeWalked){ // is also true.
+        cout << "The animal is a dog." << endl;
+    }
+
+    /* LOGICAL OPERATORS
+         &&     AND     are both true?
+         ||     OR      is either true?
+         !      NOT     is it not true?
+    */
+
+   int age = 70;
+   int ageAtLastExam = 16;
+   bool isIntoxicated = false;
+
+   if ((age >= 1) && (age < 16)){ // if age is between 1 (inclusive) AND 16 (exclusive)
+        cout << "You cannot drive." << endl;
+   } else if (isIntoxicated) { // if you are intoxicated
+        cout << "You cannot drive." << endl;
+   } else if (age >= 80 && ((age > 100) || (age - ageAtLastExam) > 5)){
+        // if you are older than 100 OR
+        // if you haven't take the exam in the last 5 years
+        // if either of the above conditions are true AND you are 80 or older, you can't drive
+        cout << "You cannot drive." << endl;
+   } else { // when none of the previous conditions are not met, you can drive
+        cout << "You can drive." << endl;
+   }
+
+   int bookOption = 2;
+
+   switch(bookOption){ // evaluates an INT EXPRESSION, not a BOOLEAN EXPRESSION
+        case 1:
+            cout << "Harry Potter" << endl;
+            break; // if bookOption == 1, don't check the other cases.
+        case 2:
+            cout << "The Hunger Games" << endl;
+            break; // bookOption equals 2, exit switch statement.
+        case 3: 
+            cout << "Frankenstein" << endl;
+            break;
+        default: // if no cases are true
+            cout << "Computer Science textbook" << endl;
+   }
+   
+	switch(1) {
+		case 1 : 
+			cout << '1'; // prints "1",
+		case 2 : 
+			cout << '2'; // then prints "2"
+	}	
+	
+	switch(1) {
+		case 1 : 
+			cout << '1'; // prints "1"
+			break;       // and exits the switch
+		case 2 : 
+			cout << '2';
+			break;
+	}
+	
+
+   /* TERNARY OPERATOR
+        variable = (condition) ? true : false
+   */
+    int largestNum = (5 > 2) ? 5 : 2;
+	
+	/* ORDER OF EVALUATION
+		1. ( )			parentheses
+		2. !			NOT
+		3. */%			division, multiplication, modulus
+		4. +-			addition, subtraction
+		5. < <= > > =	comparison operators
+		6. == != 		equality operators
+		7. &&			AND
+		8. ||			OR
+	*/
+
+	return 0;
 }
 ```
