@@ -32,6 +32,15 @@ See assignment handout ([link](https://drive.google.com/file/d/1ZNZMsxZ-KEBbcjMQ
 
 **Objective**: plan and conduct a well-designed and well-conducted survey related to your own business venture to gather data and make meaningful conclusions which will lead to business knowledge.
 
+1. [Literature Review](https://ramnauth.github.io/bus%20110/2019/02/14/assignment-2/#literature-review)
+2. [Plan Your Study](https://ramnauth.github.io/bus%20110/2019/02/14/assignment-2/#plan-your-study)
+3. [Design Your Survey](https://ramnauth.github.io/bus%20110/2019/02/14/assignment-2/#design-your-survey)
+4. **Sunday, Feb. 24th** - [Check-In #1](https://ramnauth.github.io/bus%20110/2019/02/14/assignment-2/#check-in-1--due-before-feb-24th) due
+5. [Results & Analysis](https://ramnauth.github.io/bus%20110/2019/02/14/assignment-2/#results--analysis)
+6. [Conclusions](https://ramnauth.github.io/bus%20110/2019/02/14/assignment-2/#conclusions)
+7. **Thursday, Feb 28th** - [Check-In #2](https://ramnauth.github.io/bus%20110/2019/02/14/assignment-2/#check-in-2--due-before-feb-28th) due
+8. **Thursday, Mar 7th** - [Final Draft Submission](https://ramnauth.github.io/bus%20110/2019/02/14/assignment-2/#final-draft--due-march-7th)
+
 ## Literature Review
 1.	Now that you have chosen a business venture, research the available statistics and data using reliable resources. Summarize (at least 1 page) this research and explain how you can apply this information to your business venture. 
 2.	In addition, include at least one relevant graphical display. Describe its distribution (i.e., shape, center, and spread). Consider the clusters, gaps, modes, and outliers, looking for reasons behind any unusual features. 
