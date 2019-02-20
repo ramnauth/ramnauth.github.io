@@ -29,10 +29,12 @@ tags: [C++, Programming Basics]
 ---
 This review sheet will cover the following topics:
 
-1. [Basics](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#basics) - Mon, Jan. 28; Quiz Wed, Feb. 06
-2. [Data Types](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#data-types) - Wed, Jan. 30; Quiz Wed, Feb. 06
-3. [Arithmetic](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#arithmetic) - Mon, Feb. 04; Quiz Wed, Feb. 06
-4. [Conditionals](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#conditionals) - Mon, Feb. 11; Activity 1
+1. [Basics](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#basics) - Mon, Jan. 28; Q1 Wed, Feb. 06
+2. [Data Types](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#data-types) - Wed, Jan. 30; Q1 Wed, Feb. 06
+3. [Arithmetic](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#arithmetic) - Mon, Feb. 04; Q1 Wed, Feb. 06
+4. [Conditionals](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#conditionals) - Mon, Feb. 11; CA1
+5. [Loops](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#loops) - Wed, Feb. 20, Mon, Feb. 25; A1
+6. [Strings](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#strings) - Wed, Feb. 20, Mon, Feb. 25; A1
 
 ## Basics
 
@@ -274,5 +276,143 @@ int main() {
 	*/
 
 	return 0;
+}
+```
+
+## Loops
+
+```cpp
+#include <iostream>
+
+using namespace std;
+int main() {
+
+	// a FOR LOOP that counts from 0 to 25
+	for (int i = 0; i <= 25; i++){
+		cout << i << " ";
+	} cout << endl;
+
+	// The WHILE LOOP that generates random numbers until a random number equals 10
+	while (randNum != 10){
+		cout << randNum << " is not equal to 10." << endl;
+		randNum = (rand() % 10) + 1; //regenerate a random number
+	} cout << "Random number equals 10. Exiting loop." << endl;
+
+	int index = 0;
+	while (index <= 25){ // will simulate a FOR loop counting to 25
+		cout << index << " ";
+		index++;
+	} cout << endl;
+
+	// a DO WHILE LOOP that plays a guessing game with the user until the user guess the correct number
+	string numberGuessed; // a STRING is a series of chars
+	int intNumberGuessed = 0; 
+
+	do {
+		cout << "Guess a number between 1 and 10: ";
+		getline(cin, numberGuessed); // get USER INPUT and store it into variable numberGuessed
+		intNumberGuessed = stoi(numberGuessed); // convert string to int with stoi
+	} while (intNumberGuessed != 4);
+	cout << "You guessed the correct number!" << endl;
+
+	return 0;
+}
+```
+
+## Strings
+
+```cpp
+#include <iostream>
+#include <string> // this include statements tells the preprocessor to get the file containing the relevant string functions
+
+using namespace std;
+int main() {
+    string myDogFirstName = "Fluffy";
+    string myDogLastName = "Marie Alfonso James";
+    string myDogSuffix = "Jr. III";
+    
+	// combine or CONCATENATE strings with +
+    cout << "My dog's name is " << myDogFirstName + " " + myDogLastName + " " + myDogSuffix << endl;
+
+    // getting and storing USER INPUT
+    string yourName;
+    cout << "What is your name? ";
+    getline(cin, yourName);
+    cout << "Hello " + yourName + "!" << endl;
+
+    // converting string to other data types
+    double fivePIdigits = 3.1415;
+    string piGuess;
+    double piGuessDouble; 
+    
+    cout << "What are the digits of pi? ";
+    getline(cin, piGuess);
+    piGuessDouble = stod(piGuess); //convert string to double with stod
+    
+    if (piGuessDouble == fivePIdigits){
+        cout << "You are right." << endl;
+    } else {
+        cout << "You are wrong." << endl;
+    }
+
+    // other functions of the string class
+    cout << "Size of string " << piGuess.size() << endl; //returns # of chars
+    cout << "Is the string empty? " << piGuess.empty() << endl; //returns 0 if empty, 1 if not.
+    cout << piGuess.append( " was your guess.") << endl; // appends to end of string
+
+    string alpha = "alpha";
+    string beta = "beta";
+
+    cout << "Alpha < Beta denoted as " << alpha.compare(beta) << endl; // returns -1; in alphabetic order, 'alpha' comes before 'beta'
+    cout << "Alpha == Alpha denotes as: " << alpha.compare(alpha) << endl; // returns 0; 'alpha' is equal to 'alpha'
+    cout << "Beta > Alpha denoted as: " << beta.compare(alpha) << endl; // returns 1; in alphabetic order, 'alpha' comes after 'beta'
+
+    string wholeName = yourName.assign(yourName);
+    cout << "Your whole name is: " + wholeName << endl;
+
+    string firstName = wholeName.assign(wholeName, 2, 5); // grabs 5 characters from index 2; 'becca' from 'Rebecca'
+    cout << "Your first name is: " + firstName << endl;
+
+    int lastNameIndex = yourName.find("Ramnauth", 0); // search for 'Ramnauth' in yourName starting at index 0
+    cout << "Index of last name: " << lastNameIndex << endl; 
+
+    yourName.insert(7, " Ann Marie");
+    cout << "Your new name is " + yourName << endl;
+
+    yourName.erase(8, 4); // delete 4 characters starting at 8th char
+    cout << "Your new name is " + yourName << endl;
+
+    yourName.replace(14, 8, "Robins"); // replace 8 characters starting at 14th char with 'Robins'
+    cout << "Your new name is " + yourName << endl;
+    
+    return 0;
+}
+```
+
+In the case you want to ignore all escape characters, use the following methods for getting **raw-input**.
+```cpp
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main(){
+  // Method 1: using '\\' instead of '\'
+  cout << " ============================================== "      << endl;
+  cout << "  ___   ___   _  __  ___  __  __   ___   _  _   "      << endl;  
+  cout << " | _ \\ / _ \\ | |/ / | __||  \\/  | / _ \\ | \\| |  " << endl;
+  cout << " |  _/| (_) || ' <  | _| | |\\/| || (_) || .` |  "     << endl;
+  cout << " |_|   \\___/ |_|\\_\\ |___||_|__|_| \\___/ |_|\\_|  " << endl;
+  cout << " ============================================== "      << endl;
+
+  // Method 2: using raw string literals
+  cout << R"( ============================================== )" << endl;
+  cout << R"(  ___   ___   _  __  ___  __  __   ___   _  _   )" << endl;  
+  cout << R"( | _ \ / _ \ | |/ / | __||  \/  | / _ \ | \| |  )" << endl;
+  cout << R"( |  _/| (_) || ' <  | _| | |\/| || (_) || .` |  )" << endl;
+  cout << R"( |_|   \___/ |_|\_\ |___||_|__|_| \___/ |_|\_|  )" << endl;
+  cout << R"( ============================================== )" << endl;        
+
+  return 0;
 }
 ```
