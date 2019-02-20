@@ -8,7 +8,7 @@ title: C++ Review Sheet
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-   C++ review sheet, updated as of **02/05/2019**
+   C++ review sheet, updated as of **02/20/2019**
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
