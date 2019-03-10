@@ -41,10 +41,10 @@ Your website must have:
 5. At least 3 hyperlinks to relevant sources
 6. At least one appropriate iframe (e.g., a Google Maps, Google Drive presentation/file, a YouTube video)
 7. An ‘About Me’ section containing:
-	a. Your name
-	b. Your role at this company (e.g., founder or CTO)
-	c. Your email address using an `<a href="mailto:youremail@email.com"> email here </a>` tag
-	d. A brief (1-2 sentences) background/description about yourself
+    - Your name
+    - Your role at this company (e.g., founder or CTO)
+    - Your email address using an `<a href="mailto:youremail@email.com"> email here </a>` tag
+    - A brief (1-2 sentences) background/description about yourself
 
 ## Submission Portal
 Submit your repl.it link here: [https://goo.gl/forms/ekqNXkCALpIRfo5T2](https://goo.gl/forms/ekqNXkCALpIRfo5T2)
