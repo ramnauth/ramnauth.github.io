@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: A2 - Designing & Conducting A Study, due Wed Mar. 27
+title: A3 - Your Company's Website, due Wed Mar. 27
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
