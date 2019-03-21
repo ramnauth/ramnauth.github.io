@@ -50,7 +50,7 @@ Your website must have:
 Submit your repl.it link here: [https://goo.gl/forms/ekqNXkCALpIRfo5T2](https://goo.gl/forms/ekqNXkCALpIRfo5T2)
 
 ## In-Class Example
-The following code for the website we built together in class: [https://testnetworking--rramnauth2220.repl.co/][https://testnetworking--rramnauth2220.repl.co/]
+The following code for the website we built together in class: [https://testnetworking--rramnauth2220.repl.co/](https://testnetworking--rramnauth2220.repl.co/)
 ```html
 <!DOCTYPE html> <!-- document type --> 
 <html>
