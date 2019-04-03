@@ -36,6 +36,12 @@ This review sheet will cover the following topics:
 5. [Loops](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#loops) - Wed, Feb. 20, Mon, Feb. 25; A1
 6. [Strings](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#strings) - Wed, Feb. 20, Mon, Feb. 25; A1
 7. [Functions](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#functions) - Wed, Mar. 21
+8. [Scope](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#scope) -  Wed, Apr. 3
+9. [Recursion](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#recursion) - Wed, Mar. 21; TB-Continued
+10. [Arrays](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#arrays) - Wed, Apr. 3
+11. [Vectors](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#vector) - Wed, Apr. 3
+12. [Pseudorandom Numbers](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#psuedorandom-numbers) - Wed, Feb. 11 
+13. [Pass By Reference/Value](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#pass-by-reference)
 
 ## Basics
 
@@ -533,5 +539,360 @@ int main(){
         Enter a number: 4
         4 + 5 + 4 = 13
     */
+}
+```
+
+## Scope
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int x = 10;
+
+int main() {
+    int x = 4; 
+    
+    cout << "Global x = " << ::x << endl;
+    cout << "Local x = " << x << endl;
+    
+	return 0;
+}
+```
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int x = 10; // global
+
+int addNumbers(int x, int y) {
+    return x + y; // local
+}
+
+int incrementNumber(int num) {
+    return num + 1; // local
+}
+
+int main() {
+    int y = 5; // local
+    y = incrementNumber(y);
+    cout << addNumbers(x, y);
+    return 0;
+}
+```
+
+## Recursion
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int getFactorial(int number); // does not recurse to get factorial of a number
+int getFactorialRecursively(int number); // recurses to get factorial of a number
+
+int main() {
+    cout << "8! = " << getFactorial(8) << endl;
+    cout << "5! = " << getFactorial(5) << endl;
+    cout << "0! = " << getFactorial(0) << endl;
+
+    cout << "8! = " << getFactorialRecursively(8) << endl;
+    cout << "5! = " << getFactorialRecursively(5) << endl;
+    cout << "0! = " << getFactorialRecursively(0) << endl;
+	
+	return 0;
+}
+
+int getFactorial(int number){
+    int num = number; //just storing param for safekeeping
+    int factorial = 1;
+    while(num > 0){
+        factorial = factorial * num; 
+        num--;
+    }
+    return factorial;
+}
+
+int getFactorialRecursively(int number){
+    int factorial;
+    if (number == 1) // this base case tells the recursive function when to stop
+        factorial = 1;
+    else 
+        factorial = getFactorial(number - 1) * number; // recursive because it calls itself
+    return factorial;
+
+    /* behind the scenes of getFactorialRecursively(5):
+            getFactorialRecursively(5) --> else statement --> getFactorialRecursively(4) * 5
+            getFactorialRecursively(4) --> else statement --> getFactorialRecursively(3) * 4
+            getFactorialRecursively(3) --> else statement --> getFactorialRecursively(2) * 3
+            getFactorialRecursively(2) --> else statement --> getFactorialRecursively(1) * 2
+            getFactorialRecursively(1) --> if statement --> 1 
+
+        Now we know: 
+            getFactorialRecursively(2) = getFactorialRecursively(1) * 2 = 1 * 2
+            getFactorialRecursively(3) = getFactorialRecursively(2) * 3 = 1 * 2 * 3
+            getFactorialRecursively(4) = getFactorialRecursively(3) * 4 = 1 * 2 * 3 * 4
+            getFactorialRecursively(5) = getFactorialRecursively(4) * 5 = 1 * 2 * 3 * 4 * 5
+
+        Therefore:
+            getFactorialRecursively(5) = 1 * 2 * 3 * 4 * 5 = 120
+    */
+}
+```
+
+## Arrays
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	cout << "-----------------------------------" << endl;
+    cout << "              ARRAYS               " << endl;
+    cout << "-----------------------------------" << endl;
+    // arrays store multiple values of the same data type, like baskets
+    
+    int luckyNums[5]; // says that this "basket" called luckyNums can hold only 5 integers
+    
+    int unluckyNums[5] = {4, 6, 1, 9, 78}; // these are the integers in my "basket" called unluckyNums
+    
+    cout << "First unlucky number = " << unluckyNums[0] << endl;
+    cout << "Second unlucky number = " << unluckyNums[1] << endl;
+    cout << "Last unlucky number = " << unluckyNums[4] << endl;
+
+    // MULTIDIMENSIONAL ARRAYS means baskets of baskets
+    char name[2][5] = {
+		{'B', 'e', 'c', 'k', 'y'}, 
+		{'R', 'a', 'm', 'e', 'n'}
+	};
+    
+    // name[index of which row?][index of which column?]
+    cout << "2nd letter in the 2nd array: " << name[1][1] << endl;
+    cout << "1st letter in the 1st array: " << name[0][0] << endl;
+    cout << "Last letter in the last array: " << name[1][4] << endl;
+
+    name[0][4] = 'i'; // changing last letter of first array to 'i'
+    cout << "Last letter in the 1st array: " << name[0][4] << endl;
+
+    for (int i = 0; i < 2; i++) {
+        for (int j = 0; j < 5; j++) {
+            cout << name[i][j];
+        }
+        cout << " ";
+    }
+	
+return 0;
+}
+```
+
+## Vectors
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	cout << "-----------------------------------" << endl;
+    cout << "             VECTORS               " << endl;
+    cout << "-----------------------------------" << endl;
+    // just like arrays, except their size could change
+
+    vector <int> lotteryNumVect(10); // initializes vector with 10 zeros
+    int lotteryNumArray[5] = {4, 13, 14, 24, 34};
+	
+    // at the beginning of vector, insert elements 0, 1, and 2 of array
+    lotteryNumVect.insert(lotteryNumVect.begin(), lotteryNumArray, lotteryNumArray+3);
+	
+    for (int i = 0; i < lotteryNumVect.size(); i++){
+        cout << "Value at index " << i << " = " << lotteryNumVect.at(i) << endl;
+    }
+
+    lotteryNumVect.insert(lotteryNumVect.begin()+5, 44); //add number 44 to vector at index 5
+    cout << "Item at index 5 = " << lotteryNumVect.at(5) << endl;
+    
+    lotteryNumVect.push_back(64); // insert number 64 to the end of the vector
+    
+    cout << "Last value = " << lotteryNumVect.back() << endl; // get last/back element
+    cout << "First value = " << lotteryNumVect.front() << endl; // get first/front element
+    cout << "Is the vector empty? " << lotteryNumVect.empty() << endl; // returns an int (0 = false, 1 = true)
+    cout << "Size of vector = " << lotteryNumVect.size() << endl; // how many elements?
+    
+    lotteryNumVect.pop_back(); // removes last element
+    cout << "New size of vector = " << lotteryNumVect.size() << endl; // size has decreased by 1
+
+return 0;
+}
+```
+
+## Psuedorandom Numbers
+```cpp
+#include<iostream>
+#include<cstdlib>
+#include <math.h>
+#include <vector>
+
+using namespace std;
+
+int notSoRandomNum(){
+        srand(0); // set the seed of the pseudo random algorithm to 0
+    return rand() % 100 + 1; // always returns 84
+}
+
+int stillNotSoRandomNum(){
+    srand(1); // set the seed to 1
+    return rand() % 100 + 1; // always returns 84
+}
+
+int kindaRandomNum(){
+    return rand() % 100 + 1; // returns the same numbers each time (87, 78, 16, 94, 36)
+}
+
+int lilBetterRandomNum(){
+    srand(time(0)); // use the current time as the seed
+    return rand() % 100 + 1; // executes so fast that it really uses the same seed, but different each time you run the program
+}
+
+int notBetterRandomNum(){
+    srand(pow(time(0), 4)); // executes so fast that the time that passes is less than 1 seconds. So 0^4 = 0. This is the same as saying srand(0).
+    return rand() % 100 + 1; // always returns 84
+}
+
+int myNumAttempt1(){
+    int num_1 = rand(); // from kindaRandomNum
+    
+    srand(time(0));
+    int num_2 = rand(); // from lilBetterRandomNum
+
+    return ((int)(pow(num_1 + num_2, 7)) % 100 + 1); // made this algorithm up. Doesn't really work. Can you guess why?
+}
+
+int myNumAttempt2(){
+    vector<int> nums(100);
+
+    for (int i = 0; i < 100; i++){ // generate 100 kindaRandomNums
+        int num = rand() % 100 + 1;
+        nums.at(i) = num;
+    }
+
+    int randIndex = (rand() * time(0)) % 100; // multiply rand and current time, then constrain possible numbers to 0 - 99. 
+    
+    return nums.at(randIndex); // why do you think this algorithm works/doesn't work?
+}
+
+int yourRandomNum(){
+    /* 	Try to create a random number generator like I did in myNumAttempt1() and myNumAttempt2()
+		Explain your logic, where you succeeded, and where your algorithm went wrong
+         
+		Do you think it's possible to generate truly random numbers?
+    */
+    return 0; 
+}
+
+int main(){
+    int howMany = 7;
+
+    cout << "notSoRandomNum(): " << "\t";
+    for(int i = 1; i <= howMany; i++){
+        cout << notSoRandomNum() << "\t";
+    } cout << endl;
+
+    cout << "stillNotSoRandomNum(): " << "\t";
+    for(int i = 1; i <= howMany; i++){
+        cout << stillNotSoRandomNum() << "\t";
+    } cout << endl;
+
+    cout << "kindaRandomNum(): " << "\t";
+    for(int i = 1; i <= howMany; i++){
+        cout << kindaRandomNum() << "\t";
+    } cout << endl;
+
+    cout << "lilBetterRandomNum(): " << "\t";
+    for(int i = 1; i <= howMany; i++){
+        cout << lilBetterRandomNum() << "\t";
+    } cout << endl;
+
+    cout << "notBetterRandomNum(): " << "\t";
+    for(int i = 1; i <= howMany; i++){
+        cout << notBetterRandomNum() << "\t";
+    } cout << endl;
+
+    cout << "myNumAttempt1(): " << "\t";
+    for(int i = 1; i <= howMany; i++){
+        cout << myNumAttempt1() << "\t";
+    } cout << endl;
+
+    cout << "myNumAttempt2(): " << "\t";
+    for(int i = 1; i <= howMany; i++){
+        cout << myNumAttempt2() << "\t";
+    } cout << endl;
+
+    cout << "yourRandomNum(): " << "\t";
+    for(int i = 1; i <= howMany; i++){
+        cout << yourRandomNum() << "\t";
+    } cout << endl;
+
+    return 0;
+	
+	/* SAMPLE OUTPUTS
+	notSoRandomNum(): 		84	84	84	84	84	84	84	
+	stillNotSoRandomNum(): 	84	84	84	84	84	84	84	
+	kindaRandomNum(): 		87	78	16	94	36	87	93	
+	lilBetterRandomNum(): 	11	11	11	11	11	11	11	
+	notBetterRandomNum(): 	84	84	84	84	84	84	84	
+	myNumAttempt1(): 		-47	-47	-47	-47	-47	-47	-47	
+	myNumAttempt2(): 		11	98	37	43	66	62	78	
+	yourRandomNum(): 		0	0	0	0	0	0	0
+	
+	
+	notSoRandomNum(): 		84	84	84	84	84	84	84	
+	stillNotSoRandomNum(): 	84	84	84	84	84	84	84	
+	kindaRandomNum(): 		87	78	16	94	36	87	93	
+	lilBetterRandomNum(): 	54	54	54	54	54	54	54	
+	notBetterRandomNum(): 	84	84	84	84	84	84	84	
+	myNumAttempt1(): 		-47	-47	-47	-47	-47	-47	-47	
+	myNumAttempt2(): 		39	62	21	26	32	47	41	
+	yourRandomNum(): 		0	0	0	0	0	0	0	
+	*/
+}
+```
+
+## Pass By Reference
+```cpp
+#include <iostream>
+
+using namespace std;
+
+// CALL BY VALUE is the default way of passing parameters
+// in C/C++: the parameter is a COPY of the original, so
+// the function can't change the original.
+int changeByValue(int x, int amount);
+
+// CALL BY REFERENCE is indicated by the (&) after the type
+// of the parameter. It means the parameter is initialized
+// as a reference (aka a pointer) to the original value, 
+// so it can change the original.
+int changeByRef(int& x, int amount);
+
+int main(){
+  int x = 10;
+
+  changeByValue(x, 23);
+  cout << "x = " << x;
+
+  changeByRef(x, 23);
+  cout << "x = " << x;
+
+  return 0;
+}
+
+int changeByValue(int x, int amount) {
+  x = x + amount;
+  return x;
+}
+
+int changeByRef(int& x, int amount) {
+  x = x + amount;
+  return x;
 }
 ```
