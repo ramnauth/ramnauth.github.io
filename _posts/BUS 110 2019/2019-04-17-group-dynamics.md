@@ -32,6 +32,8 @@ How well do the people in your team get along? Do they trust each other? How imp
 
 When people collaborate, they work together to understand what needs to be done and decide what is the best course of action. They make the decision together and listen to each other’s preferences and concerns. In return, they offer ideas and opinions when remaining open-minded to another’s point of view. Even with an authority figure (e.g., manager, team leader), people who collaborate work with mutual respect and trust in order to achieve a common goal. 
 
+![Batman & Superman](https://media.giphy.com/media/wLDXxrBcH4FPO/giphy.gif)
+
 But this image of an effective and efficient team isn’t as easy as it sounds. There may be one person who is very critical of your colleagues’ ideas and, thus, discourages others from speaking up. Another team member may be silent, and hardly contribute to the group meetings at all; when asked for his opinion, he simply agrees with a more dominant colleague. Furthermore, another group member makes humorous unhelpful comments which distract others and upsets the momentum of the discussion. 
 
 These are classic examples of poor group dynamics that can undermine the success of a project as well as employees overall morale and engagement. 
