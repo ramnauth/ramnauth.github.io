@@ -36,6 +36,15 @@ But this image of an effective and efficient team isn’t as easy as it sounds. 
 
 These are classic examples of poor group dynamics that can undermine the success of a project as well as employees overall morale and engagement. 
 
+**Contents**
+1. [What are group dynamics?](https://ramnauth.github.io/bus%20110/2019/04/17/group-dynamics/#what-are-group-dynamics)
+2. [What causes poor group dynamics?](https://ramnauth.github.io/bus%20110/2019/04/17/group-dynamics/#what-causes-poor-group-dynamics)
+3. [Improving Group Dynamics](https://ramnauth.github.io/bus%20110/2019/04/17/group-dynamics/#improving-group-dynamics)
+4. [Project Management Statistics](https://ramnauth.github.io/bus%20110/2019/04/17/group-dynamics/#project-management-stats)
+    - [Project Budget](https://ramnauth.github.io/bus%20110/2019/04/17/group-dynamics/#project-budget)
+	- [Project Planning & Goals](https://ramnauth.github.io/bus%20110/2019/04/17/group-dynamics/#project-planning--goals)
+	- [Continued Management](https://ramnauth.github.io/bus%20110/2019/04/17/group-dynamics/#continued-project-management)
+
 ## What are group dynamics? 
 
 In the early 1940s, Kurt Lewin, a social psychologist, and change management expert, coined the term “group dynamics” after noticing that people often take on distinct roles and behaviors when they work in a group. As such, the term **group dynamics** describes the effects of these assumed roles and behaviors on other group members, and on the group itself. As researchers continue to build on Lewin’s ideas, his work has become central to good management practice. 
@@ -57,11 +66,16 @@ Some of the most common problems that can occur while managing or working with a
 	
 	It is important to clarify that some of these characteristics (e.g., open to disagreeing, having a sense of humor) can be appropriately used and helpful. This reminds me of a quote from *The Breakfast Club* (1985):
 	> Brian: [*closing narration*] Dear Mr. Vernon, we accept the fact that we had to sacrifice a whole Saturday in detention for whatever it was we did wrong. But we think you're crazy to make us write an essay telling you who we think we are. You see us as you want to see us - in the simplest terms, in the most convenient definitions. But what we found out is that each one of us is a brain...
+	
 	> Andrew: ...and an athlete...
-    > Allison: ...and a basket case...
-    > Claire: ...a princess...
-    > John: ...and a criminal...
-    > Brian: Does that answer your question? Sincerely yours, the Breakfast Club.
+    
+	> Allison: ...and a basket case...
+    
+	> Claire: ...a princess...
+    
+	> John: ...and a criminal...
+    
+	> Brian: Does that answer your question? Sincerely yours, the Breakfast Club.
 
 - **Groupthink**: this happens when group members prioritize reaching a consensus over making the right decision. This prevents people from fully exploring alternative solutions, discouraging creativity and individual responsibility. This may also lead to **group polarization**, where like-minded people reach an extreme or irrational decision without dispute or consideration for the alternatives. 
 - **Free riding**: group members will take it easy and leave their colleagues to do all the work. Free riders may focus strongly on and produce effectively individual work but will limit their contributions in group situations. This is **social loafing**, the idea that people are prone to putting in less effort on a group task versus an individual task. 
