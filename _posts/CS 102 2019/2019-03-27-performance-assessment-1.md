@@ -40,22 +40,22 @@ If you don't complete your program within the time limit of the sprint, it is be
 
 This is **not** a comprehensive list of *all* possible solutions. Remember, there isn't always one way to solve a single problem. Therefore, these solutions are only example solutions. 
 
-- [Program 1](): get an inputted sentence
-- [Program 2](): counts from 1 to 10 inclusive
-- [Program 3](): counts from 10 to 1 inclusive
-- [Program 4](): prints *n* even numbers from 0
-    - [Variation 1](): multiplies index by 2 to get even
-	- [Variation 2](): for loop that counts by 2
-- [Program 5](): prints *n* odd numbers from 0
-- [Program 6](): generates a random number between 1 and 10 inclusive
-- [Program 7](): counts how many vowels in a given string
-- [Program 8](): computes factorial of given number
-    - [Variation 1](): computes using a for loop
-	- [Variation 2](): computes using recursion
-- [Program 9](): determines if a number or string is a palindrome
-	- [Variation 1](): folds string in half for mirror image
-	- [Variation 2](): completely reverses given string
-	- [Variation 3](): folds string in half, terminates immediately if not mirror
+- [Program 1](https://ramnauth.github.io/cs%20102/2019/03/27/performance-assessment-1/#program-1): get an inputted sentence
+- [Program 2](https://ramnauth.github.io/cs%20102/2019/03/27/performance-assessment-1/#program-2): counts from 1 to 10 inclusive
+- [Program 3](https://ramnauth.github.io/cs%20102/2019/03/27/performance-assessment-1/#program-3): counts from 10 to 1 inclusive
+- [Program 4](https://ramnauth.github.io/cs%20102/2019/03/27/performance-assessment-1/#program-4): prints *n* even numbers from 0
+    - [Variation 1](https://ramnauth.github.io/cs%20102/2019/03/27/performance-assessment-1/#variation-1): multiplies index by 2 to get even
+	- [Variation 2](https://ramnauth.github.io/cs%20102/2019/03/27/performance-assessment-1/#variation-2): for loop that counts by 2
+- [Program 5](https://ramnauth.github.io/cs%20102/2019/03/27/performance-assessment-1/#program-5): prints *n* odd numbers from 0
+- [Program 6](https://ramnauth.github.io/cs%20102/2019/03/27/performance-assessment-1/#program-6): generates a random number between 1 and 10 inclusive
+- [Program 7](https://ramnauth.github.io/cs%20102/2019/03/27/performance-assessment-1/#program-7): counts how many vowels in a given string
+- [Program 8](https://ramnauth.github.io/cs%20102/2019/03/27/performance-assessment-1/#program-8): computes factorial of given number
+    - [Variation 1](https://ramnauth.github.io/cs%20102/2019/03/27/performance-assessment-1/#variation-1-1): computes using a for loop
+	- [Variation 2](https://ramnauth.github.io/cs%20102/2019/03/27/performance-assessment-1/#variation-2-1): computes using recursion
+- [Program 9](https://ramnauth.github.io/cs%20102/2019/03/27/performance-assessment-1/#program-9): determines if a number or string is a palindrome
+	- [Variation 1](https://ramnauth.github.io/cs%20102/2019/03/27/performance-assessment-1/#variation-1-2): folds string in half for mirror image
+	- [Variation 2](https://ramnauth.github.io/cs%20102/2019/03/27/performance-assessment-1/#variation-2-2): completely reverses given string
+	- [Variation 3](https://ramnauth.github.io/cs%20102/2019/03/27/performance-assessment-1/#variation-3): folds string in half, terminates immediately if not mirror
 
 ## Program 1
 ```cpp

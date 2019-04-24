@@ -29,29 +29,29 @@ tags: [C++]
 ---
 
 **Prompts:**
-- [Program 1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#program-1): prints a user-inputted number
-- [Program 2](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#program-2): prints sum of two user-inputted numbers
-	- [Variation 1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-1) entirely in `main`
-	- [Variation 2](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-2), with a function responsibly for entering a number, `enterNumber`
-	- [Variation 3](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-3), with two functions, `enterNumber` and `getSum`
-- [Program 3](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#program-3): prints quotient and remainder of two user-inputted numbers
-	- [Variation 1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-1-1) entirely in `main`
-	- [Variation 2](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-2-1), with two function, `getQuotient` and `getRemainder`
-	- [Variation 3](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-3-1), with a function `getSolution` which returns a vector containing quotient and remainder
-- [Program 4](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#program-4): prints whether a user-inputted year is a leap year
-	- [Variation 1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-1-2) entirely in `main`
-	- [Variation 2](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-2-2) entirely in `main`, but checks if a valid year is entered
-	- [Variation 3](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-3-2) entirely in `main`, but continues asking until a valid year is entered
-- [Program 5](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#program-5): prints the `10` x `10` multiplication table
-- [Program 6](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#program-6): checks if a user-inputted char is a vowel or consonant
-	- [Variation 1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-1-3), with an `if` statement
-	- [Variation 2](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-2-3), with an array
-	- [Variation 3](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-3-3), with a vector
-	- [Variation 4](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-4-3), with a function responsible for vowel-checking
-- [Program 7](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#program-7): counts how many vowels and how many consonants in an entered sentence
-	- [Variation 1](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-1-4), with `isVowel` function - counts non-letters as consonants
-	- [Variation 2](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-2-4), considers only letters by checking ASCII ranges in `isLetter` function
-	- [Variation 3](https://ramnauth.github.io/cs%20102/coding%20challenges/2018/10/15/performance-1/#variation-3-4), considers only letters by `isalpha` function in `isLetter` function
+- [Program 1](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#program-1): prints a user-inputted number
+- [Program 2](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#program-2): prints sum of two user-inputted numbers
+	- [Variation 1](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#variation-1) entirely in `main`
+	- [Variation 2](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#variation-2), with a function responsibly for entering a number, `enterNumber`
+	- [Variation 3](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#variation-3), with two functions, `enterNumber` and `getSum`
+- [Program 3](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#program-3): prints quotient and remainder of two user-inputted numbers
+	- [Variation 1](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#variation-1-1) entirely in `main`
+	- [Variation 2](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#variation-2-1), with two function, `getQuotient` and `getRemainder`
+	- [Variation 3](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#variation-3-1), with a function `getSolution` which returns a vector containing quotient and remainder
+- [Program 4](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#program-4): prints whether a user-inputted year is a leap year
+	- [Variation 1](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#variation-1-2) entirely in `main`
+	- [Variation 2](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#variation-2-2) entirely in `main`, but checks if a valid year is entered
+	- [Variation 3](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#variation-3-2) entirely in `main`, but continues asking until a valid year is entered
+- [Program 5](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#program-5): prints the `10` x `10` multiplication table
+- [Program 6](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#program-6): checks if a user-inputted char is a vowel or consonant
+	- [Variation 1](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#variation-1-3), with an `if` statement
+	- [Variation 2](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#variation-2-3), with an array
+	- [Variation 3](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#variation-3-3), with a vector
+	- [Variation 4](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#variation-4-3), with a function responsible for vowel-checking
+- [Program 7](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#program-7): counts how many vowels and how many consonants in an entered sentence
+	- [Variation 1](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#variation-1-4), with `isVowel` function - counts non-letters as consonants
+	- [Variation 2](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#variation-2-4), considers only letters by checking ASCII ranges in `isLetter` function
+	- [Variation 3](https://ramnauth.github.io/cs%20102/2019/04/24/other-sprints/#variation-3-4), considers only letters by `isalpha` function in `isLetter` function
 	
 		
 ## Program 1

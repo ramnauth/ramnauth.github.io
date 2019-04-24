@@ -42,6 +42,7 @@ This review sheet will cover the following topics:
 11. [Vectors](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#vector) - Wed, Apr. 3
 12. [Pseudorandom Numbers](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#psuedorandom-numbers) - Wed, Feb. 11 
 13. [Pass By Reference/Value](https://ramnauth.github.io/cs%20102/2019/02/04/cpp-review/#pass-by-reference)
+14. [Structs](https://ramnauth.github.io/cs%20102/2019/04/24/structs/) - Mon, Apr. 22
 
 ## Basics
 
@@ -894,5 +895,59 @@ int changeByValue(int x, int amount) {
 int changeByRef(int& x, int amount) {
   x = x + amount;
   return x;
+}
+```
+
+## Structs
+```cpp
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+struct Employee {
+    int id;
+    string firstName;
+    string lastName;
+    int age;
+    double hourlyWage;
+    string jobTitle;
+    string jobDescription;
+};
+
+void printEmployeeInfo(Employee e);
+
+int main() {
+    Employee me;
+    me.firstName = "Rebecca";
+    me.lastName = "Ramnauth";
+    me.jobTitle = "Professor of Computer Science";
+    me.jobDescription = "Sleep. Eat. Code.";
+    me.id = 10019823;
+    me.age = 37;
+    me.hourlyWage = rand() % 100 + 11.50;
+
+    Employee sh;
+    sh.firstName = "Sherlock";
+    sh.lastName = "Holmes";
+    sh.jobTitle = "Consulting Detective";
+    sh.jobDescription = "You know my methods, Watson.";
+    sh.id = 23987012;
+    sh.age = 43;
+    sh.hourlyWage = 0;
+
+    printEmployeeInfo(me);
+    printEmployeeInfo(sh);
+    
+    return 0;
+}
+
+void printEmployeeInfo(Employee e) {
+    cout << "Employee's ID: " << e.id << endl;
+    cout << "Employee's Name: " << e.firstName << " " << e.lastName << endl;
+    cout << "Employee's Age: " << e.age << endl;
+    cout << "Employee's Wage: " << "$" << e.hourlyWage << endl;
+    cout << "Employee's Annual Salary: " << "$" << e.hourlyWage * 40 * 52 << endl;
+    cout << endl;
 }
 ```
