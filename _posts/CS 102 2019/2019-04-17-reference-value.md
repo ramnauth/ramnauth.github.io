@@ -67,3 +67,25 @@ int changeByRef(int& x, int amount) {
 An illustration by [Mathwarehouse](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjX2ujDldfhAhWnnuAKHRnxB7gQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.mathwarehouse.com%2Fprogramming%2Fpassing-by-value-vs-by-reference-visual-explanation.php&psig=AOvVaw2uKT8KMQlgWiTqhZDVKb-a&ust=1555591510322839): 
 
 ![Gif Reference v Value](https://www.mathwarehouse.com/programming/images/pass-by-reference-vs-pass-by-value-animation.gif)
+
+## Swapping 2 Variables
+
+```cpp
+#include <iostream>
+using namespace std;
+
+void swapVals(int& x, int& y){
+  int z = x;
+  x = y;
+  y = z; // original x value
+}
+
+int main() {
+  int x = 20;
+  int y = 5;
+  cout << "before swap: x = " << x << " and y = " << y << endl;
+  swapVals(x, y);
+  cout << " after swap: x = " << x << " and y = " << y << endl;
+  return 0;
+}
+```
