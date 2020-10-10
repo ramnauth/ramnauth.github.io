@@ -28,19 +28,19 @@ tags: [C++]
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
 In order to begin programming, we need a programming (or development) environment. **Text editors**, such as Microsoft Word, allows us to write/edit text. The text editor that we will be using in class to write/edit code is [Visual Studio Code](https://code.visualstudio.com/), or "VS Code" for short.
-1. [Install Visual Studio Code](https://ramnauth.github.io/cs%20102/2019/01/28/introduction/#install-vs-code)
-2. [Enable C++](https://ramnauth.github.io/cs%20102/2019/01/28/introduction/#install-vs-code)
-3. [Install C++ Compiler](https://ramnauth.github.io/cs%20102/2019/01/28/introduction/#install--configure-a-c-compiler)
-    - [For Windows](https://ramnauth.github.io/cs%20102/2019/01/28/introduction/#install--configure-a-c-compiler)
-	- [For Mac](https://ramnauth.github.io/cs%20102/2019/01/28/introduction/#mac-osx)
-4. [The `Hello World` Program](https://ramnauth.github.io/cs%20102/2019/01/28/introduction/#mac-osx)
-5. [Additional Resources](https://ramnauth.github.io/cs%20102/2019/01/28/introduction/#additional-resources)
+1. [Install Visual Studio Code](https://ramnauth.github.io/fall%202020/2020/10/08/introduction/#install-vs-code)
+2. [Enable C++](https://ramnauth.github.io/fall%202020/2020/10/08/introduction/#install-vs-code)
+3. [Install C++ Compiler](https://ramnauth.github.io/fall%202020/2020/10/08/introduction/#install--configure-a-c-compiler)
+    - [For Windows](https://ramnauth.github.io/fall%202020/2020/10/08/introduction/#install--configure-a-c-compiler)
+	- [For Mac](https://ramnauth.github.io/fall%202020/2020/10/08/introduction/#mac-osx)
+4. [The `Hello World` Program](https://ramnauth.github.io/fall%202020/2020/10/08/introduction/#mac-osx)
+5. [Additional Resources](https://ramnauth.github.io/fall%202020/2020/10/08/introduction/#additional-resources)
 
-**Alternative:** If for some reason you are not comfortable with any of these tools, create an account on REPL.it [https://repl.it/](https://repl.it/) and **register for our REPL classroom** [https://repl.it/classroom/invite/5aNkYZ5](https://repl.it/classroom/invite/5aNkYZ5).
+**Alternative:** If for some reason you are not comfortable with any of these tools, create an account on REPL.it [https://repl.it/](https://repl.it/).
 
 ## Install VS Code 
 
-**Note:** if you're a Mac OSX user, jump to [Installing XCode](https://ramnauth.github.io/cs%20102/2019/01/28/introduction/#mac-osx).
+**Note:** if you're a Mac OSX user, jump to [Installing XCode](https://ramnauth.github.io/fall%202020/2020/10/08/introduction/#mac-osx).
 
 The following video tutorial will walk you through setting up Visual Studio Code ([https://code.visualstudio.com/](https://code.visualstudio.com/)) and gives a general overview of its features.
 
